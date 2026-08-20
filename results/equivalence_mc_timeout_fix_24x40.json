@@ -1,0 +1,251 @@
+{
+  "states": 24,
+  "particles": 40,
+  "ranking_mismatches": 0,
+  "selection_mismatches": 0,
+  "max_abs_policy_score_difference": 0.0,
+  "max_abs_pwin_difference": 0.0,
+  "pass": true,
+  "details": [
+    {
+      "state_id": "21c4465795e68830bb6d11a4",
+      "phase": "midgame",
+      "reconnect": false,
+      "legal_actions": 9,
+      "same_ranking": true,
+      "same_selection": true,
+      "max_score_difference": 0.0,
+      "max_probability_difference": 0.0
+    },
+    {
+      "state_id": "78f47519b2c5f3e5bf47f016",
+      "phase": "opening",
+      "reconnect": false,
+      "legal_actions": 12,
+      "same_ranking": true,
+      "same_selection": true,
+      "max_score_difference": 0.0,
+      "max_probability_difference": 0.0
+    },
+    {
+      "state_id": "601e21a4df002580a08245ad",
+      "phase": "terminal_race",
+      "reconnect": false,
+      "legal_actions": 10,
+      "same_ranking": true,
+      "same_selection": true,
+      "max_score_difference": 0.0,
+      "max_probability_difference": 0.0
+    },
+    {
+      "state_id": "4809fbcfd1d5f36b3d781688",
+      "phase": "opening",
+      "reconnect": false,
+      "legal_actions": 11,
+      "same_ranking": true,
+      "same_selection": true,
+      "max_score_difference": 0.0,
+      "max_probability_difference": 0.0
+    },
+    {
+      "state_id": "60f997367473682894934299",
+      "phase": "opening",
+      "reconnect": false,
+      "legal_actions": 10,
+      "same_ranking": true,
+      "same_selection": true,
+      "max_score_difference": 0.0,
+      "max_probability_difference": 0.0
+    },
+    {
+      "state_id": "31f5fa7e3ff02d54ec2ba176",
+      "phase": "early",
+      "reconnect": false,
+      "legal_actions": 10,
+      "same_ranking": true,
+      "same_selection": true,
+      "max_score_difference": 0.0,
+      "max_probability_difference": 0.0
+    },
+    {
+      "state_id": "172f0eb121183ab83b18547d",
+      "phase": "opening",
+      "reconnect": false,
+      "legal_actions": 9,
+      "same_ranking": true,
+      "same_selection": true,
+      "max_score_difference": 0.0,
+      "max_probability_difference": 0.0
+    },
+    {
+      "state_id": "d865e6c952fd03985a09fb0a",
+      "phase": "terminal_race",
+      "reconnect": false,
+      "legal_actions": 9,
+      "same_ranking": true,
+      "same_selection": true,
+      "max_score_difference": 0.0,
+      "max_probability_difference": 0.0
+    },
+    {
+      "state_id": "1307e41dbd3b12a5b01ead56",
+      "phase": "late",
+      "reconnect": false,
+      "legal_actions": 8,
+      "same_ranking": true,
+      "same_selection": true,
+      "max_score_difference": 0.0,
+      "max_probability_difference": 0.0
+    },
+    {
+      "state_id": "b042ed6ebd82eff3e123445b",
+      "phase": "midgame",
+      "reconnect": false,
+      "legal_actions": 11,
+      "same_ranking": true,
+      "same_selection": true,
+      "max_score_difference": 0.0,
+      "max_probability_difference": 0.0
+    },
+    {
+      "state_id": "e2dc4f8af35aab9458966550",
+      "phase": "early",
+      "reconnect": false,
+      "legal_actions": 9,
+      "same_ranking": true,
+      "same_selection": true,
+      "max_score_difference": 0.0,
+      "max_probability_difference": 0.0
+    },
+    {
+      "state_id": "62e87e827d79e70dc467448c",
+      "phase": "opening",
+      "reconnect": true,
+      "legal_actions": 11,
+      "same_ranking": true,
+      "same_selection": true,
+      "max_score_difference": 0.0,
+      "max_probability_difference": 0.0
+    },
+    {
+      "state_id": "fb55606ec224a8f5e7546a8a",
+      "phase": "midgame",
+      "reconnect": false,
+      "legal_actions": 11,
+      "same_ranking": true,
+      "same_selection": true,
+      "max_score_difference": 0.0,
+      "max_probability_difference": 0.0
+    },
+    {
+      "state_id": "e74cdc1209ed1349badaaccb",
+      "phase": "midgame",
+      "reconnect": false,
+      "legal_actions": 12,
+      "same_ranking": true,
+      "same_selection": true,
+      "max_score_difference": 0.0,
+      "max_probability_difference": 0.0
+    },
+    {
+      "state_id": "e978fd81ebfbc5104540b001",
+      "phase": "opening",
+      "reconnect": false,
+      "legal_actions": 9,
+      "same_ranking": true,
+      "same_selection": true,
+      "max_score_difference": 0.0,
+      "max_probability_difference": 0.0
+    },
+    {
+      "state_id": "4dd58d78c8a1641400aa9d5d",
+      "phase": "late",
+      "reconnect": false,
+      "legal_actions": 12,
+      "same_ranking": true,
+      "same_selection": true,
+      "max_score_difference": 0.0,
+      "max_probability_difference": 0.0
+    },
+    {
+      "state_id": "f4c3941ad2ec2c1b70a277b2",
+      "phase": "opening",
+      "reconnect": false,
+      "legal_actions": 10,
+      "same_ranking": true,
+      "same_selection": true,
+      "max_score_difference": 0.0,
+      "max_probability_difference": 0.0
+    },
+    {
+      "state_id": "b8485b6c59da52c2db4c1cde",
+      "phase": "early",
+      "reconnect": false,
+      "legal_actions": 11,
+      "same_ranking": true,
+      "same_selection": true,
+      "max_score_difference": 0.0,
+      "max_probability_difference": 0.0
+    },
+    {
+      "state_id": "afd90e7d6763949b6203973d",
+      "phase": "terminal_race",
+      "reconnect": false,
+      "legal_actions": 9,
+      "same_ranking": true,
+      "same_selection": true,
+      "max_score_difference": 0.0,
+      "max_probability_difference": 0.0
+    },
+    {
+      "state_id": "467ba11b5984378fb0c38698",
+      "phase": "early",
+      "reconnect": false,
+      "legal_actions": 11,
+      "same_ranking": true,
+      "same_selection": true,
+      "max_score_difference": 0.0,
+      "max_probability_difference": 0.0
+    },
+    {
+      "state_id": "8cf080e6ce61e6566fce90bb",
+      "phase": "midgame",
+      "reconnect": false,
+      "legal_actions": 7,
+      "same_ranking": true,
+      "same_selection": true,
+      "max_score_difference": 0.0,
+      "max_probability_difference": 0.0
+    },
+    {
+      "state_id": "b67232820539713a100694c3",
+      "phase": "early",
+      "reconnect": false,
+      "legal_actions": 11,
+      "same_ranking": true,
+      "same_selection": true,
+      "max_score_difference": 0.0,
+      "max_probability_difference": 0.0
+    },
+    {
+      "state_id": "6fad35fec896d025f13aaa8c",
+      "phase": "late",
+      "reconnect": false,
+      "legal_actions": 9,
+      "same_ranking": true,
+      "same_selection": true,
+      "max_score_difference": 0.0,
+      "max_probability_difference": 0.0
+    },
+    {
+      "state_id": "db0e9a9240b6feff5e1c9637",
+      "phase": "terminal_race",
+      "reconnect": false,
+      "legal_actions": 9,
+      "same_ranking": true,
+      "same_selection": true,
+      "max_score_difference": 0.0,
+      "max_probability_difference": 0.0
+    }
+  ]
+}

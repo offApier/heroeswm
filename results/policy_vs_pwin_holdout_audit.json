@@ -1,0 +1,1460 @@
+{
+  "version": "policy-vs-displayed-pwin-audit-3.9-v1",
+  "low_budget_source": "matching first-seed q_robust/p_lose_next_turn",
+  "high_budget_judge": "multiseed oracle q_mean",
+  "selection_objective": [
+    "immediate_terminal_win",
+    "policy_score",
+    "displayed_pwin",
+    "negative_p_lose_next_turn",
+    "negative_tail_risk"
+  ],
+  "full_holdout": {
+    "states": 1266,
+    "policy_score_first": {
+      "states": 1266,
+      "mean_oracle_regret": 0.010166362851907265,
+      "median_oracle_regret": 0.0,
+      "p90_oracle_regret": 0.03392410716444447,
+      "p95_oracle_regret": 0.061119125431048804,
+      "gt_2pp": 185,
+      "gt_5pp": 87,
+      "oracle_agreement": 0.7053712480252765
+    },
+    "displayed_pwin_first": {
+      "states": 1266,
+      "mean_oracle_regret": 0.000690887520708788,
+      "median_oracle_regret": 0.0,
+      "p90_oracle_regret": 0.0,
+      "p95_oracle_regret": 0.0013892044604305416,
+      "gt_2pp": 17,
+      "gt_5pp": 1,
+      "oracle_agreement": 0.9281200631911533
+    },
+    "rank_disagreement": {
+      "count": 379,
+      "fraction": 0.29936808846761453,
+      "policy_score_first": {
+        "states": 379,
+        "mean_oracle_regret": 0.033505365101623594,
+        "median_oracle_regret": 0.018865540062292907,
+        "p90_oracle_regret": 0.09042377022090096,
+        "p95_oracle_regret": 0.12096156136103778,
+        "gt_2pp": 183,
+        "gt_5pp": 87,
+        "oracle_agreement": 0.09498680738786279
+      },
+      "displayed_pwin_first": {
+        "states": 379,
+        "mean_oracle_regret": 0.0018537773198365976,
+        "median_oracle_regret": 0.0,
+        "p90_oracle_regret": 0.0036416506590832326,
+        "p95_oracle_regret": 0.014070000844626463,
+        "gt_2pp": 15,
+        "gt_5pp": 1,
+        "oracle_agreement": 0.8390501319261213
+      }
+    },
+    "examples": [
+      {
+        "state_id": "0008e41af9da536151708854",
+        "game_id": 121059592,
+        "turn": 33,
+        "policy_choice": {
+          "action": "turn",
+          "slot": 2,
+          "card_id": 68,
+          "policy_score": 1.7873655150738232,
+          "displayed_pwin": 0.24410450370713985,
+          "oracle_value": 0.2948675382498141
+        },
+        "pwin_choice": {
+          "action": "turn",
+          "slot": 0,
+          "card_id": 2,
+          "policy_score": 1.6675270195696916,
+          "displayed_pwin": 0.25769815434700116,
+          "oracle_value": 0.2980754925679336
+        },
+        "oracle_best": {
+          "action": "turn",
+          "slot": 0,
+          "card_id": 2,
+          "oracle_value": 0.2980754925679336
+        }
+      },
+      {
+        "state_id": "0194be6254b2caab2b3c3fdf",
+        "game_id": 121070377,
+        "turn": 1,
+        "policy_choice": {
+          "action": "turn",
+          "slot": 3,
+          "card_id": 42,
+          "policy_score": 1.1331054886913932,
+          "displayed_pwin": 0.44945484046262607,
+          "oracle_value": 0.42465894133907484
+        },
+        "pwin_choice": {
+          "action": "turn",
+          "slot": 2,
+          "card_id": 97,
+          "policy_score": 0.7522040511807355,
+          "displayed_pwin": 0.49249781192014497,
+          "oracle_value": 0.48715357095963535
+        },
+        "oracle_best": {
+          "action": "turn",
+          "slot": 2,
+          "card_id": 97,
+          "oracle_value": 0.48715357095963535
+        }
+      },
+      {
+        "state_id": "0243d8f1941e9f9dd0f8ba27",
+        "game_id": 121071411,
+        "turn": 36,
+        "policy_choice": {
+          "action": "turn",
+          "slot": 0,
+          "card_id": 82,
+          "policy_score": 0.711446521587336,
+          "displayed_pwin": 0.003721577700659659,
+          "oracle_value": 0.0037106635832416003
+        },
+        "pwin_choice": {
+          "action": "turn",
+          "slot": 4,
+          "card_id": 18,
+          "policy_score": 0.3172900757669237,
+          "displayed_pwin": 0.005159142468381882,
+          "oracle_value": 0.00516636951847202
+        },
+        "oracle_best": {
+          "action": "turn",
+          "slot": 4,
+          "card_id": 18,
+          "oracle_value": 0.00516636951847202
+        }
+      },
+      {
+        "state_id": "02e92d44c12fae0e4a083058",
+        "game_id": 121070377,
+        "turn": 70,
+        "policy_choice": {
+          "action": "drop",
+          "slot": 4,
+          "card_id": 28,
+          "policy_score": -2.84752253056788,
+          "displayed_pwin": 0.2215013505082446,
+          "oracle_value": 0.1939120088257201
+        },
+        "pwin_choice": {
+          "action": "drop",
+          "slot": 3,
+          "card_id": 26,
+          "policy_score": -2.8765252107937247,
+          "displayed_pwin": 0.2525943188237692,
+          "oracle_value": 0.2229942519171879
+        },
+        "oracle_best": {
+          "action": "drop",
+          "slot": 3,
+          "card_id": 26,
+          "oracle_value": 0.2229942519171879
+        }
+      },
+      {
+        "state_id": "033cebf810e641631803a23b",
+        "game_id": 121059592,
+        "turn": 42,
+        "policy_choice": {
+          "action": "turn",
+          "slot": 0,
+          "card_id": 101,
+          "policy_score": 1.726049442465112,
+          "displayed_pwin": 0.15626237618626276,
+          "oracle_value": 0.14669725501745656
+        },
+        "pwin_choice": {
+          "action": "turn",
+          "slot": 2,
+          "card_id": 68,
+          "policy_score": 1.7221180637830582,
+          "displayed_pwin": 0.16826099039097697,
+          "oracle_value": 0.15798634603086945
+        },
+        "oracle_best": {
+          "action": "turn",
+          "slot": 2,
+          "card_id": 68,
+          "oracle_value": 0.15798634603086945
+        }
+      },
+      {
+        "state_id": "0346733865f522d8dfafa824",
+        "game_id": 121048008,
+        "turn": 27,
+        "policy_choice": {
+          "action": "turn",
+          "slot": 3,
+          "card_id": 0,
+          "policy_score": 0.8356015088070282,
+          "displayed_pwin": 0.31315838144990593,
+          "oracle_value": 0.3155733382836679
+        },
+        "pwin_choice": {
+          "action": "turn",
+          "slot": 0,
+          "card_id": 5,
+          "policy_score": 0.4759405009393038,
+          "displayed_pwin": 0.31950484066629675,
+          "oracle_value": 0.3304895460223383
+        },
+        "oracle_best": {
+          "action": "turn",
+          "slot": 0,
+          "card_id": 5,
+          "oracle_value": 0.3304895460223383
+        }
+      },
+      {
+        "state_id": "047ec50aeacda0e7db8f0ed2",
+        "game_id": 121043250,
+        "turn": 23,
+        "policy_choice": {
+          "action": "drop",
+          "slot": 3,
+          "card_id": 52,
+          "policy_score": -2.364708266268881,
+          "displayed_pwin": 0.0870468128275749,
+          "oracle_value": 0.09172761378574867
+        },
+        "pwin_choice": {
+          "action": "drop",
+          "slot": 4,
+          "card_id": 24,
+          "policy_score": -3.13177914292232,
+          "displayed_pwin": 0.12790634520815053,
+          "oracle_value": 0.13416261934873516
+        },
+        "oracle_best": {
+          "action": "drop",
+          "slot": 4,
+          "card_id": 24,
+          "oracle_value": 0.13416261934873516
+        }
+      },
+      {
+        "state_id": "04d6d425f92953821c5a1c8b",
+        "game_id": 121038481,
+        "turn": 37,
+        "policy_choice": {
+          "action": "turn",
+          "slot": 4,
+          "card_id": 88,
+          "policy_score": 0.6200647421294968,
+          "displayed_pwin": 0.0031655915552917307,
+          "oracle_value": 0.003096857827317556
+        },
+        "pwin_choice": {
+          "action": "turn",
+          "slot": 5,
+          "card_id": 0,
+          "policy_score": 0.30123026406673237,
+          "displayed_pwin": 0.0036152308970160154,
+          "oracle_value": 0.003305031833451501
+        },
+        "oracle_best": {
+          "action": "turn",
+          "slot": 3,
+          "card_id": 85,
+          "oracle_value": 0.0033062482438802887
+        }
+      },
+      {
+        "state_id": "051bbc4d93000ee163c5586d",
+        "game_id": 121042613,
+        "turn": 25,
+        "policy_choice": {
+          "action": "drop",
+          "slot": 5,
+          "card_id": 89,
+          "policy_score": -3.704876535669287,
+          "displayed_pwin": 0.8027027906806556,
+          "oracle_value": 0.8175494842903914
+        },
+        "pwin_choice": {
+          "action": "drop",
+          "slot": 1,
+          "card_id": 60,
+          "policy_score": -20.808582903053406,
+          "displayed_pwin": 0.8029249949959936,
+          "oracle_value": 0.8236814066823843
+        },
+        "oracle_best": {
+          "action": "drop",
+          "slot": 1,
+          "card_id": 60,
+          "oracle_value": 0.8236814066823843
+        }
+      },
+      {
+        "state_id": "05f8a80de52018b3ac1545e9",
+        "game_id": 121046668,
+        "turn": 18,
+        "policy_choice": {
+          "action": "turn",
+          "slot": 1,
+          "card_id": 72,
+          "policy_score": 0.8671750431279369,
+          "displayed_pwin": 0.15185443579736235,
+          "oracle_value": 0.1521388251085997
+        },
+        "pwin_choice": {
+          "action": "turn",
+          "slot": 3,
+          "card_id": 98,
+          "policy_score": 0.8575707255765036,
+          "displayed_pwin": 0.15399791621969822,
+          "oracle_value": 0.16898029837820336
+        },
+        "oracle_best": {
+          "action": "turn",
+          "slot": 3,
+          "card_id": 98,
+          "oracle_value": 0.16898029837820336
+        }
+      },
+      {
+        "state_id": "0737a2848de329eb54a00119",
+        "game_id": 121033914,
+        "turn": 56,
+        "policy_choice": {
+          "action": "turn",
+          "slot": 4,
+          "card_id": 7,
+          "policy_score": 0.7261187922796812,
+          "displayed_pwin": 0.0844182647427262,
+          "oracle_value": 0.08461022831099424
+        },
+        "pwin_choice": {
+          "action": "turn",
+          "slot": 2,
+          "card_id": 11,
+          "policy_score": 0.7131353889986537,
+          "displayed_pwin": 0.09095914226709106,
+          "oracle_value": 0.09116401161748415
+        },
+        "oracle_best": {
+          "action": "turn",
+          "slot": 2,
+          "card_id": 11,
+          "oracle_value": 0.09116401161748415
+        }
+      },
+      {
+        "state_id": "076b3c3fa876c2787e27b9be",
+        "game_id": 121056280,
+        "turn": 41,
+        "policy_choice": {
+          "action": "turn",
+          "slot": 4,
+          "card_id": 71,
+          "policy_score": 0.8729054428996545,
+          "displayed_pwin": 0.4002046637380313,
+          "oracle_value": 0.40106649344582573
+        },
+        "pwin_choice": {
+          "action": "turn",
+          "slot": 0,
+          "card_id": 52,
+          "policy_score": 0.5210928770726938,
+          "displayed_pwin": 0.4236194846675844,
+          "oracle_value": 0.42385311320489877
+        },
+        "oracle_best": {
+          "action": "turn",
+          "slot": 0,
+          "card_id": 52,
+          "oracle_value": 0.42385311320489877
+        }
+      },
+      {
+        "state_id": "083a7a19c9627cabae23a049",
+        "game_id": 121038727,
+        "turn": 21,
+        "policy_choice": {
+          "action": "turn",
+          "slot": 2,
+          "card_id": 10,
+          "policy_score": 0.6141435014283704,
+          "displayed_pwin": 0.3918026398465039,
+          "oracle_value": 0.3527215676632536
+        },
+        "pwin_choice": {
+          "action": "drop",
+          "slot": 5,
+          "card_id": 27,
+          "policy_score": -5.308515813097683,
+          "displayed_pwin": 0.397172544736508,
+          "oracle_value": 0.39200044625479596
+        },
+        "oracle_best": {
+          "action": "drop",
+          "slot": 5,
+          "card_id": 27,
+          "oracle_value": 0.39200044625479596
+        }
+      },
+      {
+        "state_id": "086ad66615bc0aed5ca7d0d3",
+        "game_id": 121056280,
+        "turn": 67,
+        "policy_choice": {
+          "action": "turn",
+          "slot": 0,
+          "card_id": 12,
+          "policy_score": 2.0230259488469824,
+          "displayed_pwin": 0.8422159059129393,
+          "oracle_value": 0.8801542508431304
+        },
+        "pwin_choice": {
+          "action": "turn",
+          "slot": 1,
+          "card_id": 100,
+          "policy_score": 2.0025339231751764,
+          "displayed_pwin": 0.8861186229878013,
+          "oracle_value": 0.8962474049348756
+        },
+        "oracle_best": {
+          "action": "turn",
+          "slot": 1,
+          "card_id": 100,
+          "oracle_value": 0.8962474049348756
+        }
+      },
+      {
+        "state_id": "08dbf9793d2f527a3b69afef",
+        "game_id": 121035431,
+        "turn": 34,
+        "policy_choice": {
+          "action": "turn",
+          "slot": 0,
+          "card_id": 81,
+          "policy_score": 1.4280497383538475,
+          "displayed_pwin": 0.8863189168484592,
+          "oracle_value": 0.8879302415240176
+        },
+        "pwin_choice": {
+          "action": "turn",
+          "slot": 1,
+          "card_id": 49,
+          "policy_score": 1.3447046475654127,
+          "displayed_pwin": 0.9010222953611011,
+          "oracle_value": 0.8991827423213791
+        },
+        "oracle_best": {
+          "action": "turn",
+          "slot": 1,
+          "card_id": 49,
+          "oracle_value": 0.8991827423213791
+        }
+      },
+      {
+        "state_id": "092b6b74a7e1b833177d960d",
+        "game_id": 121036234,
+        "turn": 7,
+        "policy_choice": {
+          "action": "turn",
+          "slot": 4,
+          "card_id": 28,
+          "policy_score": 0.5333895562568383,
+          "displayed_pwin": 0.2457634083025435,
+          "oracle_value": 0.297554884926535
+        },
+        "pwin_choice": {
+          "action": "drop",
+          "slot": 0,
+          "card_id": 60,
+          "policy_score": -8.817492175747839,
+          "displayed_pwin": 0.2996045652258761,
+          "oracle_value": 0.2933952342130494
+        },
+        "oracle_best": {
+          "action": "turn",
+          "slot": 4,
+          "card_id": 28,
+          "oracle_value": 0.297554884926535
+        }
+      },
+      {
+        "state_id": "0acaaf8466afd50ec690e902",
+        "game_id": 121043174,
+        "turn": 60,
+        "policy_choice": {
+          "action": "turn",
+          "slot": 3,
+          "card_id": 59,
+          "policy_score": 2.199355729661002,
+          "displayed_pwin": 1.0,
+          "oracle_value": 1.0
+        },
+        "pwin_choice": {
+          "action": "turn",
+          "slot": 2,
+          "card_id": 66,
+          "policy_score": 2.1351262093462116,
+          "displayed_pwin": 1.0,
+          "oracle_value": 1.0
+        },
+        "oracle_best": {
+          "action": "turn",
+          "slot": 2,
+          "card_id": 66,
+          "oracle_value": 1.0
+        }
+      },
+      {
+        "state_id": "0c834ff83f5a838c541d277e",
+        "game_id": 121070377,
+        "turn": 78,
+        "policy_choice": {
+          "action": "drop",
+          "slot": 4,
+          "card_id": 11,
+          "policy_score": -2.5860160524189464,
+          "displayed_pwin": 0.06761676671973339,
+          "oracle_value": 0.06665288828136584
+        },
+        "pwin_choice": {
+          "action": "drop",
+          "slot": 2,
+          "card_id": 31,
+          "policy_score": -5.444700757274532,
+          "displayed_pwin": 0.08356848691530785,
+          "oracle_value": 0.08268686219048803
+        },
+        "oracle_best": {
+          "action": "drop",
+          "slot": 2,
+          "card_id": 31,
+          "oracle_value": 0.08268686219048803
+        }
+      },
+      {
+        "state_id": "0c93dfea55371c1792bedce9",
+        "game_id": 121036170,
+        "turn": 13,
+        "policy_choice": {
+          "action": "turn",
+          "slot": 5,
+          "card_id": 101,
+          "policy_score": 1.8356825030445594,
+          "displayed_pwin": 0.09304598286552801,
+          "oracle_value": 0.08291810158037048
+        },
+        "pwin_choice": {
+          "action": "turn",
+          "slot": 1,
+          "card_id": 99,
+          "policy_score": 1.471901433922748,
+          "displayed_pwin": 0.21052941998480587,
+          "oracle_value": 0.1862776247025055
+        },
+        "oracle_best": {
+          "action": "turn",
+          "slot": 1,
+          "card_id": 99,
+          "oracle_value": 0.1862776247025055
+        }
+      },
+      {
+        "state_id": "0cbfc4d8270e3bb7736d0039",
+        "game_id": 121045727,
+        "turn": 16,
+        "policy_choice": {
+          "action": "turn",
+          "slot": 2,
+          "card_id": 62,
+          "policy_score": 0.7719923651810395,
+          "displayed_pwin": 0.10534333941415117,
+          "oracle_value": 0.11070000580167401
+        },
+        "pwin_choice": {
+          "action": "turn",
+          "slot": 4,
+          "card_id": 79,
+          "policy_score": 0.7037368996060173,
+          "displayed_pwin": 0.11039397885810054,
+          "oracle_value": 0.11384844137182594
+        },
+        "oracle_best": {
+          "action": "turn",
+          "slot": 4,
+          "card_id": 79,
+          "oracle_value": 0.11384844137182594
+        }
+      },
+      {
+        "state_id": "0e6cb0ceecf6655149826882",
+        "game_id": 121033914,
+        "turn": 23,
+        "policy_choice": {
+          "action": "turn",
+          "slot": 1,
+          "card_id": 67,
+          "policy_score": 0.9169325993525577,
+          "displayed_pwin": 0.34300980208884424,
+          "oracle_value": 0.38299189886158974
+        },
+        "pwin_choice": {
+          "action": "drop",
+          "slot": 0,
+          "card_id": 32,
+          "policy_score": -6.246792966375937,
+          "displayed_pwin": 0.4927317894190736,
+          "oracle_value": 0.4905315846915486
+        },
+        "oracle_best": {
+          "action": "drop",
+          "slot": 1,
+          "card_id": 67,
+          "oracle_value": 0.5035351394192543
+        }
+      },
+      {
+        "state_id": "0fdba4e402d485731c0ae98f",
+        "game_id": 121048416,
+        "turn": 25,
+        "policy_choice": {
+          "action": "turn",
+          "slot": 3,
+          "card_id": 14,
+          "policy_score": 0.5626122789331582,
+          "displayed_pwin": 0.13648711553097564,
+          "oracle_value": 0.13423232565140605
+        },
+        "pwin_choice": {
+          "action": "turn",
+          "slot": 5,
+          "card_id": 10,
+          "policy_score": 0.504204771461958,
+          "displayed_pwin": 0.2981273256225422,
+          "oracle_value": 0.29158934486627247
+        },
+        "oracle_best": {
+          "action": "turn",
+          "slot": 5,
+          "card_id": 10,
+          "oracle_value": 0.29158934486627247
+        }
+      },
+      {
+        "state_id": "104d86442cdba77eff95adc2",
+        "game_id": 121056280,
+        "turn": 15,
+        "policy_choice": {
+          "action": "turn",
+          "slot": 4,
+          "card_id": 41,
+          "policy_score": 0.9548721544611379,
+          "displayed_pwin": 0.4233691619563409,
+          "oracle_value": 0.41397372924893167
+        },
+        "pwin_choice": {
+          "action": "turn",
+          "slot": 0,
+          "card_id": 52,
+          "policy_score": 0.5637282270380625,
+          "displayed_pwin": 0.4296458005704626,
+          "oracle_value": 0.42031949348875414
+        },
+        "oracle_best": {
+          "action": "turn",
+          "slot": 0,
+          "card_id": 52,
+          "oracle_value": 0.42031949348875414
+        }
+      },
+      {
+        "state_id": "10739cc21a18614b751ebe24",
+        "game_id": 121056280,
+        "turn": 113,
+        "policy_choice": {
+          "action": "turn",
+          "slot": 1,
+          "card_id": 82,
+          "policy_score": 0.4229433619431386,
+          "displayed_pwin": 0.05463131841286628,
+          "oracle_value": 0.07051639276273174
+        },
+        "pwin_choice": {
+          "action": "turn",
+          "slot": 3,
+          "card_id": 77,
+          "policy_score": 0.01177126493804731,
+          "displayed_pwin": 0.05904937693301748,
+          "oracle_value": 0.07014174449653425
+        },
+        "oracle_best": {
+          "action": "turn",
+          "slot": 1,
+          "card_id": 82,
+          "oracle_value": 0.07051639276273174
+        }
+      },
+      {
+        "state_id": "1136970794ca2ea0f5a7f70b",
+        "game_id": 121056280,
+        "turn": 9,
+        "policy_choice": {
+          "action": "turn",
+          "slot": 5,
+          "card_id": 30,
+          "policy_score": 1.0373411564471007,
+          "displayed_pwin": 0.30518065492900776,
+          "oracle_value": 0.31081494439933244
+        },
+        "pwin_choice": {
+          "action": "turn",
+          "slot": 0,
+          "card_id": 52,
+          "policy_score": 0.45390064995471047,
+          "displayed_pwin": 0.32586016066900453,
+          "oracle_value": 0.3207897663976132
+        },
+        "oracle_best": {
+          "action": "turn",
+          "slot": 0,
+          "card_id": 52,
+          "oracle_value": 0.3207897663976132
+        }
+      }
+    ]
+  },
+  "deterministic_random_holdout": {
+    "states": 400,
+    "policy_score_first": {
+      "states": 400,
+      "mean_oracle_regret": 0.009942028012196413,
+      "median_oracle_regret": 0.0,
+      "p90_oracle_regret": 0.035508145919853205,
+      "p95_oracle_regret": 0.05761390847377428,
+      "gt_2pp": 62,
+      "gt_5pp": 30,
+      "oracle_agreement": 0.725
+    },
+    "displayed_pwin_first": {
+      "states": 400,
+      "mean_oracle_regret": 0.0006616488712146562,
+      "median_oracle_regret": 0.0,
+      "p90_oracle_regret": 0.0,
+      "p95_oracle_regret": 0.0,
+      "gt_2pp": 5,
+      "gt_5pp": 1,
+      "oracle_agreement": 0.9525
+    },
+    "rank_disagreement": {
+      "count": 114,
+      "fraction": 0.285,
+      "policy_score_first": {
+        "states": 114,
+        "mean_oracle_regret": 0.03459997941157082,
+        "median_oracle_regret": 0.022594360679938003,
+        "p90_oracle_regret": 0.08236635799316906,
+        "p95_oracle_regret": 0.10985911909179767,
+        "gt_2pp": 62,
+        "gt_5pp": 30,
+        "oracle_agreement": 0.07894736842105263
+      },
+      "displayed_pwin_first": {
+        "states": 114,
+        "mean_oracle_regret": 0.002037245583564655,
+        "median_oracle_regret": 0.0,
+        "p90_oracle_regret": 0.0007234745854063033,
+        "p95_oracle_regret": 0.015302151577903059,
+        "gt_2pp": 5,
+        "gt_5pp": 1,
+        "oracle_agreement": 0.8771929824561403
+      }
+    },
+    "examples": [
+      {
+        "state_id": "a33d93aa4c46716014af598c",
+        "game_id": 121036234,
+        "turn": 11,
+        "policy_choice": {
+          "action": "turn",
+          "slot": 4,
+          "card_id": 71,
+          "policy_score": 0.8542418116772466,
+          "displayed_pwin": 0.24774585625727652,
+          "oracle_value": 0.26425560671080617
+        },
+        "pwin_choice": {
+          "action": "drop",
+          "slot": 1,
+          "card_id": 93,
+          "policy_score": -3.3575032928688646,
+          "displayed_pwin": 0.2968793674346181,
+          "oracle_value": 0.29972708259936387
+        },
+        "oracle_best": {
+          "action": "drop",
+          "slot": 1,
+          "card_id": 93,
+          "oracle_value": 0.29972708259936387
+        }
+      },
+      {
+        "state_id": "67fd5d252daa985509502078",
+        "game_id": 121056280,
+        "turn": 21,
+        "policy_choice": {
+          "action": "turn",
+          "slot": 3,
+          "card_id": 23,
+          "policy_score": 0.951562795805177,
+          "displayed_pwin": 0.2800138040916223,
+          "oracle_value": 0.2816486810135006
+        },
+        "pwin_choice": {
+          "action": "turn",
+          "slot": 0,
+          "card_id": 52,
+          "policy_score": 0.49528465256042725,
+          "displayed_pwin": 0.31540283521680496,
+          "oracle_value": 0.3165209941143668
+        },
+        "oracle_best": {
+          "action": "turn",
+          "slot": 0,
+          "card_id": 52,
+          "oracle_value": 0.3165209941143668
+        }
+      },
+      {
+        "state_id": "e18549e830f350d8c7458a4a",
+        "game_id": 121063787,
+        "turn": 13,
+        "policy_choice": {
+          "action": "turn",
+          "slot": 0,
+          "card_id": 4,
+          "policy_score": 0.9798511949866604,
+          "displayed_pwin": 0.28613976345665454,
+          "oracle_value": 0.29191190768590736
+        },
+        "pwin_choice": {
+          "action": "turn",
+          "slot": 1,
+          "card_id": 3,
+          "policy_score": 0.9098007579682466,
+          "displayed_pwin": 0.2897969099407218,
+          "oracle_value": 0.29463191858014026
+        },
+        "oracle_best": {
+          "action": "turn",
+          "slot": 1,
+          "card_id": 3,
+          "oracle_value": 0.29463191858014026
+        }
+      },
+      {
+        "state_id": "6a8c50b5dbcae17e26ae54a6",
+        "game_id": 121053133,
+        "turn": 32,
+        "policy_choice": {
+          "action": "drop",
+          "slot": 5,
+          "card_id": 19,
+          "policy_score": -2.501109686499189,
+          "displayed_pwin": 0.9476757910859954,
+          "oracle_value": 0.9542020888041401
+        },
+        "pwin_choice": {
+          "action": "drop",
+          "slot": 4,
+          "card_id": 60,
+          "policy_score": -20.67413762154269,
+          "displayed_pwin": 0.9568427735494356,
+          "oracle_value": 0.9637035675713085
+        },
+        "oracle_best": {
+          "action": "drop",
+          "slot": 4,
+          "card_id": 60,
+          "oracle_value": 0.9637035675713085
+        }
+      },
+      {
+        "state_id": "283eb719f086c3e7fd2f2b33",
+        "game_id": 121067756,
+        "turn": 16,
+        "policy_choice": {
+          "action": "drop",
+          "slot": 3,
+          "card_id": 22,
+          "policy_score": -3.917182373229534,
+          "displayed_pwin": 0.16470335151456342,
+          "oracle_value": 0.17615964880504878
+        },
+        "pwin_choice": {
+          "action": "drop",
+          "slot": 0,
+          "card_id": 27,
+          "policy_score": -5.840582440357084,
+          "displayed_pwin": 0.19698574286318504,
+          "oracle_value": 0.21026502658991744
+        },
+        "oracle_best": {
+          "action": "drop",
+          "slot": 0,
+          "card_id": 27,
+          "oracle_value": 0.21026502658991744
+        }
+      },
+      {
+        "state_id": "e05c59053f77d246eb4ffb61",
+        "game_id": 121038727,
+        "turn": 19,
+        "policy_choice": {
+          "action": "turn",
+          "slot": 2,
+          "card_id": 29,
+          "policy_score": 0.8293732842114514,
+          "displayed_pwin": 0.4104633036782152,
+          "oracle_value": 0.4466017082079139
+        },
+        "pwin_choice": {
+          "action": "drop",
+          "slot": 5,
+          "card_id": 27,
+          "policy_score": -5.299944555525963,
+          "displayed_pwin": 0.4936055666752164,
+          "oracle_value": 0.4986511450689511
+        },
+        "oracle_best": {
+          "action": "drop",
+          "slot": 5,
+          "card_id": 27,
+          "oracle_value": 0.4986511450689511
+        }
+      },
+      {
+        "state_id": "5fc9f2f8d92a5daac0a9ea5e",
+        "game_id": 121071072,
+        "turn": 32,
+        "policy_choice": {
+          "action": "turn",
+          "slot": 4,
+          "card_id": 22,
+          "policy_score": 0.8845834175647426,
+          "displayed_pwin": 0.018031280350391202,
+          "oracle_value": 0.018089425303968277
+        },
+        "pwin_choice": {
+          "action": "turn",
+          "slot": 5,
+          "card_id": 31,
+          "policy_score": 0.5432685264885586,
+          "displayed_pwin": 0.02647166520881624,
+          "oracle_value": 0.026374455261275822
+        },
+        "oracle_best": {
+          "action": "turn",
+          "slot": 5,
+          "card_id": 31,
+          "oracle_value": 0.026374455261275822
+        }
+      },
+      {
+        "state_id": "bda31771e83c7aaa2c313ffe",
+        "game_id": 121070377,
+        "turn": 63,
+        "policy_choice": {
+          "action": "turn",
+          "slot": 3,
+          "card_id": 44,
+          "policy_score": 0.4141584662567224,
+          "displayed_pwin": 0.5516396489073909,
+          "oracle_value": 0.5084151618522398
+        },
+        "pwin_choice": {
+          "action": "drop",
+          "slot": 2,
+          "card_id": 31,
+          "policy_score": -4.898899005953776,
+          "displayed_pwin": 0.5655332058780728,
+          "oracle_value": 0.5659541513733237
+        },
+        "oracle_best": {
+          "action": "drop",
+          "slot": 2,
+          "card_id": 31,
+          "oracle_value": 0.5659541513733237
+        }
+      },
+      {
+        "state_id": "a999f5d8033524c854295a4f",
+        "game_id": 121069757,
+        "turn": 59,
+        "policy_choice": {
+          "action": "turn",
+          "slot": 5,
+          "card_id": 57,
+          "policy_score": 1.667534580201284,
+          "displayed_pwin": 0.9640079857652714,
+          "oracle_value": 0.9643840222250354
+        },
+        "pwin_choice": {
+          "action": "turn",
+          "slot": 0,
+          "card_id": 59,
+          "policy_score": 1.6050379777289645,
+          "displayed_pwin": 0.9667110816805994,
+          "oracle_value": 0.9670263733219526
+        },
+        "oracle_best": {
+          "action": "turn",
+          "slot": 0,
+          "card_id": 59,
+          "oracle_value": 0.9670263733219526
+        }
+      },
+      {
+        "state_id": "87d066cf71c6efb5d3833d4c",
+        "game_id": 121046556,
+        "turn": 45,
+        "policy_choice": {
+          "action": "turn",
+          "slot": 0,
+          "card_id": 9,
+          "policy_score": 0.5890025084933597,
+          "displayed_pwin": 0.009245900478325825,
+          "oracle_value": 0.00937895389602853
+        },
+        "pwin_choice": {
+          "action": "turn",
+          "slot": 1,
+          "card_id": 4,
+          "policy_score": -1.0640893744622677,
+          "displayed_pwin": 0.009797965917832538,
+          "oracle_value": 0.009845247974156701
+        },
+        "oracle_best": {
+          "action": "turn",
+          "slot": 1,
+          "card_id": 4,
+          "oracle_value": 0.009845247974156701
+        }
+      },
+      {
+        "state_id": "9376cee396fb1b1a4d349842",
+        "game_id": 121061366,
+        "turn": 48,
+        "policy_choice": {
+          "action": "drop",
+          "slot": 2,
+          "card_id": 33,
+          "policy_score": 1.97262024421825,
+          "displayed_pwin": 0.05501961234478251,
+          "oracle_value": 0.05265776345218265
+        },
+        "pwin_choice": {
+          "action": "turn",
+          "slot": 4,
+          "card_id": 25,
+          "policy_score": 0.8189117069281443,
+          "displayed_pwin": 0.08691148125486399,
+          "oracle_value": 0.08574715392837501
+        },
+        "oracle_best": {
+          "action": "turn",
+          "slot": 4,
+          "card_id": 25,
+          "oracle_value": 0.08574715392837501
+        }
+      },
+      {
+        "state_id": "54d56b456a92ba83746a3dcc",
+        "game_id": 121070377,
+        "turn": 53,
+        "policy_choice": {
+          "action": "turn",
+          "slot": 3,
+          "card_id": 95,
+          "policy_score": 1.077063832405295,
+          "displayed_pwin": 0.5806648208123437,
+          "oracle_value": 0.5956800136136878
+        },
+        "pwin_choice": {
+          "action": "drop",
+          "slot": 5,
+          "card_id": 98,
+          "policy_score": -4.148088792078872,
+          "displayed_pwin": 0.5864685131953155,
+          "oracle_value": 0.5817024165826523
+        },
+        "oracle_best": {
+          "action": "turn",
+          "slot": 3,
+          "card_id": 95,
+          "oracle_value": 0.5956800136136878
+        }
+      },
+      {
+        "state_id": "5aaeefc5b68293a0413a0655",
+        "game_id": 121063787,
+        "turn": 47,
+        "policy_choice": {
+          "action": "turn",
+          "slot": 0,
+          "card_id": 82,
+          "policy_score": 0.96445247775595,
+          "displayed_pwin": 0.005481728891086719,
+          "oracle_value": 0.0055841934810675195
+        },
+        "pwin_choice": {
+          "action": "turn",
+          "slot": 3,
+          "card_id": 22,
+          "policy_score": 0.8540925576591475,
+          "displayed_pwin": 0.008400034772198342,
+          "oracle_value": 0.009680564874039945
+        },
+        "oracle_best": {
+          "action": "turn",
+          "slot": 3,
+          "card_id": 22,
+          "oracle_value": 0.009680564874039945
+        }
+      },
+      {
+        "state_id": "423535632cde13147c78453e",
+        "game_id": 121066276,
+        "turn": 28,
+        "policy_choice": {
+          "action": "drop",
+          "slot": 4,
+          "card_id": 89,
+          "policy_score": -3.933511652393363,
+          "displayed_pwin": 0.5036492661919897,
+          "oracle_value": 0.4978264742197618
+        },
+        "pwin_choice": {
+          "action": "drop",
+          "slot": 3,
+          "card_id": 76,
+          "policy_score": -4.397305689741186,
+          "displayed_pwin": 0.5090824165370649,
+          "oracle_value": 0.5019564746378516
+        },
+        "oracle_best": {
+          "action": "drop",
+          "slot": 1,
+          "card_id": 83,
+          "oracle_value": 0.5025809304563785
+        }
+      },
+      {
+        "state_id": "ff2fd44515364aeebe3e05d9",
+        "game_id": 121067756,
+        "turn": 7,
+        "policy_choice": {
+          "action": "turn",
+          "slot": 2,
+          "card_id": 7,
+          "policy_score": 1.4115395009167124,
+          "displayed_pwin": 0.3268156140616852,
+          "oracle_value": 0.33036556719673754
+        },
+        "pwin_choice": {
+          "action": "turn",
+          "slot": 1,
+          "card_id": 43,
+          "policy_score": 1.0010975770558173,
+          "displayed_pwin": 0.3772905279204596,
+          "oracle_value": 0.38330377430771395
+        },
+        "oracle_best": {
+          "action": "turn",
+          "slot": 1,
+          "card_id": 43,
+          "oracle_value": 0.38330377430771395
+        }
+      },
+      {
+        "state_id": "2300d47bf1e03814255002a0",
+        "game_id": 121049936,
+        "turn": 28,
+        "policy_choice": {
+          "action": "turn",
+          "slot": 4,
+          "card_id": 68,
+          "policy_score": 1.9239841740820014,
+          "displayed_pwin": 0.3679482965199009,
+          "oracle_value": 0.4697949498675626
+        },
+        "pwin_choice": {
+          "action": "drop",
+          "slot": 0,
+          "card_id": 6,
+          "policy_score": -1.81204993573711,
+          "displayed_pwin": 0.41910050760846296,
+          "oracle_value": 0.41868693507740734
+        },
+        "oracle_best": {
+          "action": "turn",
+          "slot": 4,
+          "card_id": 68,
+          "oracle_value": 0.4697949498675626
+        }
+      },
+      {
+        "state_id": "8ea548ce5b014e1cf6fc7bac",
+        "game_id": 121048416,
+        "turn": 12,
+        "policy_choice": {
+          "action": "turn",
+          "slot": 1,
+          "card_id": 79,
+          "policy_score": 0.8302591392244909,
+          "displayed_pwin": 0.2540333332675594,
+          "oracle_value": 0.2589483042415157
+        },
+        "pwin_choice": {
+          "action": "turn",
+          "slot": 5,
+          "card_id": 62,
+          "policy_score": 0.8265659601045514,
+          "displayed_pwin": 0.26160222555769963,
+          "oracle_value": 0.2531949925201379
+        },
+        "oracle_best": {
+          "action": "turn",
+          "slot": 1,
+          "card_id": 79,
+          "oracle_value": 0.2589483042415157
+        }
+      },
+      {
+        "state_id": "7077c68f61978954731c08d8",
+        "game_id": 121042613,
+        "turn": 15,
+        "policy_choice": {
+          "action": "turn",
+          "slot": 4,
+          "card_id": 42,
+          "policy_score": 1.2240074044889133,
+          "displayed_pwin": 0.7052534218376598,
+          "oracle_value": 0.7347463310003682
+        },
+        "pwin_choice": {
+          "action": "turn",
+          "slot": 2,
+          "card_id": 97,
+          "policy_score": 0.8459893827436479,
+          "displayed_pwin": 0.7229420122568085,
+          "oracle_value": 0.7100884850127399
+        },
+        "oracle_best": {
+          "action": "turn",
+          "slot": 4,
+          "card_id": 42,
+          "oracle_value": 0.7347463310003682
+        }
+      },
+      {
+        "state_id": "a13d2cd908840e9534bf2648",
+        "game_id": 121071072,
+        "turn": 41,
+        "policy_choice": {
+          "action": "turn",
+          "slot": 2,
+          "card_id": 89,
+          "policy_score": 1.1252988395847578,
+          "displayed_pwin": 0.029337817044480304,
+          "oracle_value": 0.030840430796980654
+        },
+        "pwin_choice": {
+          "action": "turn",
+          "slot": 0,
+          "card_id": 66,
+          "policy_score": 1.1069008106317417,
+          "displayed_pwin": 0.055556132790800655,
+          "oracle_value": 0.052838422755951665
+        },
+        "oracle_best": {
+          "action": "turn",
+          "slot": 0,
+          "card_id": 66,
+          "oracle_value": 0.052838422755951665
+        }
+      },
+      {
+        "state_id": "df49d5b4f536e0826c1b48ce",
+        "game_id": 121048416,
+        "turn": 9,
+        "policy_choice": {
+          "action": "turn",
+          "slot": 1,
+          "card_id": 79,
+          "policy_score": 0.8656966709093533,
+          "displayed_pwin": 0.3046311572903837,
+          "oracle_value": 0.29343510229322356
+        },
+        "pwin_choice": {
+          "action": "turn",
+          "slot": 5,
+          "card_id": 71,
+          "policy_score": 0.7484794234236194,
+          "displayed_pwin": 0.3902266408248993,
+          "oracle_value": 0.37883362362599543
+        },
+        "oracle_best": {
+          "action": "turn",
+          "slot": 5,
+          "card_id": 71,
+          "oracle_value": 0.37883362362599543
+        }
+      },
+      {
+        "state_id": "2e90338720304117bc107f34",
+        "game_id": 121045074,
+        "turn": 4,
+        "policy_choice": {
+          "action": "turn",
+          "slot": 0,
+          "card_id": 20,
+          "policy_score": 1.1905291380932772,
+          "displayed_pwin": 0.43356873405756713,
+          "oracle_value": 0.4331128975717067
+        },
+        "pwin_choice": {
+          "action": "turn",
+          "slot": 3,
+          "card_id": 85,
+          "policy_score": 1.1815601560500155,
+          "displayed_pwin": 0.511044713205529,
+          "oracle_value": 0.5183233162558696
+        },
+        "oracle_best": {
+          "action": "turn",
+          "slot": 3,
+          "card_id": 85,
+          "oracle_value": 0.5183233162558696
+        }
+      },
+      {
+        "state_id": "0fdba4e402d485731c0ae98f",
+        "game_id": 121048416,
+        "turn": 25,
+        "policy_choice": {
+          "action": "turn",
+          "slot": 3,
+          "card_id": 14,
+          "policy_score": 0.5626122789331582,
+          "displayed_pwin": 0.13648711553097564,
+          "oracle_value": 0.13423232565140605
+        },
+        "pwin_choice": {
+          "action": "turn",
+          "slot": 5,
+          "card_id": 10,
+          "policy_score": 0.504204771461958,
+          "displayed_pwin": 0.2981273256225422,
+          "oracle_value": 0.29158934486627247
+        },
+        "oracle_best": {
+          "action": "turn",
+          "slot": 5,
+          "card_id": 10,
+          "oracle_value": 0.29158934486627247
+        }
+      },
+      {
+        "state_id": "ebb8d9ee098a5caf8ea7a151",
+        "game_id": 121047824,
+        "turn": 23,
+        "policy_choice": {
+          "action": "turn",
+          "slot": 2,
+          "card_id": 41,
+          "policy_score": 1.103434876918683,
+          "displayed_pwin": 0.7486113541456538,
+          "oracle_value": 0.7423081852240907
+        },
+        "pwin_choice": {
+          "action": "turn",
+          "slot": 5,
+          "card_id": 4,
+          "policy_score": 0.8573404035747239,
+          "displayed_pwin": 0.7622665669946627,
+          "oracle_value": 0.7562324387146454
+        },
+        "oracle_best": {
+          "action": "turn",
+          "slot": 5,
+          "card_id": 4,
+          "oracle_value": 0.7562324387146454
+        }
+      },
+      {
+        "state_id": "7c2d744139aa7cfc3817c699",
+        "game_id": 121038727,
+        "turn": 4,
+        "policy_choice": {
+          "action": "turn",
+          "slot": 5,
+          "card_id": 78,
+          "policy_score": 1.0895035214528377,
+          "displayed_pwin": 0.297225607252542,
+          "oracle_value": 0.2813259377030584
+        },
+        "pwin_choice": {
+          "action": "turn",
+          "slot": 4,
+          "card_id": 84,
+          "policy_score": 1.0835742751259074,
+          "displayed_pwin": 0.31193613218156596,
+          "oracle_value": 0.29568470218125475
+        },
+        "oracle_best": {
+          "action": "turn",
+          "slot": 4,
+          "card_id": 84,
+          "oracle_value": 0.29568470218125475
+        }
+      },
+      {
+        "state_id": "fcc1ee563b9832e2c381293c",
+        "game_id": 121043250,
+        "turn": 85,
+        "policy_choice": {
+          "action": "turn",
+          "slot": 1,
+          "card_id": 88,
+          "policy_score": 0.8030692693140822,
+          "displayed_pwin": 0.02358723163234417,
+          "oracle_value": 0.022794336102179208
+        },
+        "pwin_choice": {
+          "action": "turn",
+          "slot": 4,
+          "card_id": 48,
+          "policy_score": 0.6525114467236754,
+          "displayed_pwin": 0.05815985756621812,
+          "oracle_value": 0.05465580297532088
+        },
+        "oracle_best": {
+          "action": "turn",
+          "slot": 4,
+          "card_id": 48,
+          "oracle_value": 0.05465580297532088
+        }
+      }
+    ]
+  }
+}

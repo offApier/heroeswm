@@ -1,0 +1,36 @@
+{
+  "version": "stage-a-oracle-3.9-v1",
+  "splits": [
+    "train",
+    "validation"
+  ],
+  "shard_count": 2,
+  "shard_index": 1,
+  "holdout_opened": false,
+  "particles": 20000,
+  "totals": {
+    "states": 52,
+    "states_train": 42,
+    "legal_actions": 571,
+    "disagreements": 52,
+    "states_validation": 10
+  },
+  "runtime_seconds": 73.54699999996228,
+  "runtime": {
+    "p50": 1.3440000000118744,
+    "p90": 1.5924000000348315,
+    "p95": 1.7529500000091491,
+    "p99": 2.0603100000292764,
+    "max": 2.172000000020489
+  },
+  "regret": {
+    "mean": 0.5699349838108018,
+    "median": 0.5609147284598901,
+    "p90": 0.6757157983677984,
+    "p95": 0.7345060776523291,
+    "gt_2pp": 52,
+    "gt_5pp": 52,
+    "gt_10pp": 52
+  },
+  "caveat": "Stage A is a 500-world learned-value screen; Stage B/C establish expensive labels for suspicious and random states."
+}

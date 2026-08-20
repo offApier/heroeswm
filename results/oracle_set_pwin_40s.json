@@ -1,0 +1,668 @@
+{
+  "version": "fixed-performance-benchmark-3.9-v1",
+  "time_left": 40,
+  "fixed_particles": null,
+  "source": "work\\production_3_9\\source",
+  "states": 24,
+  "results": [
+    {
+      "category": "normal",
+      "state_id": "b065c206921ca21f5bf1e883",
+      "game_id": 121053200,
+      "turn": 26,
+      "phase": "midgame",
+      "legal_actions": 10,
+      "reconnect": false,
+      "elapsed": 4.529691500007175,
+      "particles_requested": 204,
+      "particles_completed": 204,
+      "stopping_reason": "statistical_convergence",
+      "deadline_hit": false,
+      "deadline_remaining": 31.46799999999348,
+      "decision_margin": 0.09576670283367361,
+      "se_diff": 0.0012037544363837937,
+      "ci_diff": [
+        0.09340734413836138,
+        0.09812606152898584
+      ],
+      "selected": [
+        "turn",
+        1,
+        86
+      ]
+    },
+    {
+      "category": "normal",
+      "state_id": "2be4db69b58f71b19619a21f",
+      "game_id": 121062518,
+      "turn": 31,
+      "phase": "midgame",
+      "legal_actions": 10,
+      "reconnect": false,
+      "elapsed": 7.042580100009218,
+      "particles_requested": 204,
+      "particles_completed": 204,
+      "stopping_reason": "statistical_convergence",
+      "deadline_hit": false,
+      "deadline_remaining": 28.96799999999348,
+      "decision_margin": 0.05020792751938685,
+      "se_diff": 0.0018293733651066557,
+      "ci_diff": [
+        0.046622355723777806,
+        0.0537934993149959
+      ],
+      "selected": [
+        "turn",
+        2,
+        82
+      ]
+    },
+    {
+      "category": "normal",
+      "state_id": "a3c5fbb666f19d6ef95c0979",
+      "game_id": 121063787,
+      "turn": 34,
+      "phase": "midgame",
+      "legal_actions": 10,
+      "reconnect": false,
+      "elapsed": 5.332140400016215,
+      "particles_requested": 204,
+      "particles_completed": 204,
+      "stopping_reason": "statistical_convergence",
+      "deadline_hit": false,
+      "deadline_remaining": 30.67200000002049,
+      "decision_margin": 0.0011631665760414999,
+      "se_diff": 0.0004585062964159615,
+      "ci_diff": [
+        0.0002644942350662153,
+        0.0020618389170167844
+      ],
+      "selected": [
+        "turn",
+        2,
+        35
+      ]
+    },
+    {
+      "category": "many_legal_actions",
+      "state_id": "1c0f8ecdd48c24adbf04322f",
+      "game_id": 121033475,
+      "turn": 23,
+      "phase": "early",
+      "legal_actions": 11,
+      "reconnect": true,
+      "elapsed": 11.899339700001292,
+      "particles_requested": 204,
+      "particles_completed": 204,
+      "stopping_reason": "statistical_convergence",
+      "deadline_hit": false,
+      "deadline_remaining": 24.10899999999674,
+      "decision_margin": 0.07440783911249724,
+      "se_diff": 0.004487090389607055,
+      "ci_diff": [
+        0.06561314194886742,
+        0.08320253627612706
+      ],
+      "selected": [
+        "turn",
+        4,
+        101
+      ]
+    },
+    {
+      "category": "many_legal_actions",
+      "state_id": "2da9d6d918e7009763662646",
+      "game_id": 121056280,
+      "turn": 104,
+      "phase": "terminal_race",
+      "legal_actions": 12,
+      "reconnect": false,
+      "elapsed": 17.71513839997351,
+      "particles_requested": 204,
+      "particles_completed": 204,
+      "stopping_reason": "statistical_convergence",
+      "deadline_hit": false,
+      "deadline_remaining": 18.29700000002049,
+      "decision_margin": 0.16299794864375727,
+      "se_diff": 0.0048453515937344465,
+      "ci_diff": [
+        0.15350105952003776,
+        0.1724948377674768
+      ],
+      "selected": [
+        "turn",
+        1,
+        100
+      ]
+    },
+    {
+      "category": "many_legal_actions",
+      "state_id": "119408cd610affd7fffadd19",
+      "game_id": 121056915,
+      "turn": 71,
+      "phase": "terminal_race",
+      "legal_actions": 11,
+      "reconnect": false,
+      "elapsed": 1.1638108000042848,
+      "particles_requested": 12,
+      "particles_completed": 12,
+      "stopping_reason": "terminal",
+      "deadline_hit": false,
+      "deadline_remaining": 34.84400000004098,
+      "decision_margin": 0.12873655604990974,
+      "se_diff": null,
+      "ci_diff": null,
+      "selected": [
+        "turn",
+        2,
+        94
+      ]
+    },
+    {
+      "category": "forced_or_many_discards",
+      "state_id": "edc55adaaacb6e6f779306e8",
+      "game_id": 121049216,
+      "turn": 7,
+      "phase": "opening",
+      "legal_actions": 7,
+      "reconnect": false,
+      "elapsed": 5.103111399977934,
+      "particles_requested": 204,
+      "particles_completed": 204,
+      "stopping_reason": "statistical_convergence",
+      "deadline_hit": false,
+      "deadline_remaining": 30.89100000000326,
+      "decision_margin": 0.03474860101407945,
+      "se_diff": 0.001473954253605948,
+      "ci_diff": [
+        0.03185965067701179,
+        0.03763755135114711
+      ],
+      "selected": [
+        "drop",
+        0,
+        94
+      ]
+    },
+    {
+      "category": "forced_or_many_discards",
+      "state_id": "f40b806e9d33c80237d6dc04",
+      "game_id": 121049031,
+      "turn": 3,
+      "phase": "opening",
+      "legal_actions": 8,
+      "reconnect": false,
+      "elapsed": 6.120453100011218,
+      "particles_requested": 204,
+      "particles_completed": 204,
+      "stopping_reason": "statistical_convergence",
+      "deadline_hit": false,
+      "deadline_remaining": 29.89100000000326,
+      "decision_margin": 0.031627033636558166,
+      "se_diff": 0.0012568472942757506,
+      "ci_diff": [
+        0.029163612939777695,
+        0.03409045433333864
+      ],
+      "selected": [
+        "turn",
+        4,
+        41
+      ]
+    },
+    {
+      "category": "forced_or_many_discards",
+      "state_id": "0f1130b917b59bac7b75aab0",
+      "game_id": 121043174,
+      "turn": 11,
+      "phase": "early",
+      "legal_actions": 8,
+      "reconnect": false,
+      "elapsed": 10.179336600005627,
+      "particles_requested": 204,
+      "particles_completed": 204,
+      "stopping_reason": "statistical_convergence",
+      "deadline_hit": false,
+      "deadline_remaining": 25.82800000003772,
+      "decision_margin": 0.01778590853630596,
+      "se_diff": 0.002980133357536957,
+      "ci_diff": [
+        0.011944847155533525,
+        0.023626969917078397
+      ],
+      "selected": [
+        "turn",
+        4,
+        73
+      ]
+    },
+    {
+      "category": "extra_turn",
+      "state_id": "8a764e0bb86372e1df2fcffb",
+      "game_id": 121054605,
+      "turn": 9,
+      "phase": "opening",
+      "legal_actions": 6,
+      "reconnect": false,
+      "elapsed": 4.169863699993584,
+      "particles_requested": 204,
+      "particles_completed": 204,
+      "stopping_reason": "practical_equivalence",
+      "deadline_hit": false,
+      "deadline_remaining": 31.84299999999348,
+      "decision_margin": 0.0,
+      "se_diff": 0.0,
+      "ci_diff": [
+        0.0,
+        0.0
+      ],
+      "selected": [
+        "drop",
+        0,
+        100
+      ]
+    },
+    {
+      "category": "extra_turn",
+      "state_id": "ec2ce334cbff3ff7f4ebab5a",
+      "game_id": 121044771,
+      "turn": 13,
+      "phase": "early",
+      "legal_actions": 10,
+      "reconnect": false,
+      "elapsed": 13.124161200015806,
+      "particles_requested": 204,
+      "particles_completed": 204,
+      "stopping_reason": "statistical_convergence",
+      "deadline_hit": false,
+      "deadline_remaining": 22.875,
+      "decision_margin": 0.08696067333183205,
+      "se_diff": 0.0049539446804335,
+      "ci_diff": [
+        0.0772509417581824,
+        0.0966704049054817
+      ],
+      "selected": [
+        "turn",
+        0,
+        100
+      ]
+    },
+    {
+      "category": "extra_turn",
+      "state_id": "39b7f341359e301078280292",
+      "game_id": 121032451,
+      "turn": 13,
+      "phase": "early",
+      "legal_actions": 8,
+      "reconnect": false,
+      "elapsed": 6.521081500046421,
+      "particles_requested": 204,
+      "particles_completed": 204,
+      "stopping_reason": "statistical_convergence",
+      "deadline_hit": false,
+      "deadline_remaining": 29.48499999998603,
+      "decision_margin": 0.02995926782374647,
+      "se_diff": 0.002528766156568126,
+      "ci_diff": [
+        0.025002886156872944,
+        0.034915649490619996
+      ],
+      "selected": [
+        "turn",
+        0,
+        101
+      ]
+    },
+    {
+      "category": "terminal_race",
+      "state_id": "557980e95cdd5dd4aeb82146",
+      "game_id": 121061366,
+      "turn": 38,
+      "phase": "terminal_race",
+      "legal_actions": 9,
+      "reconnect": false,
+      "elapsed": 4.035273400018923,
+      "particles_requested": 204,
+      "particles_completed": 204,
+      "stopping_reason": "statistical_convergence",
+      "deadline_hit": false,
+      "deadline_remaining": 31.96899999998277,
+      "decision_margin": 0.0061215346647257585,
+      "se_diff": 0.0011227912965545142,
+      "ci_diff": [
+        0.003920863723478911,
+        0.008322205605972606
+      ],
+      "selected": [
+        "turn",
+        1,
+        74
+      ]
+    },
+    {
+      "category": "terminal_race",
+      "state_id": "dc49ed0960827285341fd597",
+      "game_id": 121061366,
+      "turn": 42,
+      "phase": "terminal_race",
+      "legal_actions": 8,
+      "reconnect": false,
+      "elapsed": 7.155582099978346,
+      "particles_requested": 516,
+      "particles_completed": 516,
+      "stopping_reason": "statistical_convergence",
+      "deadline_hit": false,
+      "deadline_remaining": 28.84399999998277,
+      "decision_margin": 0.004577853726835612,
+      "se_diff": 0.00018348966591228354,
+      "ci_diff": [
+        0.004218213981647537,
+        0.004937493472023688
+      ],
+      "selected": [
+        "drop",
+        0,
+        8
+      ]
+    },
+    {
+      "category": "terminal_race",
+      "state_id": "4136c38096086849692a8f43",
+      "game_id": 121040085,
+      "turn": 41,
+      "phase": "terminal_race",
+      "legal_actions": 9,
+      "reconnect": false,
+      "elapsed": 2.580462100042496,
+      "particles_requested": 204,
+      "particles_completed": 204,
+      "stopping_reason": "statistical_convergence",
+      "deadline_hit": false,
+      "deadline_remaining": 33.43699999997625,
+      "decision_margin": 0.021416162918362014,
+      "se_diff": 0.0013113484346749529,
+      "ci_diff": [
+        0.018845919986399107,
+        0.02398640585032492
+      ],
+      "selected": [
+        "turn",
+        5,
+        8
+      ]
+    },
+    {
+      "category": "complex_belief",
+      "state_id": "20800dfaea9cfb66d1b369db",
+      "game_id": 121056280,
+      "turn": 87,
+      "phase": "late",
+      "legal_actions": 12,
+      "reconnect": false,
+      "elapsed": 10.817741599981673,
+      "particles_requested": 204,
+      "particles_completed": 204,
+      "stopping_reason": "statistical_convergence",
+      "deadline_hit": false,
+      "deadline_remaining": 25.18699999997625,
+      "decision_margin": 0.04607538608841044,
+      "se_diff": 0.00232786901366708,
+      "ci_diff": [
+        0.041512762821622966,
+        0.05063800935519792
+      ],
+      "selected": [
+        "turn",
+        1,
+        100
+      ]
+    },
+    {
+      "category": "complex_belief",
+      "state_id": "9b9cfbf91dcd619f51c46331",
+      "game_id": 121043250,
+      "turn": 78,
+      "phase": "late",
+      "legal_actions": 9,
+      "reconnect": false,
+      "elapsed": 3.1248380999895744,
+      "particles_requested": 204,
+      "particles_completed": 204,
+      "stopping_reason": "statistical_convergence",
+      "deadline_hit": false,
+      "deadline_remaining": 32.875,
+      "decision_margin": 0.017344098286865228,
+      "se_diff": 0.0012108284174539036,
+      "ci_diff": [
+        0.014970874588655578,
+        0.01971732198507488
+      ],
+      "selected": [
+        "turn",
+        3,
+        55
+      ]
+    },
+    {
+      "category": "complex_belief",
+      "state_id": "a535dbf4377ad502b60bbc18",
+      "game_id": 121044290,
+      "turn": 106,
+      "phase": "late",
+      "legal_actions": 11,
+      "reconnect": false,
+      "elapsed": 6.079015799972694,
+      "particles_requested": 204,
+      "particles_completed": 204,
+      "stopping_reason": "statistical_convergence",
+      "deadline_hit": false,
+      "deadline_remaining": 29.92199999996228,
+      "decision_margin": 0.12229533640358178,
+      "se_diff": 0.0016710366124704072,
+      "ci_diff": [
+        0.11902010464313978,
+        0.1255705681640238
+      ],
+      "selected": [
+        "turn",
+        3,
+        54
+      ]
+    },
+    {
+      "category": "reconnect_latent",
+      "state_id": "5695f73600c3117b9bd4ae4e",
+      "game_id": 121037331,
+      "turn": 1,
+      "phase": "opening",
+      "legal_actions": 8,
+      "reconnect": true,
+      "elapsed": 3.474557400040794,
+      "particles_requested": 204,
+      "particles_completed": 204,
+      "stopping_reason": "statistical_convergence",
+      "deadline_hit": false,
+      "deadline_remaining": 32.53200000000652,
+      "decision_margin": 0.026714784914071255,
+      "se_diff": 0.0011104767845676851,
+      "ci_diff": [
+        0.024538250416318592,
+        0.028891319411823917
+      ],
+      "selected": [
+        "turn",
+        1,
+        64
+      ]
+    },
+    {
+      "category": "reconnect_latent",
+      "state_id": "1054a921b9d1ceb3102430e8",
+      "game_id": 121036042,
+      "turn": 31,
+      "phase": "midgame",
+      "legal_actions": 8,
+      "reconnect": true,
+      "elapsed": 6.491212899971288,
+      "particles_requested": 204,
+      "particles_completed": 204,
+      "stopping_reason": "statistical_convergence",
+      "deadline_hit": false,
+      "deadline_remaining": 29.51500000001397,
+      "decision_margin": 0.04747720372701514,
+      "se_diff": 0.0030345598395230375,
+      "ci_diff": [
+        0.041529466441549985,
+        0.05342494101248029
+      ],
+      "selected": [
+        "turn",
+        5,
+        35
+      ]
+    },
+    {
+      "category": "reconnect_latent",
+      "state_id": "f4e311da8eb0f0c77a9efbd6",
+      "game_id": 121044863,
+      "turn": 50,
+      "phase": "midgame",
+      "legal_actions": 8,
+      "reconnect": false,
+      "elapsed": 3.674083799996879,
+      "particles_requested": 204,
+      "particles_completed": 204,
+      "stopping_reason": "practical_equivalence",
+      "deadline_hit": false,
+      "deadline_remaining": 32.32800000003772,
+      "decision_margin": 0.00016225085070073995,
+      "se_diff": 4.564929344136467e-05,
+      "ci_diff": [
+        7.277823555566521e-05,
+        0.0002517234658458147
+      ],
+      "selected": [
+        "drop",
+        5,
+        98
+      ]
+    },
+    {
+      "category": "late_high_resources",
+      "state_id": "d041d6a33bfc25b55766edf1",
+      "game_id": 121056915,
+      "turn": 63,
+      "phase": "terminal_race",
+      "legal_actions": 9,
+      "reconnect": false,
+      "elapsed": 9.506632199976593,
+      "particles_requested": 204,
+      "particles_completed": 204,
+      "stopping_reason": "statistical_convergence",
+      "deadline_hit": false,
+      "deadline_remaining": 26.5,
+      "decision_margin": 0.009516702170363489,
+      "se_diff": 0.0018767617329065833,
+      "ci_diff": [
+        0.005838249173866586,
+        0.013195155166860392
+      ],
+      "selected": [
+        "turn",
+        1,
+        100
+      ]
+    },
+    {
+      "category": "late_high_resources",
+      "state_id": "b13ab22f0d092e2df05941a0",
+      "game_id": 121046376,
+      "turn": 28,
+      "phase": "terminal_race",
+      "legal_actions": 12,
+      "reconnect": false,
+      "elapsed": 10.788589200004935,
+      "particles_requested": 204,
+      "particles_completed": 204,
+      "stopping_reason": "statistical_convergence",
+      "deadline_hit": false,
+      "deadline_remaining": 25.219000000040978,
+      "decision_margin": 0.009473239736428218,
+      "se_diff": 0.0001802408698260369,
+      "ci_diff": [
+        0.009119967631569185,
+        0.009826511841287251
+      ],
+      "selected": [
+        "turn",
+        1,
+        23
+      ]
+    },
+    {
+      "category": "late_high_resources",
+      "state_id": "e3c2fe5cc5ebec25189dd56f",
+      "game_id": 121032718,
+      "turn": 72,
+      "phase": "late",
+      "legal_actions": 9,
+      "reconnect": false,
+      "elapsed": 7.840775799995754,
+      "particles_requested": 588,
+      "particles_completed": 588,
+      "stopping_reason": "statistical_convergence",
+      "deadline_hit": false,
+      "deadline_remaining": 28.17199999996228,
+      "decision_margin": 0.029603877276361087,
+      "se_diff": 0.001291282273743558,
+      "ci_diff": [
+        0.027072964019823714,
+        0.03213479053289846
+      ],
+      "selected": [
+        "turn",
+        0,
+        40
+      ]
+    }
+  ],
+  "runtime_seconds": {
+    "p10": 3.2297538900049405,
+    "p25": 4.136216124999919,
+    "median": 6.305832999991253,
+    "p75": 9.674808299983852,
+    "p90": 11.574860269995405,
+    "p95": 12.940437975013626,
+    "max": 17.71513839997351
+  },
+  "particles_completed": {
+    "p10": 204.0,
+    "p25": 204.0,
+    "median": 204.0,
+    "p75": 204.0,
+    "p90": 204.0,
+    "p95": 469.19999999999936,
+    "min": 12,
+    "max": 588,
+    "counts": {
+      "204": 21,
+      "12": 1,
+      "516": 1,
+      "588": 1
+    },
+    "fractions": {
+      "lt80": 0.041666666666666664,
+      "lt120": 0.041666666666666664,
+      "lt160": 0.041666666666666664,
+      "lt200": 0.041666666666666664,
+      "ge200": 0.9583333333333334,
+      "ge400": 0.08333333333333333
+    }
+  },
+  "deadlines": {
+    "deadline_precheck": 0,
+    "deadline_in_batch": 0,
+    "hard_timeout": 0
+  }
+}

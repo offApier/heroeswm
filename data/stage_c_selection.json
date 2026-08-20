@@ -1,0 +1,606 @@
+{
+  "version": "stage-c-selection-v1",
+  "holdout_opened": false,
+  "states": [
+    {
+      "state_id": "4d47d810e29f4a1a772aa87e",
+      "game_id": 121063906,
+      "card_action_index": 66,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "9d90ca5e2621bccab77ea3d5",
+      "game_id": 121063259,
+      "card_action_index": 22,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "d340774b3daaaa6fd3b9ce2d",
+      "game_id": 121044806,
+      "card_action_index": 60,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "39be5879b66e9525b15ae605",
+      "game_id": 121060080,
+      "card_action_index": 82,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "d4c2cd8f1c9f7ed5d229627e",
+      "game_id": 121043402,
+      "card_action_index": 68,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "4cca812cd42245c9b7ab13ba",
+      "game_id": 121041960,
+      "card_action_index": 91,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "1114b5b1f529138ed6c3fc08",
+      "game_id": 121060080,
+      "card_action_index": 84,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "508e8bd3e1fe053882f5fd92",
+      "game_id": 121063201,
+      "card_action_index": 40,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "68252aa68ae7da22b49dbfa1",
+      "game_id": 121070085,
+      "card_action_index": 92,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "6e58fc63bb2b87ce91ebab71",
+      "game_id": 121033102,
+      "card_action_index": 112,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "8bcbe74a9be4516f3563c382",
+      "game_id": 121070085,
+      "card_action_index": 94,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "931f85d2188943480c8bd4b6",
+      "game_id": 121033102,
+      "card_action_index": 110,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "fdeb53f20bb3bbebc267a599",
+      "game_id": 121045456,
+      "card_action_index": 104,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "55ca7b8a73d6e3f9ed3837fa",
+      "game_id": 121050857,
+      "card_action_index": 23,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "cccfa3d9873550583bc005dd",
+      "game_id": 121038225,
+      "card_action_index": 94,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "3011de00a338c8b273eb3e4b",
+      "game_id": 121044806,
+      "card_action_index": 35,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "6ddd54b2ac1344aacdd357a7",
+      "game_id": 121062790,
+      "card_action_index": 99,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "1a8669db040c0db2e3081099",
+      "game_id": 121038225,
+      "card_action_index": 59,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "8b8c87a2740df84c530b9681",
+      "game_id": 121070054,
+      "card_action_index": 39,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "bb118766988f66077024d7a7",
+      "game_id": 121063906,
+      "card_action_index": 68,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "6f9573735f0527a18695ddc6",
+      "game_id": 121062790,
+      "card_action_index": 97,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "e1a8ca9561742be1353eec62",
+      "game_id": 121055895,
+      "card_action_index": 61,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "7f8bbeb0c497c275f7425b34",
+      "game_id": 121072901,
+      "card_action_index": 13,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "715abb2d47cd8db24521bf40",
+      "game_id": 121034026,
+      "card_action_index": 61,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "bde32d02d3d3f4c60a92d632",
+      "game_id": 121036376,
+      "card_action_index": 90,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "f07cdeaef4cc724f940b3fed",
+      "game_id": 121055577,
+      "card_action_index": 47,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "b71a47ddded6b059af38eba1",
+      "game_id": 121050857,
+      "card_action_index": 35,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "21203f2814d79f1e801f17d5",
+      "game_id": 121060021,
+      "card_action_index": 92,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "68f36bdc652c8e1fbfd3e9f9",
+      "game_id": 121069800,
+      "card_action_index": 6,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "72b0f839ca75766505401a26",
+      "game_id": 121036376,
+      "card_action_index": 92,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "aa1353266d8b734b264dc503",
+      "game_id": 121048720,
+      "card_action_index": 9,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "9c61bbc95cb1831e2354baa1",
+      "game_id": 121031959,
+      "card_action_index": 20,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "92196f3008aeea6a59e51181",
+      "game_id": 121068838,
+      "card_action_index": 9,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "ae85bca270a93387c5b8d5f8",
+      "game_id": 121059640,
+      "card_action_index": 93,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "ecb704a9985eddaf83da1e39",
+      "game_id": 121047097,
+      "card_action_index": 79,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "a3061ca54046074f15fcb896",
+      "game_id": 121052803,
+      "card_action_index": 84,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "08bf3f124c941c1ef0a8040d",
+      "game_id": 121068246,
+      "card_action_index": 37,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "510b3d478522705469079eef",
+      "game_id": 121033102,
+      "card_action_index": 151,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "9bb7aee57f3c65ff7c4e5032",
+      "game_id": 121046993,
+      "card_action_index": 37,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "ec98345a964bf7b16af14058",
+      "game_id": 121060341,
+      "card_action_index": 70,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "ce99eb1a26a4742f54056c3f",
+      "game_id": 121070085,
+      "card_action_index": 137,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "3b487d19a1ec3359a3b985e9",
+      "game_id": 121044542,
+      "card_action_index": 108,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "b1af722aa13a01736eeb826f",
+      "game_id": 121038006,
+      "card_action_index": 32,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "1feab2b125b5a03faed88721",
+      "game_id": 121063201,
+      "card_action_index": 26,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "337fb8163b75dd3b3bfa1334",
+      "game_id": 121039899,
+      "card_action_index": 19,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "8399c696c6881a92946de3fb",
+      "game_id": 121069476,
+      "card_action_index": 16,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "fb2e68d2581ac2f0c98b570a",
+      "game_id": 121038225,
+      "card_action_index": 84,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "b020f7f4ab65ec0b4d0ae57b",
+      "game_id": 121033102,
+      "card_action_index": 147,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "7c1402c88e400a158298c3ea",
+      "game_id": 121060021,
+      "card_action_index": 101,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "d7d265f92b58d5ab8d3ede9c",
+      "game_id": 121058916,
+      "card_action_index": 62,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "6ea8a88f714a379e04b9b0ab",
+      "game_id": 121050857,
+      "card_action_index": 33,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "4240a97ad6c878cf5610f16b",
+      "game_id": 121063586,
+      "card_action_index": 91,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "ff147770c0907d050e46b380",
+      "game_id": 121056084,
+      "card_action_index": 42,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "76033ef28c30bc5aaef8674e",
+      "game_id": 121049510,
+      "card_action_index": 42,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "00e2b89e7a87a0888c8eea2b",
+      "game_id": 121063906,
+      "card_action_index": 60,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "e863f341ba27058b3634f807",
+      "game_id": 121060021,
+      "card_action_index": 94,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "7e5bcaa9c99bc24fa98d8b31",
+      "game_id": 121070085,
+      "card_action_index": 127,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "c9a97d40dde0085b6c48edec",
+      "game_id": 121069926,
+      "card_action_index": 15,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "54024ea17968caef4099c7fd",
+      "game_id": 121069246,
+      "card_action_index": 16,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "2548bb83ccb9acef45dd606b",
+      "game_id": 121042211,
+      "card_action_index": 11,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "2716edf44631e9f9ae6ea8da",
+      "game_id": 121042650,
+      "card_action_index": 109,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "fa5acbd1b9981319c48db75c",
+      "game_id": 121068396,
+      "card_action_index": 8,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "d6de18eac0c8c697980bdfe5",
+      "game_id": 121069246,
+      "card_action_index": 27,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "2ac1aadadca77caad7605ebb",
+      "game_id": 121060021,
+      "card_action_index": 96,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "f260a9ca848581d53cc813b9",
+      "game_id": 121032617,
+      "card_action_index": 83,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "467eee21f66d96a3597f7911",
+      "game_id": 121063201,
+      "card_action_index": 30,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "f8446d8eba598eca72f6785a",
+      "game_id": 121059088,
+      "card_action_index": 79,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "938ea7fad87410a76f301ad8",
+      "game_id": 121070085,
+      "card_action_index": 124,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "578e340df444ae27b77b2f7f",
+      "game_id": 121033102,
+      "card_action_index": 154,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "1016441760e4c5621d69f546",
+      "game_id": 121068246,
+      "card_action_index": 27,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "17d0affc8280e39e69b3044b",
+      "game_id": 121070054,
+      "card_action_index": 25,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "37d41024ba17d231833320b0",
+      "game_id": 121038225,
+      "card_action_index": 88,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "88f87a1de7df3e645e93204c",
+      "game_id": 121059249,
+      "card_action_index": 3,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "7956b3d168141235518deac5",
+      "game_id": 121033102,
+      "card_action_index": 159,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "b23274ed857c4c7f50f335c8",
+      "game_id": 121041960,
+      "card_action_index": 95,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "c185667024564a05c632e4b0",
+      "game_id": 121047097,
+      "card_action_index": 89,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "3d111b98d9e3edee617d2cd0",
+      "game_id": 121070085,
+      "card_action_index": 129,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "ba19034abd3c3f49e617dd5e",
+      "game_id": 121040628,
+      "card_action_index": 19,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "d5a5113bbe001109d8aed79a",
+      "game_id": 121061188,
+      "card_action_index": 27,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "92250c232fa6a2b92bf1c915",
+      "game_id": 121044806,
+      "card_action_index": 33,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "1743046fb816c8ca07d8e36c",
+      "game_id": 121068396,
+      "card_action_index": 6,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "3fd8d3ee01441260b54b928f",
+      "game_id": 121055895,
+      "card_action_index": 67,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "d1befdb191f2bc9a8f850215",
+      "game_id": 121068838,
+      "card_action_index": 13,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "4916ddf255a1225fcda3cae0",
+      "game_id": 121063201,
+      "card_action_index": 32,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "e38ba0b667fe90e794427123",
+      "game_id": 121068396,
+      "card_action_index": 4,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "b2b9ab5ebc3e814d65274e63",
+      "game_id": 121038994,
+      "card_action_index": 10,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "edb49203264d50595e12dd02",
+      "game_id": 121042650,
+      "card_action_index": 91,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "0209c6ce3168ae239bb522e7",
+      "game_id": 121039779,
+      "card_action_index": 34,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "37fee126e51fc91ab1e11f3c",
+      "game_id": 121038613,
+      "card_action_index": 37,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "f702ca13f9390d88fe80aa48",
+      "game_id": 121032353,
+      "card_action_index": 49,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "131fe81f685f955f720dd7dd",
+      "game_id": 121061087,
+      "card_action_index": 74,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "a3b94abee7a0584b7350d390",
+      "game_id": 121063259,
+      "card_action_index": 24,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "85817cc4d0705a1736196884",
+      "game_id": 121042650,
+      "card_action_index": 102,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "ed22ecc40a4bb48b06c0a27a",
+      "game_id": 121061087,
+      "card_action_index": 54,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "129f6a9805f5b19ab6dd0392",
+      "game_id": 121062790,
+      "card_action_index": 92,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "bdda7171d06c1ab70972d5fb",
+      "game_id": 121055760,
+      "card_action_index": 7,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "6807cb847f5f19359c1d0896",
+      "game_id": 121069926,
+      "card_action_index": 18,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "4b1abbb14b7c9d7c0e041431",
+      "game_id": 121034762,
+      "card_action_index": 44,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "a2784d6048120beefe1cabe6",
+      "game_id": 121045456,
+      "card_action_index": 106,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    },
+    {
+      "state_id": "281aa5a6fffe2688f78f515f",
+      "game_id": 121034762,
+      "card_action_index": 26,
+      "selection": "stage_c_high_regret_or_uncertainty"
+    }
+  ]
+}

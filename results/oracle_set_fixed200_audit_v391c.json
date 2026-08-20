@@ -1,0 +1,23 @@
+{
+  "version": "adaptive-mode-oracle-audit-3.9-v1",
+  "oracle": "independent multiseed 5000x3 q_mean where available",
+  "modes": {
+    "fixed-200": {
+      "states": 24,
+      "mean_regret": 0.006757222438611682,
+      "median_regret": 0.0,
+      "p90_regret": 0.02715193496595827,
+      "p95_regret": 0.032613567456662274,
+      "gt_2pp": 5,
+      "gt_5pp": 0,
+      "oracle_agreement": 0.75,
+      "runtime_median": 2.700141400011489,
+      "runtime_p95": 7.050433560006784,
+      "runtime_max": 7.9661392999696545,
+      "particles_median": 200.0,
+      "particles_p95": 200.0,
+      "deadline_limited_best_so_far": 0,
+      "hard_timeouts": 0
+    }
+  }
+}

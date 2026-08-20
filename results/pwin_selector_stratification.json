@@ -1,0 +1,157 @@
+{
+  "version": "pwin-selector-stratification-3.9-v1",
+  "dataset_role": "audit/validation; final untouched holdout is consumed",
+  "epsilon": 0.0005,
+  "strata": {
+    "action:DROP": {
+      "states": 163,
+      "mean_regret": 0.0018809698200250525,
+      "median_regret": 0.0,
+      "p90_regret": 0.004872366506302769,
+      "p95_regret": 0.012412755352163025,
+      "gt_2pp": 4,
+      "gt_5pp": 1,
+      "oracle_agreement": 0.7975460122699386
+    },
+    "action:TURN": {
+      "states": 1367,
+      "mean_regret": 0.000448014348304029,
+      "median_regret": 0.0,
+      "p90_regret": 0.0,
+      "p95_regret": 0.0,
+      "gt_2pp": 8,
+      "gt_5pp": 3,
+      "oracle_agreement": 0.9517190929041697
+    },
+    "class:defense": {
+      "states": 496,
+      "mean_regret": 0.0004590291218060432,
+      "median_regret": 0.0,
+      "p90_regret": 0.0,
+      "p95_regret": 0.0,
+      "gt_2pp": 4,
+      "gt_5pp": 2,
+      "oracle_agreement": 0.9536290322580645
+    },
+    "class:direct-tower": {
+      "states": 290,
+      "mean_regret": 0.00021822835951417554,
+      "median_regret": 0.0,
+      "p90_regret": 0.0,
+      "p95_regret": 8.980895883177928e-05,
+      "gt_2pp": 1,
+      "gt_5pp": 0,
+      "oracle_agreement": 0.9482758620689655
+    },
+    "class:extra-turn": {
+      "states": 498,
+      "mean_regret": 0.0002829336055371442,
+      "median_regret": 0.0,
+      "p90_regret": 0.0,
+      "p95_regret": 0.0,
+      "gt_2pp": 2,
+      "gt_5pp": 1,
+      "oracle_agreement": 0.9839357429718876
+    },
+    "class:production/economy": {
+      "states": 162,
+      "mean_regret": 0.000480844823307236,
+      "median_regret": 0.0,
+      "p90_regret": 0.0,
+      "p95_regret": 0.0,
+      "gt_2pp": 1,
+      "gt_5pp": 1,
+      "oracle_agreement": 0.9382716049382716
+    },
+    "connection:normal": {
+      "states": 1301,
+      "mean_regret": 0.0005388137124794591,
+      "median_regret": 0.0,
+      "p90_regret": 0.0,
+      "p95_regret": 0.0005076256363459319,
+      "gt_2pp": 9,
+      "gt_5pp": 3,
+      "oracle_agreement": 0.9377401998462721
+    },
+    "connection:reconnect": {
+      "states": 229,
+      "mean_regret": 0.0009521268771175323,
+      "median_regret": 0.0,
+      "p90_regret": 0.0,
+      "p95_regret": 0.004469937703150305,
+      "gt_2pp": 3,
+      "gt_5pp": 1,
+      "oracle_agreement": 0.9213973799126638
+    },
+    "initiative:first": {
+      "states": 868,
+      "mean_regret": 0.00048176992686349,
+      "median_regret": 0.0,
+      "p90_regret": 0.0,
+      "p95_regret": 0.0002948299820040969,
+      "gt_2pp": 5,
+      "gt_5pp": 1,
+      "oracle_agreement": 0.9423963133640553
+    },
+    "initiative:second": {
+      "states": 662,
+      "mean_regret": 0.0007565821726256524,
+      "median_regret": 0.0,
+      "p90_regret": 0.0,
+      "p95_regret": 0.0016514065911940677,
+      "gt_2pp": 7,
+      "gt_5pp": 3,
+      "oracle_agreement": 0.9259818731117825
+    },
+    "phase:early": {
+      "states": 375,
+      "mean_regret": 0.0006603009174219553,
+      "median_regret": 0.0,
+      "p90_regret": 0.0,
+      "p95_regret": 0.00441527690545043,
+      "gt_2pp": 4,
+      "gt_5pp": 0,
+      "oracle_agreement": 0.912
+    },
+    "phase:late": {
+      "states": 263,
+      "mean_regret": 0.00010390076252512929,
+      "median_regret": 0.0,
+      "p90_regret": 0.0,
+      "p95_regret": 0.0,
+      "gt_2pp": 0,
+      "gt_5pp": 0,
+      "oracle_agreement": 0.9695817490494296
+    },
+    "phase:midgame": {
+      "states": 356,
+      "mean_regret": 0.000537443460888022,
+      "median_regret": 0.0,
+      "p90_regret": 0.0,
+      "p95_regret": 0.0,
+      "gt_2pp": 2,
+      "gt_5pp": 1,
+      "oracle_agreement": 0.9578651685393258
+    },
+    "phase:opening": {
+      "states": 281,
+      "mean_regret": 0.0011383725917075238,
+      "median_regret": 0.0,
+      "p90_regret": 0.0,
+      "p95_regret": 0.005096726136501917,
+      "gt_2pp": 5,
+      "gt_5pp": 2,
+      "oracle_agreement": 0.9181494661921709
+    },
+    "phase:terminal_race": {
+      "states": 255,
+      "mean_regret": 0.0005211073720486232,
+      "median_regret": 0.0,
+      "p90_regret": 0.0,
+      "p95_regret": 0.0004933815068054033,
+      "gt_2pp": 1,
+      "gt_5pp": 1,
+      "oracle_agreement": 0.9215686274509803
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "source": "work\\policy_improvement_3_9\\source",
+  "states": 8,
+  "particles_per_state": 12,
+  "total_seconds": 5.544949699949939,
+  "profile_is_inclusive": true,
+  "categories": {
+    "candidate_generation": {
+      "total_seconds": 7.749989163130522e-05,
+      "inclusive_percent": 0.0013976662697590368,
+      "calls": 8,
+      "mean_seconds": 9.687486453913152e-06,
+      "p95_seconds": 2.7999980375170708e-05
+    },
+    "deterministic_card_simulation": {
+      "total_seconds": 2.1867043093661778,
+      "inclusive_percent": 39.43596295176347,
+      "calls": 122590,
+      "mean_seconds": 1.7837542290286138e-05,
+      "p95_seconds": 2.500001573935151e-05
+    },
+    "PLAY_evaluation": {
+      "total_seconds": 1.9005956999608316,
+      "inclusive_percent": 34.2761576354424,
+      "calls": 28,
+      "mean_seconds": 0.06787841785574399,
+      "p95_seconds": 0.11399250000249594
+    },
+    "DISCARD_evaluation": {
+      "total_seconds": 3.592418299987912,
+      "inclusive_percent": 64.78721168598419,
+      "calls": 48,
+      "mean_seconds": 0.07484204791641484,
+      "p95_seconds": 0.11471920000622049
+    },
+    "replacement_draw_simulation": {
+      "total_seconds": 0.1719774995581247,
+      "inclusive_percent": 3.101515953511307,
+      "calls": 1259,
+      "mean_seconds": 0.00013659849051479323,
+      "p95_seconds": 0.0002609000075608492
+    },
+    "opponent_response": {
+      "total_seconds": 5.2483620013226755,
+      "inclusive_percent": 94.65121029628202,
+      "calls": 912,
+      "mean_seconds": 0.005754782896187144,
+      "p95_seconds": 0.016316000022925436
+    },
+    "opponent_policy": {
+      "total_seconds": 0,
+      "inclusive_percent": 0.0,
+      "calls": 0,
+      "mean_seconds": 0.0,
+      "p95_seconds": 0.0
+    },
+    "terminal_quiescence_extra_turn": {
+      "total_seconds": 0.055437399772927165,
+      "inclusive_percent": 0.9997818334299348,
+      "calls": 44,
+      "mean_seconds": 0.001259940903930163,
+      "p95_seconds": 0.002529799996409565
+    },
+    "Q_value_model": {
+      "total_seconds": 0.031731200229842216,
+      "inclusive_percent": 0.5722540680599626,
+      "calls": 365,
+      "mean_seconds": 8.693479515025264e-05,
+      "p95_seconds": 0.00019940000493079424
+    },
+    "feature_extraction": {
+      "total_seconds": 0.023394800489768386,
+      "inclusive_percent": 0.4219118613461832,
+      "calls": 365,
+      "mean_seconds": 6.409534380758462e-05,
+      "p95_seconds": 0.00019290001364424825
+    },
+    "belief_update_reconstruction": {
+      "total_seconds": 0.0009266998386010528,
+      "inclusive_percent": 0.016712502164075885,
+      "calls": 8,
+      "mean_seconds": 0.0001158374798251316,
+      "p95_seconds": 0.00032929994631558657
+    },
+    "belief_particle_generation_and_copy": {
+      "total_seconds": 0.005635699897538871,
+      "inclusive_percent": 0.10163662796778393,
+      "calls": 8,
+      "mean_seconds": 0.0007044624871923588,
+      "p95_seconds": 0.0013468999532051384
+    },
+    "diagnostics_logging": {
+      "total_seconds": 0.015215799969155341,
+      "inclusive_percent": 0.2744082596329542,
+      "calls": 24,
+      "mean_seconds": 0.0006339916653814726,
+      "p95_seconds": 0.0018324999837204814
+    }
+  }
+}

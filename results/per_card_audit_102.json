@@ -1,0 +1,3486 @@
+{
+  "cards": [
+    {
+      "card_id": 0,
+      "name": "Бракованная руда",
+      "our_historical_play": 175,
+      "our_historical_discard": 17,
+      "opponent_play": 68,
+      "opponent_discard": 111,
+      "candidate_play": 129,
+      "candidate_discard": 4,
+      "candidate_by_phase": {
+        "midgame": {
+          "play": 24
+        },
+        "opening": {
+          "play": 37
+        },
+        "terminal_race": {
+          "discard": 4,
+          "play": 27
+        },
+        "early": {
+          "play": 34
+        },
+        "late": {
+          "play": 7
+        }
+      },
+      "historical_average_oracle_regret": 0.06650111813858059,
+      "candidate_average_oracle_regret": 0.029125638008877564,
+      "direct_effect_comparisons": 243,
+      "direct_effect_exact": 243,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 1,
+      "name": "Счастливая монетка",
+      "our_historical_play": 239,
+      "our_historical_discard": 6,
+      "opponent_play": 231,
+      "opponent_discard": 1,
+      "candidate_play": 220,
+      "candidate_discard": 1,
+      "candidate_by_phase": {
+        "opening": {
+          "play": 74
+        },
+        "terminal_race": {
+          "play": 43
+        },
+        "early": {
+          "play": 27
+        },
+        "midgame": {
+          "play": 41,
+          "discard": 1
+        },
+        "late": {
+          "play": 35
+        }
+      },
+      "historical_average_oracle_regret": 0.00441070420884094,
+      "candidate_average_oracle_regret": 0.0,
+      "direct_effect_comparisons": 452,
+      "direct_effect_exact": 452,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 2,
+      "name": "Благодатная почва",
+      "our_historical_play": 226,
+      "our_historical_discard": 13,
+      "opponent_play": 222,
+      "opponent_discard": 2,
+      "candidate_play": 355,
+      "candidate_discard": 6,
+      "candidate_by_phase": {
+        "early": {
+          "play": 68,
+          "discard": 1
+        },
+        "opening": {
+          "play": 58
+        },
+        "terminal_race": {
+          "play": 91,
+          "discard": 3
+        },
+        "midgame": {
+          "play": 82,
+          "discard": 1
+        },
+        "late": {
+          "play": 56,
+          "discard": 1
+        }
+      },
+      "historical_average_oracle_regret": 0.009880554543209775,
+      "candidate_average_oracle_regret": 0.0015351619586032983,
+      "direct_effect_comparisons": 437,
+      "direct_effect_exact": 437,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 3,
+      "name": "Шахтеры",
+      "our_historical_play": 206,
+      "our_historical_discard": 7,
+      "opponent_play": 214,
+      "opponent_discard": 3,
+      "candidate_play": 86,
+      "candidate_discard": 1,
+      "candidate_by_phase": {
+        "opening": {
+          "play": 46
+        },
+        "late": {
+          "play": 4,
+          "discard": 1
+        },
+        "terminal_race": {
+          "play": 9
+        },
+        "midgame": {
+          "play": 8
+        },
+        "early": {
+          "play": 19
+        }
+      },
+      "historical_average_oracle_regret": 0.06744342471636462,
+      "candidate_average_oracle_regret": 0.01684720984980903,
+      "direct_effect_comparisons": 405,
+      "direct_effect_exact": 405,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 4,
+      "name": "Большая жила",
+      "our_historical_play": 216,
+      "our_historical_discard": 4,
+      "opponent_play": 198,
+      "opponent_discard": 7,
+      "candidate_play": 131,
+      "candidate_discard": 0,
+      "candidate_by_phase": {
+        "opening": {
+          "play": 62
+        },
+        "early": {
+          "play": 37
+        },
+        "midgame": {
+          "play": 16
+        },
+        "late": {
+          "play": 9
+        },
+        "terminal_race": {
+          "play": 7
+        }
+      },
+      "historical_average_oracle_regret": 0.06905111935162211,
+      "candidate_average_oracle_regret": 0.015241085142681183,
+      "direct_effect_comparisons": 410,
+      "direct_effect_exact": 410,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 5,
+      "name": "Гномы-шахтеры",
+      "our_historical_play": 181,
+      "our_historical_discard": 5,
+      "opponent_play": 222,
+      "opponent_discard": 6,
+      "candidate_play": 59,
+      "candidate_discard": 0,
+      "candidate_by_phase": {
+        "terminal_race": {
+          "play": 5
+        },
+        "opening": {
+          "play": 34
+        },
+        "midgame": {
+          "play": 7
+        },
+        "early": {
+          "play": 13
+        }
+      },
+      "historical_average_oracle_regret": 0.07551884096238605,
+      "candidate_average_oracle_regret": 0.01156364687704767,
+      "direct_effect_comparisons": 385,
+      "direct_effect_exact": 385,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 6,
+      "name": "Сверхурочные",
+      "our_historical_play": 189,
+      "our_historical_discard": 9,
+      "opponent_play": 72,
+      "opponent_discard": 99,
+      "candidate_play": 40,
+      "candidate_discard": 5,
+      "candidate_by_phase": {
+        "opening": {
+          "play": 9
+        },
+        "terminal_race": {
+          "play": 7,
+          "discard": 2
+        },
+        "early": {
+          "play": 10,
+          "discard": 1
+        },
+        "midgame": {
+          "play": 10,
+          "discard": 1
+        },
+        "late": {
+          "discard": 1,
+          "play": 4
+        }
+      },
+      "historical_average_oracle_regret": 0.07363688772672135,
+      "candidate_average_oracle_regret": 0.024581388804201163,
+      "direct_effect_comparisons": 261,
+      "direct_effect_exact": 261,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 7,
+      "name": "Кража технологий",
+      "our_historical_play": 118,
+      "our_historical_discard": 44,
+      "opponent_play": 90,
+      "opponent_discard": 63,
+      "candidate_play": 195,
+      "candidate_discard": 12,
+      "candidate_by_phase": {
+        "early": {
+          "play": 56,
+          "discard": 3
+        },
+        "terminal_race": {
+          "play": 46,
+          "discard": 4
+        },
+        "midgame": {
+          "play": 56,
+          "discard": 3
+        },
+        "opening": {
+          "play": 24,
+          "discard": 1
+        },
+        "late": {
+          "discard": 1,
+          "play": 13
+        }
+      },
+      "historical_average_oracle_regret": 0.06218215408928123,
+      "candidate_average_oracle_regret": 0.039173747687008695,
+      "direct_effect_comparisons": 208,
+      "direct_effect_exact": 208,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 8,
+      "name": "Обычная стена",
+      "our_historical_play": 189,
+      "our_historical_discard": 10,
+      "opponent_play": 166,
+      "opponent_discard": 26,
+      "candidate_play": 72,
+      "candidate_discard": 10,
+      "candidate_by_phase": {
+        "early": {
+          "discard": 3,
+          "play": 13
+        },
+        "opening": {
+          "play": 12,
+          "discard": 1
+        },
+        "midgame": {
+          "play": 25
+        },
+        "terminal_race": {
+          "discard": 3,
+          "play": 16
+        },
+        "late": {
+          "discard": 3,
+          "play": 6
+        }
+      },
+      "historical_average_oracle_regret": 0.08735735713778472,
+      "candidate_average_oracle_regret": 0.024679093720092277,
+      "direct_effect_comparisons": 349,
+      "direct_effect_exact": 349,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 9,
+      "name": "Большая стена",
+      "our_historical_play": 197,
+      "our_historical_discard": 7,
+      "opponent_play": 178,
+      "opponent_discard": 13,
+      "candidate_play": 75,
+      "candidate_discard": 6,
+      "candidate_by_phase": {
+        "early": {
+          "play": 20,
+          "discard": 1
+        },
+        "opening": {
+          "play": 15
+        },
+        "midgame": {
+          "play": 15,
+          "discard": 3
+        },
+        "terminal_race": {
+          "play": 21,
+          "discard": 1
+        },
+        "late": {
+          "play": 4,
+          "discard": 1
+        }
+      },
+      "historical_average_oracle_regret": 0.08850449745270872,
+      "candidate_average_oracle_regret": 0.019173101018306618,
+      "direct_effect_comparisons": 371,
+      "direct_effect_exact": 371,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 10,
+      "name": "Новшества",
+      "our_historical_play": 180,
+      "our_historical_discard": 5,
+      "opponent_play": 176,
+      "opponent_discard": 32,
+      "candidate_play": 105,
+      "candidate_discard": 3,
+      "candidate_by_phase": {
+        "opening": {
+          "play": 34
+        },
+        "early": {
+          "play": 32
+        },
+        "midgame": {
+          "play": 15,
+          "discard": 1
+        },
+        "late": {
+          "play": 7,
+          "discard": 1
+        },
+        "terminal_race": {
+          "play": 17,
+          "discard": 1
+        }
+      },
+      "historical_average_oracle_regret": 0.0741526313085722,
+      "candidate_average_oracle_regret": 0.027662061394808892,
+      "direct_effect_comparisons": 347,
+      "direct_effect_exact": 347,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 11,
+      "name": "Фундамент",
+      "our_historical_play": 192,
+      "our_historical_discard": 10,
+      "opponent_play": 184,
+      "opponent_discard": 16,
+      "candidate_play": 65,
+      "candidate_discard": 25,
+      "candidate_by_phase": {
+        "early": {
+          "play": 21,
+          "discard": 4
+        },
+        "terminal_race": {
+          "play": 20,
+          "discard": 10
+        },
+        "midgame": {
+          "play": 14,
+          "discard": 4
+        },
+        "opening": {
+          "play": 7,
+          "discard": 1
+        },
+        "late": {
+          "discard": 6,
+          "play": 3
+        }
+      },
+      "historical_average_oracle_regret": 0.0870157942337652,
+      "candidate_average_oracle_regret": 0.013942956833700526,
+      "direct_effect_comparisons": 375,
+      "direct_effect_exact": 375,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 12,
+      "name": "Толчки",
+      "our_historical_play": 127,
+      "our_historical_discard": 59,
+      "opponent_play": 159,
+      "opponent_discard": 48,
+      "candidate_play": 880,
+      "candidate_discard": 34,
+      "candidate_by_phase": {
+        "early": {
+          "play": 200,
+          "discard": 6
+        },
+        "terminal_race": {
+          "play": 189,
+          "discard": 14
+        },
+        "midgame": {
+          "play": 242,
+          "discard": 12
+        },
+        "late": {
+          "play": 120,
+          "discard": 2
+        },
+        "opening": {
+          "play": 129
+        }
+      },
+      "historical_average_oracle_regret": 0.04350972734105055,
+      "candidate_average_oracle_regret": 0.005832749415051643,
+      "direct_effect_comparisons": 285,
+      "direct_effect_exact": 285,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 13,
+      "name": "Секретная пещера",
+      "our_historical_play": 209,
+      "our_historical_discard": 6,
+      "opponent_play": 214,
+      "opponent_discard": 4,
+      "candidate_play": 251,
+      "candidate_discard": 1,
+      "candidate_by_phase": {
+        "terminal_race": {
+          "play": 51
+        },
+        "opening": {
+          "play": 64
+        },
+        "early": {
+          "play": 60,
+          "discard": 1
+        },
+        "midgame": {
+          "play": 58
+        },
+        "late": {
+          "play": 18
+        }
+      },
+      "historical_average_oracle_regret": 0.0024156212842020865,
+      "candidate_average_oracle_regret": 0.0029902829090297767,
+      "direct_effect_comparisons": 423,
+      "direct_effect_exact": 423,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 14,
+      "name": "Землетрясение",
+      "our_historical_play": 195,
+      "our_historical_discard": 6,
+      "opponent_play": 78,
+      "opponent_discard": 138,
+      "candidate_play": 101,
+      "candidate_discard": 4,
+      "candidate_by_phase": {
+        "early": {
+          "play": 27,
+          "discard": 2
+        },
+        "midgame": {
+          "play": 24
+        },
+        "terminal_race": {
+          "play": 29,
+          "discard": 2
+        },
+        "late": {
+          "play": 6
+        },
+        "opening": {
+          "play": 15
+        }
+      },
+      "historical_average_oracle_regret": 0.09468358495497999,
+      "candidate_average_oracle_regret": 0.036473433118917806,
+      "direct_effect_comparisons": 272,
+      "direct_effect_exact": 272,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 15,
+      "name": "Усиленная стена",
+      "our_historical_play": 208,
+      "our_historical_discard": 12,
+      "opponent_play": 178,
+      "opponent_discard": 15,
+      "candidate_play": 98,
+      "candidate_discard": 12,
+      "candidate_by_phase": {
+        "midgame": {
+          "play": 25,
+          "discard": 1
+        },
+        "terminal_race": {
+          "play": 30,
+          "discard": 4
+        },
+        "early": {
+          "discard": 3,
+          "play": 21
+        },
+        "late": {
+          "play": 11,
+          "discard": 3
+        },
+        "opening": {
+          "discard": 1,
+          "play": 11
+        }
+      },
+      "historical_average_oracle_regret": 0.07881313897410362,
+      "candidate_average_oracle_regret": 0.023055424836554757,
+      "direct_effect_comparisons": 377,
+      "direct_effect_exact": 377,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 16,
+      "name": "Обвал",
+      "our_historical_play": 228,
+      "our_historical_discard": 6,
+      "opponent_play": 201,
+      "opponent_discard": 6,
+      "candidate_play": 103,
+      "candidate_discard": 5,
+      "candidate_by_phase": {
+        "early": {
+          "play": 24,
+          "discard": 1
+        },
+        "opening": {
+          "play": 27
+        },
+        "terminal_race": {
+          "discard": 1,
+          "play": 23
+        },
+        "late": {
+          "play": 9,
+          "discard": 1
+        },
+        "midgame": {
+          "play": 20,
+          "discard": 2
+        }
+      },
+      "historical_average_oracle_regret": 0.08993544699123314,
+      "candidate_average_oracle_regret": 0.012927984464188502,
+      "direct_effect_comparisons": 414,
+      "direct_effect_exact": 414,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 17,
+      "name": "Новое оборудование",
+      "our_historical_play": 220,
+      "our_historical_discard": 6,
+      "opponent_play": 210,
+      "opponent_discard": 1,
+      "candidate_play": 146,
+      "candidate_discard": 0,
+      "candidate_by_phase": {
+        "opening": {
+          "play": 58
+        },
+        "terminal_race": {
+          "play": 16
+        },
+        "midgame": {
+          "play": 32
+        },
+        "late": {
+          "play": 14
+        },
+        "early": {
+          "play": 26
+        }
+      },
+      "historical_average_oracle_regret": 0.06586673520387351,
+      "candidate_average_oracle_regret": 0.017329309349861276,
+      "direct_effect_comparisons": 413,
+      "direct_effect_exact": 413,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 18,
+      "name": "Обвал рудника",
+      "our_historical_play": 174,
+      "our_historical_discard": 28,
+      "opponent_play": 117,
+      "opponent_discard": 87,
+      "candidate_play": 59,
+      "candidate_discard": 4,
+      "candidate_by_phase": {
+        "midgame": {
+          "play": 17
+        },
+        "terminal_race": {
+          "play": 9,
+          "discard": 2
+        },
+        "early": {
+          "play": 19
+        },
+        "opening": {
+          "play": 11,
+          "discard": 1
+        },
+        "late": {
+          "play": 3,
+          "discard": 1
+        }
+      },
+      "historical_average_oracle_regret": 0.0845729713936069,
+      "candidate_average_oracle_regret": 0.05010621470941364,
+      "direct_effect_comparisons": 289,
+      "direct_effect_exact": 289,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 19,
+      "name": "Великая стена",
+      "our_historical_play": 160,
+      "our_historical_discard": 24,
+      "opponent_play": 163,
+      "opponent_discard": 24,
+      "candidate_play": 94,
+      "candidate_discard": 29,
+      "candidate_by_phase": {
+        "opening": {
+          "play": 23,
+          "discard": 1
+        },
+        "terminal_race": {
+          "play": 19,
+          "discard": 8
+        },
+        "late": {
+          "play": 12,
+          "discard": 4
+        },
+        "midgame": {
+          "play": 18,
+          "discard": 6
+        },
+        "early": {
+          "discard": 10,
+          "play": 22
+        }
+      },
+      "historical_average_oracle_regret": 0.09199300514181866,
+      "candidate_average_oracle_regret": 0.01599184191996492,
+      "direct_effect_comparisons": 323,
+      "direct_effect_exact": 323,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 20,
+      "name": "Галереи",
+      "our_historical_play": 193,
+      "our_historical_discard": 7,
+      "opponent_play": 209,
+      "opponent_discard": 5,
+      "candidate_play": 91,
+      "candidate_discard": 0,
+      "candidate_by_phase": {
+        "midgame": {
+          "play": 12
+        },
+        "early": {
+          "play": 28
+        },
+        "opening": {
+          "play": 46
+        },
+        "terminal_race": {
+          "play": 5
+        }
+      },
+      "historical_average_oracle_regret": 0.06372200568909661,
+      "candidate_average_oracle_regret": 0.01352751973680608,
+      "direct_effect_comparisons": 402,
+      "direct_effect_exact": 402,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 21,
+      "name": "Магическая гора",
+      "our_historical_play": 175,
+      "our_historical_discard": 21,
+      "opponent_play": 193,
+      "opponent_discard": 11,
+      "candidate_play": 48,
+      "candidate_discard": 9,
+      "candidate_by_phase": {
+        "early": {
+          "play": 15,
+          "discard": 2
+        },
+        "late": {
+          "play": 1,
+          "discard": 1
+        },
+        "terminal_race": {
+          "play": 11,
+          "discard": 2
+        },
+        "midgame": {
+          "discard": 2,
+          "play": 11
+        },
+        "opening": {
+          "play": 10,
+          "discard": 2
+        }
+      },
+      "historical_average_oracle_regret": 0.09102080531404992,
+      "candidate_average_oracle_regret": 0.02056652280353732,
+      "direct_effect_comparisons": 368,
+      "direct_effect_exact": 368,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 22,
+      "name": "Поющий уголь",
+      "our_historical_play": 157,
+      "our_historical_discard": 23,
+      "opponent_play": 186,
+      "opponent_discard": 21,
+      "candidate_play": 146,
+      "candidate_discard": 14,
+      "candidate_by_phase": {
+        "late": {
+          "play": 24
+        },
+        "opening": {
+          "play": 15,
+          "discard": 3
+        },
+        "midgame": {
+          "play": 34,
+          "discard": 5
+        },
+        "early": {
+          "play": 42,
+          "discard": 6
+        },
+        "terminal_race": {
+          "play": 31
+        }
+      },
+      "historical_average_oracle_regret": 0.06113825175883369,
+      "candidate_average_oracle_regret": 0.008042560898596984,
+      "direct_effect_comparisons": 343,
+      "direct_effect_exact": 343,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 23,
+      "name": "Бастион",
+      "our_historical_play": 106,
+      "our_historical_discard": 51,
+      "opponent_play": 119,
+      "opponent_discard": 47,
+      "candidate_play": 92,
+      "candidate_discard": 53,
+      "candidate_by_phase": {
+        "terminal_race": {
+          "play": 30,
+          "discard": 11
+        },
+        "midgame": {
+          "discard": 11,
+          "play": 23
+        },
+        "opening": {
+          "discard": 6,
+          "play": 5
+        },
+        "early": {
+          "discard": 20,
+          "play": 24
+        },
+        "late": {
+          "play": 10,
+          "discard": 5
+        }
+      },
+      "historical_average_oracle_regret": 0.04578490870459055,
+      "candidate_average_oracle_regret": 0.012710535701378065,
+      "direct_effect_comparisons": 223,
+      "direct_effect_exact": 223,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 24,
+      "name": "Новые успехи",
+      "our_historical_play": 138,
+      "our_historical_discard": 38,
+      "opponent_play": 169,
+      "opponent_discard": 24,
+      "candidate_play": 154,
+      "candidate_discard": 11,
+      "candidate_by_phase": {
+        "opening": {
+          "play": 3
+        },
+        "late": {
+          "play": 31,
+          "discard": 1
+        },
+        "terminal_race": {
+          "play": 46,
+          "discard": 3
+        },
+        "midgame": {
+          "play": 49,
+          "discard": 5
+        },
+        "early": {
+          "play": 25,
+          "discard": 2
+        }
+      },
+      "historical_average_oracle_regret": 0.07049852989465834,
+      "candidate_average_oracle_regret": 0.006019727218559501,
+      "direct_effect_comparisons": 307,
+      "direct_effect_exact": 307,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 25,
+      "name": "Величайшая стена",
+      "our_historical_play": 71,
+      "our_historical_discard": 56,
+      "opponent_play": 90,
+      "opponent_discard": 52,
+      "candidate_play": 91,
+      "candidate_discard": 38,
+      "candidate_by_phase": {
+        "terminal_race": {
+          "play": 32,
+          "discard": 5
+        },
+        "late": {
+          "play": 15,
+          "discard": 3
+        },
+        "early": {
+          "play": 9,
+          "discard": 12
+        },
+        "midgame": {
+          "play": 34,
+          "discard": 14
+        },
+        "opening": {
+          "discard": 4,
+          "play": 1
+        }
+      },
+      "historical_average_oracle_regret": 0.06086945929752862,
+      "candidate_average_oracle_regret": 0.014075998986832846,
+      "direct_effect_comparisons": 161,
+      "direct_effect_exact": 161,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 26,
+      "name": "Скаломет",
+      "our_historical_play": 108,
+      "our_historical_discard": 44,
+      "opponent_play": 131,
+      "opponent_discard": 41,
+      "candidate_play": 100,
+      "candidate_discard": 18,
+      "candidate_by_phase": {
+        "terminal_race": {
+          "play": 34,
+          "discard": 5
+        },
+        "early": {
+          "play": 22,
+          "discard": 2
+        },
+        "late": {
+          "play": 14,
+          "discard": 1
+        },
+        "midgame": {
+          "play": 30,
+          "discard": 7
+        },
+        "opening": {
+          "discard": 3
+        }
+      },
+      "historical_average_oracle_regret": 0.04672350461369549,
+      "candidate_average_oracle_regret": 0.006488511955671122,
+      "direct_effect_comparisons": 239,
+      "direct_effect_exact": 239,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 27,
+      "name": "Сердце дракона",
+      "our_historical_play": 94,
+      "our_historical_discard": 51,
+      "opponent_play": 105,
+      "opponent_discard": 43,
+      "candidate_play": 113,
+      "candidate_discard": 3,
+      "candidate_by_phase": {
+        "terminal_race": {
+          "play": 33
+        },
+        "late": {
+          "play": 31
+        },
+        "midgame": {
+          "play": 40
+        },
+        "early": {
+          "discard": 2,
+          "play": 9
+        },
+        "opening": {
+          "discard": 1
+        }
+      },
+      "historical_average_oracle_regret": 0.04669193258278384,
+      "candidate_average_oracle_regret": 0.0016191034023923508,
+      "direct_effect_comparisons": 199,
+      "direct_effect_exact": 199,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 28,
+      "name": "Рабский труд",
+      "our_historical_play": 174,
+      "our_historical_discard": 10,
+      "opponent_play": 112,
+      "opponent_discard": 86,
+      "candidate_play": 33,
+      "candidate_discard": 15,
+      "candidate_by_phase": {
+        "terminal_race": {
+          "play": 14,
+          "discard": 3
+        },
+        "midgame": {
+          "play": 7,
+          "discard": 4
+        },
+        "early": {
+          "play": 7,
+          "discard": 5
+        },
+        "late": {
+          "discard": 3,
+          "play": 1
+        },
+        "opening": {
+          "play": 4
+        }
+      },
+      "historical_average_oracle_regret": 0.07396088304190673,
+      "candidate_average_oracle_regret": 0.024637846845998294,
+      "direct_effect_comparisons": 284,
+      "direct_effect_exact": 284,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 29,
+      "name": "Сад камней",
+      "our_historical_play": 226,
+      "our_historical_discard": 8,
+      "opponent_play": 214,
+      "opponent_discard": 3,
+      "candidate_play": 99,
+      "candidate_discard": 1,
+      "candidate_by_phase": {
+        "midgame": {
+          "play": 20,
+          "discard": 1
+        },
+        "terminal_race": {
+          "play": 19
+        },
+        "opening": {
+          "play": 20
+        },
+        "early": {
+          "play": 30
+        },
+        "late": {
+          "play": 10
+        }
+      },
+      "historical_average_oracle_regret": 0.0760864947678328,
+      "candidate_average_oracle_regret": 0.015438569887912307,
+      "direct_effect_comparisons": 435,
+      "direct_effect_exact": 435,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 30,
+      "name": "Грунтовые воды",
+      "our_historical_play": 129,
+      "our_historical_discard": 43,
+      "opponent_play": 165,
+      "opponent_discard": 32,
+      "candidate_play": 92,
+      "candidate_discard": 26,
+      "candidate_by_phase": {
+        "midgame": {
+          "play": 23,
+          "discard": 10
+        },
+        "late": {
+          "play": 6,
+          "discard": 3
+        },
+        "early": {
+          "play": 24,
+          "discard": 5
+        },
+        "terminal_race": {
+          "play": 21,
+          "discard": 6
+        },
+        "opening": {
+          "play": 18,
+          "discard": 2
+        }
+      },
+      "historical_average_oracle_regret": 0.06603242637429133,
+      "candidate_average_oracle_regret": 0.018070848140370053,
+      "direct_effect_comparisons": 294,
+      "direct_effect_exact": 294,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 31,
+      "name": "Казармы",
+      "our_historical_play": 165,
+      "our_historical_discard": 8,
+      "opponent_play": 163,
+      "opponent_discard": 25,
+      "candidate_play": 23,
+      "candidate_discard": 12,
+      "candidate_by_phase": {
+        "midgame": {
+          "play": 3,
+          "discard": 5
+        },
+        "opening": {
+          "play": 3
+        },
+        "early": {
+          "discard": 2,
+          "play": 13
+        },
+        "terminal_race": {
+          "discard": 5,
+          "play": 4
+        }
+      },
+      "historical_average_oracle_regret": 0.08694704106761919,
+      "candidate_average_oracle_regret": 0.008824303191524075,
+      "direct_effect_comparisons": 328,
+      "direct_effect_exact": 328,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 32,
+      "name": "Укрепления",
+      "our_historical_play": 112,
+      "our_historical_discard": 32,
+      "opponent_play": 152,
+      "opponent_discard": 34,
+      "candidate_play": 95,
+      "candidate_discard": 19,
+      "candidate_by_phase": {
+        "midgame": {
+          "play": 25,
+          "discard": 6
+        },
+        "early": {
+          "play": 36,
+          "discard": 8
+        },
+        "terminal_race": {
+          "play": 20,
+          "discard": 3
+        },
+        "opening": {
+          "play": 4,
+          "discard": 1
+        },
+        "late": {
+          "play": 10,
+          "discard": 1
+        }
+      },
+      "historical_average_oracle_regret": 0.0432866966268894,
+      "candidate_average_oracle_regret": 0.009676886324216335,
+      "direct_effect_comparisons": 264,
+      "direct_effect_exact": 264,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 33,
+      "name": "Сдвиг",
+      "our_historical_play": 60,
+      "our_historical_discard": 83,
+      "opponent_play": 57,
+      "opponent_discard": 51,
+      "candidate_play": 104,
+      "candidate_discard": 137,
+      "candidate_by_phase": {
+        "terminal_race": {
+          "discard": 39,
+          "play": 29
+        },
+        "early": {
+          "discard": 25,
+          "play": 20
+        },
+        "late": {
+          "play": 20,
+          "discard": 30
+        },
+        "midgame": {
+          "discard": 35,
+          "play": 35
+        },
+        "opening": {
+          "discard": 8
+        }
+      },
+      "historical_average_oracle_regret": 0.04370514330585615,
+      "candidate_average_oracle_regret": 0.048126812154604424,
+      "direct_effect_comparisons": 117,
+      "direct_effect_exact": 117,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 34,
+      "name": "Кварц",
+      "our_historical_play": 251,
+      "our_historical_discard": 5,
+      "opponent_play": 220,
+      "opponent_discard": 6,
+      "candidate_play": 299,
+      "candidate_discard": 1,
+      "candidate_by_phase": {
+        "terminal_race": {
+          "play": 52,
+          "discard": 1
+        },
+        "midgame": {
+          "play": 67
+        },
+        "early": {
+          "play": 51
+        },
+        "opening": {
+          "play": 87
+        },
+        "late": {
+          "play": 42
+        }
+      },
+      "historical_average_oracle_regret": 0.0031338626616404614,
+      "candidate_average_oracle_regret": 0.0026437734939358916,
+      "direct_effect_comparisons": 464,
+      "direct_effect_exact": 464,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 35,
+      "name": "Дымчатый кварц",
+      "our_historical_play": 234,
+      "our_historical_discard": 1,
+      "opponent_play": 220,
+      "opponent_discard": 6,
+      "candidate_play": 359,
+      "candidate_discard": 0,
+      "candidate_by_phase": {
+        "midgame": {
+          "play": 60
+        },
+        "late": {
+          "play": 44
+        },
+        "terminal_race": {
+          "play": 70
+        },
+        "opening": {
+          "play": 89
+        },
+        "early": {
+          "play": 96
+        }
+      },
+      "historical_average_oracle_regret": 0.007450568551026192,
+      "candidate_average_oracle_regret": 0.005699026136009694,
+      "direct_effect_comparisons": 445,
+      "direct_effect_exact": 445,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 36,
+      "name": "Аметист",
+      "our_historical_play": 222,
+      "our_historical_discard": 0,
+      "opponent_play": 204,
+      "opponent_discard": 1,
+      "candidate_play": 160,
+      "candidate_discard": 0,
+      "candidate_by_phase": {
+        "early": {
+          "play": 32
+        },
+        "late": {
+          "play": 16
+        },
+        "terminal_race": {
+          "play": 38
+        },
+        "opening": {
+          "play": 41
+        },
+        "midgame": {
+          "play": 33
+        }
+      },
+      "historical_average_oracle_regret": 0.06438252590411074,
+      "candidate_average_oracle_regret": 0.006965735162224143,
+      "direct_effect_comparisons": 422,
+      "direct_effect_exact": 422,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 37,
+      "name": "Ткачи заклинаний",
+      "our_historical_play": 229,
+      "our_historical_discard": 0,
+      "opponent_play": 213,
+      "opponent_discard": 1,
+      "candidate_play": 88,
+      "candidate_discard": 0,
+      "candidate_by_phase": {
+        "opening": {
+          "play": 38
+        },
+        "terminal_race": {
+          "play": 8
+        },
+        "early": {
+          "play": 26
+        },
+        "midgame": {
+          "play": 7
+        },
+        "late": {
+          "play": 9
+        }
+      },
+      "historical_average_oracle_regret": 0.05230681085234568,
+      "candidate_average_oracle_regret": 0.003463001913318349,
+      "direct_effect_comparisons": 425,
+      "direct_effect_exact": 425,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 38,
+      "name": "Рудная жила",
+      "our_historical_play": 229,
+      "our_historical_discard": 0,
+      "opponent_play": 222,
+      "opponent_discard": 2,
+      "candidate_play": 221,
+      "candidate_discard": 0,
+      "candidate_by_phase": {
+        "terminal_race": {
+          "play": 33
+        },
+        "opening": {
+          "play": 97
+        },
+        "early": {
+          "play": 43
+        },
+        "midgame": {
+          "play": 34
+        },
+        "late": {
+          "play": 14
+        }
+      },
+      "historical_average_oracle_regret": 0.04129324541979383,
+      "candidate_average_oracle_regret": 0.000599736708326553,
+      "direct_effect_comparisons": 448,
+      "direct_effect_exact": 448,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 39,
+      "name": "Затмение",
+      "our_historical_play": 217,
+      "our_historical_discard": 1,
+      "opponent_play": 237,
+      "opponent_discard": 4,
+      "candidate_play": 169,
+      "candidate_discard": 2,
+      "candidate_by_phase": {
+        "late": {
+          "play": 9
+        },
+        "midgame": {
+          "play": 27,
+          "discard": 1
+        },
+        "terminal_race": {
+          "play": 31
+        },
+        "opening": {
+          "play": 53
+        },
+        "early": {
+          "play": 49,
+          "discard": 1
+        }
+      },
+      "historical_average_oracle_regret": 0.055643550027130104,
+      "candidate_average_oracle_regret": 0.007983516790118718,
+      "direct_effect_comparisons": 454,
+      "direct_effect_exact": 454,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 40,
+      "name": "Матрица",
+      "our_historical_play": 215,
+      "our_historical_discard": 2,
+      "opponent_play": 238,
+      "opponent_discard": 2,
+      "candidate_play": 122,
+      "candidate_discard": 0,
+      "candidate_by_phase": {
+        "opening": {
+          "play": 56
+        },
+        "midgame": {
+          "play": 24
+        },
+        "terminal_race": {
+          "play": 13
+        },
+        "late": {
+          "play": 4
+        },
+        "early": {
+          "play": 25
+        }
+      },
+      "historical_average_oracle_regret": 0.042552843453899585,
+      "candidate_average_oracle_regret": 0.002299126384514116,
+      "direct_effect_comparisons": 440,
+      "direct_effect_exact": 440,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 41,
+      "name": "Трещина",
+      "our_historical_play": 236,
+      "our_historical_discard": 0,
+      "opponent_play": 214,
+      "opponent_discard": 6,
+      "candidate_play": 195,
+      "candidate_discard": 0,
+      "candidate_by_phase": {
+        "terminal_race": {
+          "play": 34
+        },
+        "opening": {
+          "play": 59
+        },
+        "early": {
+          "play": 69
+        },
+        "midgame": {
+          "play": 25
+        },
+        "late": {
+          "play": 8
+        }
+      },
+      "historical_average_oracle_regret": 0.05360766787070339,
+      "candidate_average_oracle_regret": 0.008706500549004815,
+      "direct_effect_comparisons": 445,
+      "direct_effect_exact": 445,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 42,
+      "name": "Рубин",
+      "our_historical_play": 231,
+      "our_historical_discard": 0,
+      "opponent_play": 248,
+      "opponent_discard": 5,
+      "candidate_play": 195,
+      "candidate_discard": 1,
+      "candidate_by_phase": {
+        "late": {
+          "play": 13,
+          "discard": 1
+        },
+        "midgame": {
+          "play": 29
+        },
+        "opening": {
+          "play": 61
+        },
+        "early": {
+          "play": 55
+        },
+        "terminal_race": {
+          "play": 37
+        }
+      },
+      "historical_average_oracle_regret": 0.06764722314680802,
+      "candidate_average_oracle_regret": 0.005359649751797268,
+      "direct_effect_comparisons": 473,
+      "direct_effect_exact": 473,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 43,
+      "name": "Копье",
+      "our_historical_play": 233,
+      "our_historical_discard": 0,
+      "opponent_play": 198,
+      "opponent_discard": 9,
+      "candidate_play": 231,
+      "candidate_discard": 3,
+      "candidate_by_phase": {
+        "terminal_race": {
+          "play": 30,
+          "discard": 1
+        },
+        "late": {
+          "play": 17
+        },
+        "opening": {
+          "play": 93
+        },
+        "early": {
+          "play": 63
+        },
+        "midgame": {
+          "play": 28,
+          "discard": 2
+        }
+      },
+      "historical_average_oracle_regret": 0.06196970797430864,
+      "candidate_average_oracle_regret": 0.003503202781333457,
+      "direct_effect_comparisons": 427,
+      "direct_effect_exact": 427,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 44,
+      "name": "Взрыв силы",
+      "our_historical_play": 211,
+      "our_historical_discard": 2,
+      "opponent_play": 171,
+      "opponent_discard": 20,
+      "candidate_play": 99,
+      "candidate_discard": 2,
+      "candidate_by_phase": {
+        "opening": {
+          "play": 42
+        },
+        "terminal_race": {
+          "play": 10,
+          "discard": 2
+        },
+        "early": {
+          "play": 25
+        },
+        "midgame": {
+          "play": 12
+        },
+        "late": {
+          "play": 10
+        }
+      },
+      "historical_average_oracle_regret": 0.07168821885212945,
+      "candidate_average_oracle_regret": 0.016581253048888717,
+      "direct_effect_comparisons": 365,
+      "direct_effect_exact": 365,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 45,
+      "name": "Гармония",
+      "our_historical_play": 222,
+      "our_historical_discard": 0,
+      "opponent_play": 229,
+      "opponent_discard": 3,
+      "candidate_play": 98,
+      "candidate_discard": 0,
+      "candidate_by_phase": {
+        "early": {
+          "play": 16
+        },
+        "midgame": {
+          "play": 9
+        },
+        "opening": {
+          "play": 55
+        },
+        "terminal_race": {
+          "play": 13
+        },
+        "late": {
+          "play": 5
+        }
+      },
+      "historical_average_oracle_regret": 0.055553456146462274,
+      "candidate_average_oracle_regret": 0.001513194213515372,
+      "direct_effect_comparisons": 434,
+      "direct_effect_exact": 434,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 46,
+      "name": "Паритет",
+      "our_historical_play": 102,
+      "our_historical_discard": 1,
+      "opponent_play": 107,
+      "opponent_discard": 45,
+      "candidate_play": 86,
+      "candidate_discard": 9,
+      "candidate_by_phase": {
+        "early": {
+          "play": 19
+        },
+        "terminal_race": {
+          "play": 14,
+          "discard": 9
+        },
+        "late": {
+          "play": 9
+        },
+        "midgame": {
+          "play": 23
+        },
+        "opening": {
+          "play": 21
+        }
+      },
+      "historical_average_oracle_regret": 0.0718815511569375,
+      "candidate_average_oracle_regret": 0.031280440203233804,
+      "direct_effect_comparisons": 209,
+      "direct_effect_exact": 209,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 47,
+      "name": "Эмеральд",
+      "our_historical_play": 238,
+      "our_historical_discard": 1,
+      "opponent_play": 225,
+      "opponent_discard": 0,
+      "candidate_play": 222,
+      "candidate_discard": 0,
+      "candidate_by_phase": {
+        "terminal_race": {
+          "play": 42
+        },
+        "midgame": {
+          "play": 45
+        },
+        "early": {
+          "play": 48
+        },
+        "opening": {
+          "play": 66
+        },
+        "late": {
+          "play": 21
+        }
+      },
+      "historical_average_oracle_regret": 0.05495941231249625,
+      "candidate_average_oracle_regret": 0.0028846510875375807,
+      "direct_effect_comparisons": 462,
+      "direct_effect_exact": 462,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 48,
+      "name": "Жемчуг мудрости",
+      "our_historical_play": 223,
+      "our_historical_discard": 2,
+      "opponent_play": 230,
+      "opponent_discard": 4,
+      "candidate_play": 137,
+      "candidate_discard": 0,
+      "candidate_by_phase": {
+        "midgame": {
+          "play": 20
+        },
+        "opening": {
+          "play": 60
+        },
+        "early": {
+          "play": 34
+        },
+        "late": {
+          "play": 10
+        },
+        "terminal_race": {
+          "play": 13
+        }
+      },
+      "historical_average_oracle_regret": 0.041818764994554176,
+      "candidate_average_oracle_regret": 0.00023714687019874955,
+      "direct_effect_comparisons": 453,
+      "direct_effect_exact": 453,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 49,
+      "name": "Дробление",
+      "our_historical_play": 189,
+      "our_historical_discard": 2,
+      "opponent_play": 79,
+      "opponent_discard": 86,
+      "candidate_play": 456,
+      "candidate_discard": 7,
+      "candidate_by_phase": {
+        "early": {
+          "play": 152,
+          "discard": 2
+        },
+        "terminal_race": {
+          "play": 80,
+          "discard": 2
+        },
+        "opening": {
+          "play": 61
+        },
+        "midgame": {
+          "play": 133,
+          "discard": 2
+        },
+        "late": {
+          "play": 30,
+          "discard": 1
+        }
+      },
+      "historical_average_oracle_regret": 0.06114658947170956,
+      "candidate_average_oracle_regret": 0.019181279872957344,
+      "direct_effect_comparisons": 268,
+      "direct_effect_exact": 268,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 50,
+      "name": "Мягкий камень",
+      "our_historical_play": 220,
+      "our_historical_discard": 1,
+      "opponent_play": 220,
+      "opponent_discard": 6,
+      "candidate_play": 161,
+      "candidate_discard": 5,
+      "candidate_by_phase": {
+        "late": {
+          "play": 13,
+          "discard": 1
+        },
+        "early": {
+          "play": 35,
+          "discard": 2
+        },
+        "terminal_race": {
+          "play": 39
+        },
+        "midgame": {
+          "play": 32,
+          "discard": 2
+        },
+        "opening": {
+          "play": 42
+        }
+      },
+      "historical_average_oracle_regret": 0.0552758123196045,
+      "candidate_average_oracle_regret": 0.0035313045876584955,
+      "direct_effect_comparisons": 435,
+      "direct_effect_exact": 435,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 51,
+      "name": "Сапфир",
+      "our_historical_play": 218,
+      "our_historical_discard": 2,
+      "opponent_play": 211,
+      "opponent_discard": 4,
+      "candidate_play": 233,
+      "candidate_discard": 0,
+      "candidate_by_phase": {
+        "terminal_race": {
+          "play": 40
+        },
+        "midgame": {
+          "play": 66
+        },
+        "early": {
+          "play": 74
+        },
+        "late": {
+          "play": 21
+        },
+        "opening": {
+          "play": 32
+        }
+      },
+      "historical_average_oracle_regret": 0.03787693168884256,
+      "candidate_average_oracle_regret": 0.0022617181699981295,
+      "direct_effect_comparisons": 428,
+      "direct_effect_exact": 428,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 52,
+      "name": "Раздоры",
+      "our_historical_play": 126,
+      "our_historical_discard": 83,
+      "opponent_play": 99,
+      "opponent_discard": 75,
+      "candidate_play": 65,
+      "candidate_discard": 31,
+      "candidate_by_phase": {
+        "terminal_race": {
+          "play": 13,
+          "discard": 7
+        },
+        "early": {
+          "play": 18,
+          "discard": 11
+        },
+        "midgame": {
+          "play": 19,
+          "discard": 7
+        },
+        "opening": {
+          "play": 7,
+          "discard": 2
+        },
+        "late": {
+          "play": 8,
+          "discard": 4
+        }
+      },
+      "historical_average_oracle_regret": 0.07258464894966787,
+      "candidate_average_oracle_regret": 0.031587438715234055,
+      "direct_effect_comparisons": 224,
+      "direct_effect_exact": 224,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 53,
+      "name": "Огненный рубин",
+      "our_historical_play": 172,
+      "our_historical_discard": 8,
+      "opponent_play": 185,
+      "opponent_discard": 14,
+      "candidate_play": 174,
+      "candidate_discard": 3,
+      "candidate_by_phase": {
+        "early": {
+          "play": 54,
+          "discard": 1
+        },
+        "midgame": {
+          "play": 45
+        },
+        "terminal_race": {
+          "play": 37,
+          "discard": 1
+        },
+        "late": {
+          "play": 22,
+          "discard": 1
+        },
+        "opening": {
+          "play": 16
+        }
+      },
+      "historical_average_oracle_regret": 0.056716637997994826,
+      "candidate_average_oracle_regret": 0.0021616329837705513,
+      "direct_effect_comparisons": 357,
+      "direct_effect_exact": 357,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 54,
+      "name": "Помощь в работе",
+      "our_historical_play": 236,
+      "our_historical_discard": 0,
+      "opponent_play": 168,
+      "opponent_discard": 23,
+      "candidate_play": 179,
+      "candidate_discard": 0,
+      "candidate_by_phase": {
+        "terminal_race": {
+          "play": 39
+        },
+        "early": {
+          "play": 42
+        },
+        "midgame": {
+          "play": 29
+        },
+        "opening": {
+          "play": 54
+        },
+        "late": {
+          "play": 15
+        }
+      },
+      "historical_average_oracle_regret": 0.05390435152496297,
+      "candidate_average_oracle_regret": 0.0011189698181393812,
+      "direct_effect_comparisons": 404,
+      "direct_effect_exact": 404,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 55,
+      "name": "Кристальный щит",
+      "our_historical_play": 159,
+      "our_historical_discard": 6,
+      "opponent_play": 213,
+      "opponent_discard": 11,
+      "candidate_play": 149,
+      "candidate_discard": 3,
+      "candidate_by_phase": {
+        "terminal_race": {
+          "play": 37,
+          "discard": 3
+        },
+        "early": {
+          "play": 43
+        },
+        "late": {
+          "play": 14
+        },
+        "opening": {
+          "play": 17
+        },
+        "midgame": {
+          "play": 38
+        }
+      },
+      "historical_average_oracle_regret": 0.06041168123173001,
+      "candidate_average_oracle_regret": 0.001822634161243916,
+      "direct_effect_comparisons": 372,
+      "direct_effect_exact": 372,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 56,
+      "name": "Эмпатия",
+      "our_historical_play": 180,
+      "our_historical_discard": 6,
+      "opponent_play": 190,
+      "opponent_discard": 7,
+      "candidate_play": 114,
+      "candidate_discard": 0,
+      "candidate_by_phase": {
+        "early": {
+          "play": 38
+        },
+        "late": {
+          "play": 15
+        },
+        "terminal_race": {
+          "play": 18
+        },
+        "midgame": {
+          "play": 35
+        },
+        "opening": {
+          "play": 8
+        }
+      },
+      "historical_average_oracle_regret": 0.045778424720737065,
+      "candidate_average_oracle_regret": 0.000298057741686816,
+      "direct_effect_comparisons": 370,
+      "direct_effect_exact": 370,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 57,
+      "name": "Алмаз",
+      "our_historical_play": 162,
+      "our_historical_discard": 16,
+      "opponent_play": 182,
+      "opponent_discard": 10,
+      "candidate_play": 177,
+      "candidate_discard": 0,
+      "candidate_by_phase": {
+        "early": {
+          "play": 44
+        },
+        "opening": {
+          "play": 5
+        },
+        "midgame": {
+          "play": 51
+        },
+        "terminal_race": {
+          "play": 49
+        },
+        "late": {
+          "play": 28
+        }
+      },
+      "historical_average_oracle_regret": 0.032461708062948416,
+      "candidate_average_oracle_regret": 0.0027104000925885817,
+      "direct_effect_comparisons": 344,
+      "direct_effect_exact": 344,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 58,
+      "name": "Монастырь",
+      "our_historical_play": 159,
+      "our_historical_discard": 11,
+      "opponent_play": 190,
+      "opponent_discard": 4,
+      "candidate_play": 166,
+      "candidate_discard": 1,
+      "candidate_by_phase": {
+        "early": {
+          "play": 37
+        },
+        "terminal_race": {
+          "play": 48,
+          "discard": 1
+        },
+        "late": {
+          "play": 25
+        },
+        "opening": {
+          "play": 8
+        },
+        "midgame": {
+          "play": 48
+        }
+      },
+      "historical_average_oracle_regret": 0.04450972588394001,
+      "candidate_average_oracle_regret": 0.008963647047312555,
+      "direct_effect_comparisons": 349,
+      "direct_effect_exact": 349,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 59,
+      "name": "Сияющий камень",
+      "our_historical_play": 158,
+      "our_historical_discard": 15,
+      "opponent_play": 163,
+      "opponent_discard": 16,
+      "candidate_play": 163,
+      "candidate_discard": 0,
+      "candidate_by_phase": {
+        "midgame": {
+          "play": 50
+        },
+        "late": {
+          "play": 25
+        },
+        "terminal_race": {
+          "play": 44
+        },
+        "early": {
+          "play": 40
+        },
+        "opening": {
+          "play": 4
+        }
+      },
+      "historical_average_oracle_regret": 0.04196451592261388,
+      "candidate_average_oracle_regret": 0.0030321684667787875,
+      "direct_effect_comparisons": 321,
+      "direct_effect_exact": 321,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 60,
+      "name": "Глаз дракона",
+      "our_historical_play": 127,
+      "our_historical_discard": 27,
+      "opponent_play": 157,
+      "opponent_discard": 9,
+      "candidate_play": 157,
+      "candidate_discard": 0,
+      "candidate_by_phase": {
+        "late": {
+          "play": 37
+        },
+        "terminal_race": {
+          "play": 57
+        },
+        "midgame": {
+          "play": 41
+        },
+        "early": {
+          "play": 21
+        },
+        "opening": {
+          "play": 1
+        }
+      },
+      "historical_average_oracle_regret": 0.04906707302941357,
+      "candidate_average_oracle_regret": 0.028798215818674092,
+      "direct_effect_comparisons": 284,
+      "direct_effect_exact": 284,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 61,
+      "name": "Отвердение",
+      "our_historical_play": 239,
+      "our_historical_discard": 0,
+      "opponent_play": 212,
+      "opponent_discard": 5,
+      "candidate_play": 309,
+      "candidate_discard": 0,
+      "candidate_by_phase": {
+        "early": {
+          "play": 73
+        },
+        "terminal_race": {
+          "play": 56
+        },
+        "late": {
+          "play": 51
+        },
+        "opening": {
+          "play": 80
+        },
+        "midgame": {
+          "play": 49
+        }
+      },
+      "historical_average_oracle_regret": 0.05028941115186571,
+      "candidate_average_oracle_regret": 0.00234948405596945,
+      "direct_effect_comparisons": 451,
+      "direct_effect_exact": 451,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 62,
+      "name": "Бижутерия",
+      "our_historical_play": 208,
+      "our_historical_discard": 0,
+      "opponent_play": 200,
+      "opponent_discard": 3,
+      "candidate_play": 111,
+      "candidate_discard": 0,
+      "candidate_by_phase": {
+        "early": {
+          "play": 36
+        },
+        "opening": {
+          "play": 19
+        },
+        "late": {
+          "play": 14
+        },
+        "midgame": {
+          "play": 20
+        },
+        "terminal_race": {
+          "play": 22
+        }
+      },
+      "historical_average_oracle_regret": 0.06742500049231176,
+      "candidate_average_oracle_regret": 0.013568210347087958,
+      "direct_effect_comparisons": 405,
+      "direct_effect_exact": 405,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 63,
+      "name": "Радуга",
+      "our_historical_play": 176,
+      "our_historical_discard": 8,
+      "opponent_play": 178,
+      "opponent_discard": 10,
+      "candidate_play": 62,
+      "candidate_discard": 7,
+      "candidate_by_phase": {
+        "late": {
+          "play": 12
+        },
+        "terminal_race": {
+          "play": 17,
+          "discard": 2
+        },
+        "early": {
+          "play": 17,
+          "discard": 3
+        },
+        "midgame": {
+          "play": 9
+        },
+        "opening": {
+          "play": 7,
+          "discard": 2
+        }
+      },
+      "historical_average_oracle_regret": 0.08702277077485145,
+      "candidate_average_oracle_regret": 0.03267758370359517,
+      "direct_effect_comparisons": 351,
+      "direct_effect_exact": 351,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 64,
+      "name": "Вступление",
+      "our_historical_play": 230,
+      "our_historical_discard": 0,
+      "opponent_play": 188,
+      "opponent_discard": 17,
+      "candidate_play": 91,
+      "candidate_discard": 0,
+      "candidate_by_phase": {
+        "midgame": {
+          "play": 22
+        },
+        "opening": {
+          "play": 16
+        },
+        "early": {
+          "play": 17
+        },
+        "terminal_race": {
+          "play": 24
+        },
+        "late": {
+          "play": 12
+        }
+      },
+      "historical_average_oracle_regret": 0.061131180606192013,
+      "candidate_average_oracle_regret": 0.0013432915769957911,
+      "direct_effect_comparisons": 414,
+      "direct_effect_exact": 414,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 65,
+      "name": "Молния",
+      "our_historical_play": 180,
+      "our_historical_discard": 8,
+      "opponent_play": 175,
+      "opponent_discard": 17,
+      "candidate_play": 193,
+      "candidate_discard": 6,
+      "candidate_by_phase": {
+        "opening": {
+          "play": 20
+        },
+        "terminal_race": {
+          "play": 37,
+          "discard": 4
+        },
+        "early": {
+          "play": 72,
+          "discard": 1
+        },
+        "midgame": {
+          "play": 42
+        },
+        "late": {
+          "play": 22,
+          "discard": 1
+        }
+      },
+      "historical_average_oracle_regret": 0.04247625887627779,
+      "candidate_average_oracle_regret": 0.004409574187938703,
+      "direct_effect_comparisons": 355,
+      "direct_effect_exact": 355,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 66,
+      "name": "Медитация",
+      "our_historical_play": 133,
+      "our_historical_discard": 22,
+      "opponent_play": 155,
+      "opponent_discard": 9,
+      "candidate_play": 114,
+      "candidate_discard": 0,
+      "candidate_by_phase": {
+        "midgame": {
+          "play": 39
+        },
+        "terminal_race": {
+          "play": 35
+        },
+        "early": {
+          "play": 21
+        },
+        "late": {
+          "play": 18
+        },
+        "opening": {
+          "play": 1
+        }
+      },
+      "historical_average_oracle_regret": 0.05218835815471809,
+      "candidate_average_oracle_regret": 9.011584358210356e-05,
+      "direct_effect_comparisons": 288,
+      "direct_effect_exact": 288,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 67,
+      "name": "Коровье бешенство",
+      "our_historical_play": 172,
+      "our_historical_discard": 21,
+      "opponent_play": 49,
+      "opponent_discard": 116,
+      "candidate_play": 116,
+      "candidate_discard": 6,
+      "candidate_by_phase": {
+        "early": {
+          "play": 37,
+          "discard": 1
+        },
+        "midgame": {
+          "play": 26,
+          "discard": 1
+        },
+        "terminal_race": {
+          "play": 28,
+          "discard": 2
+        },
+        "opening": {
+          "play": 19,
+          "discard": 2
+        },
+        "late": {
+          "play": 6
+        }
+      },
+      "historical_average_oracle_regret": 0.08140149656007929,
+      "candidate_average_oracle_regret": 0.040498555980908194,
+      "direct_effect_comparisons": 221,
+      "direct_effect_exact": 221,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 68,
+      "name": "Фея",
+      "our_historical_play": 236,
+      "our_historical_discard": 9,
+      "opponent_play": 213,
+      "opponent_discard": 0,
+      "candidate_play": 349,
+      "candidate_discard": 3,
+      "candidate_by_phase": {
+        "opening": {
+          "play": 60,
+          "discard": 1
+        },
+        "late": {
+          "play": 65
+        },
+        "midgame": {
+          "play": 75,
+          "discard": 1
+        },
+        "terminal_race": {
+          "play": 94,
+          "discard": 1
+        },
+        "early": {
+          "play": 55
+        }
+      },
+      "historical_average_oracle_regret": 0.005867634773143218,
+      "candidate_average_oracle_regret": 0.0006418641935533831,
+      "direct_effect_comparisons": 442,
+      "direct_effect_exact": 442,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 69,
+      "name": "Гоблины",
+      "our_historical_play": 193,
+      "our_historical_discard": 4,
+      "opponent_play": 120,
+      "opponent_discard": 55,
+      "candidate_play": 51,
+      "candidate_discard": 0,
+      "candidate_by_phase": {
+        "late": {
+          "play": 4
+        },
+        "midgame": {
+          "play": 14
+        },
+        "early": {
+          "play": 13
+        },
+        "opening": {
+          "play": 8
+        },
+        "terminal_race": {
+          "play": 12
+        }
+      },
+      "historical_average_oracle_regret": 0.06375867270261729,
+      "candidate_average_oracle_regret": 0.005694185753692185,
+      "direct_effect_comparisons": 313,
+      "direct_effect_exact": 313,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 70,
+      "name": "Минотавр",
+      "our_historical_play": 221,
+      "our_historical_discard": 0,
+      "opponent_play": 232,
+      "opponent_discard": 2,
+      "candidate_play": 85,
+      "candidate_discard": 0,
+      "candidate_by_phase": {
+        "opening": {
+          "play": 47
+        },
+        "terminal_race": {
+          "play": 6
+        },
+        "midgame": {
+          "play": 13
+        },
+        "early": {
+          "play": 18
+        },
+        "late": {
+          "play": 1
+        }
+      },
+      "historical_average_oracle_regret": 0.06839480438356599,
+      "candidate_average_oracle_regret": 0.00366392312805168,
+      "direct_effect_comparisons": 447,
+      "direct_effect_exact": 447,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 71,
+      "name": "Армия гоблинов",
+      "our_historical_play": 164,
+      "our_historical_discard": 23,
+      "opponent_play": 152,
+      "opponent_discard": 55,
+      "candidate_play": 172,
+      "candidate_discard": 7,
+      "candidate_by_phase": {
+        "opening": {
+          "play": 47
+        },
+        "late": {
+          "play": 17
+        },
+        "early": {
+          "play": 50,
+          "discard": 1
+        },
+        "terminal_race": {
+          "play": 27,
+          "discard": 5
+        },
+        "midgame": {
+          "play": 31,
+          "discard": 1
+        }
+      },
+      "historical_average_oracle_regret": 0.06579682642957013,
+      "candidate_average_oracle_regret": 0.009270543056970724,
+      "direct_effect_comparisons": 314,
+      "direct_effect_exact": 314,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 72,
+      "name": "Гоблины-лучники",
+      "our_historical_play": 184,
+      "our_historical_discard": 7,
+      "opponent_play": 197,
+      "opponent_discard": 20,
+      "candidate_play": 196,
+      "candidate_discard": 6,
+      "candidate_by_phase": {
+        "late": {
+          "play": 11
+        },
+        "early": {
+          "play": 67,
+          "discard": 1
+        },
+        "midgame": {
+          "play": 52,
+          "discard": 2
+        },
+        "terminal_race": {
+          "play": 35,
+          "discard": 1
+        },
+        "opening": {
+          "play": 31,
+          "discard": 2
+        }
+      },
+      "historical_average_oracle_regret": 0.06117257038120417,
+      "candidate_average_oracle_regret": 0.01740099540072939,
+      "direct_effect_comparisons": 378,
+      "direct_effect_exact": 378,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 73,
+      "name": "Призрачная фея",
+      "our_historical_play": 192,
+      "our_historical_discard": 12,
+      "opponent_play": 230,
+      "opponent_discard": 13,
+      "candidate_play": 575,
+      "candidate_discard": 11,
+      "candidate_by_phase": {
+        "early": {
+          "play": 159,
+          "discard": 7
+        },
+        "midgame": {
+          "play": 124,
+          "discard": 3
+        },
+        "terminal_race": {
+          "play": 94
+        },
+        "opening": {
+          "play": 148,
+          "discard": 1
+        },
+        "late": {
+          "play": 50
+        }
+      },
+      "historical_average_oracle_regret": 0.005614365874025232,
+      "candidate_average_oracle_regret": 0.00994133473833142,
+      "direct_effect_comparisons": 416,
+      "direct_effect_exact": 416,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 74,
+      "name": "Орк",
+      "our_historical_play": 225,
+      "our_historical_discard": 2,
+      "opponent_play": 205,
+      "opponent_discard": 8,
+      "candidate_play": 129,
+      "candidate_discard": 1,
+      "candidate_by_phase": {
+        "early": {
+          "play": 29
+        },
+        "late": {
+          "play": 13
+        },
+        "opening": {
+          "play": 38,
+          "discard": 1
+        },
+        "terminal_race": {
+          "play": 23
+        },
+        "midgame": {
+          "play": 26
+        }
+      },
+      "historical_average_oracle_regret": 0.0654643669077172,
+      "candidate_average_oracle_regret": 0.008167970964132111,
+      "direct_effect_comparisons": 427,
+      "direct_effect_exact": 427,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 75,
+      "name": "Гномы",
+      "our_historical_play": 222,
+      "our_historical_discard": 2,
+      "opponent_play": 209,
+      "opponent_discard": 12,
+      "candidate_play": 118,
+      "candidate_discard": 2,
+      "candidate_by_phase": {
+        "terminal_race": {
+          "play": 26,
+          "discard": 1
+        },
+        "early": {
+          "play": 28,
+          "discard": 1
+        },
+        "late": {
+          "play": 11
+        },
+        "opening": {
+          "play": 18
+        },
+        "midgame": {
+          "play": 35
+        }
+      },
+      "historical_average_oracle_regret": 0.06992197275947626,
+      "candidate_average_oracle_regret": 0.012065453337392274,
+      "direct_effect_comparisons": 424,
+      "direct_effect_exact": 424,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 76,
+      "name": "Маленькие змейки",
+      "our_historical_play": 189,
+      "our_historical_discard": 2,
+      "opponent_play": 196,
+      "opponent_discard": 11,
+      "candidate_play": 250,
+      "candidate_discard": 1,
+      "candidate_by_phase": {
+        "opening": {
+          "play": 85
+        },
+        "early": {
+          "play": 59,
+          "discard": 1
+        },
+        "terminal_race": {
+          "play": 32
+        },
+        "midgame": {
+          "play": 55
+        },
+        "late": {
+          "play": 19
+        }
+      },
+      "historical_average_oracle_regret": 0.06324405094551178,
+      "candidate_average_oracle_regret": 0.01586138896498958,
+      "direct_effect_comparisons": 382,
+      "direct_effect_exact": 382,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 77,
+      "name": "Тролль-наставник",
+      "our_historical_play": 220,
+      "our_historical_discard": 0,
+      "opponent_play": 230,
+      "opponent_discard": 1,
+      "candidate_play": 162,
+      "candidate_discard": 0,
+      "candidate_by_phase": {
+        "opening": {
+          "play": 74
+        },
+        "late": {
+          "play": 11
+        },
+        "early": {
+          "play": 31
+        },
+        "terminal_race": {
+          "play": 11
+        },
+        "midgame": {
+          "play": 35
+        }
+      },
+      "historical_average_oracle_regret": 0.05016672817496633,
+      "candidate_average_oracle_regret": 0.016462018926727117,
+      "direct_effect_comparisons": 434,
+      "direct_effect_exact": 434,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 78,
+      "name": "Гремлин в башне",
+      "our_historical_play": 199,
+      "our_historical_discard": 5,
+      "opponent_play": 189,
+      "opponent_discard": 24,
+      "candidate_play": 168,
+      "candidate_discard": 7,
+      "candidate_by_phase": {
+        "early": {
+          "play": 28,
+          "discard": 3
+        },
+        "midgame": {
+          "play": 43,
+          "discard": 2
+        },
+        "opening": {
+          "play": 36,
+          "discard": 1
+        },
+        "late": {
+          "play": 10
+        },
+        "terminal_race": {
+          "play": 51,
+          "discard": 1
+        }
+      },
+      "historical_average_oracle_regret": 0.061659131256295616,
+      "candidate_average_oracle_regret": 0.0141971157840791,
+      "direct_effect_comparisons": 388,
+      "direct_effect_exact": 388,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 79,
+      "name": "Полнолуние",
+      "our_historical_play": 210,
+      "our_historical_discard": 0,
+      "opponent_play": 147,
+      "opponent_discard": 38,
+      "candidate_play": 77,
+      "candidate_discard": 0,
+      "candidate_by_phase": {
+        "opening": {
+          "play": 28
+        },
+        "midgame": {
+          "play": 16
+        },
+        "early": {
+          "play": 22
+        },
+        "terminal_race": {
+          "play": 6
+        },
+        "late": {
+          "play": 5
+        }
+      },
+      "historical_average_oracle_regret": 0.08228157269415243,
+      "candidate_average_oracle_regret": 0.023039074165273805,
+      "direct_effect_comparisons": 354,
+      "direct_effect_exact": 354,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 80,
+      "name": "Крушитель",
+      "our_historical_play": 186,
+      "our_historical_discard": 1,
+      "opponent_play": 218,
+      "opponent_discard": 9,
+      "candidate_play": 110,
+      "candidate_discard": 5,
+      "candidate_by_phase": {
+        "midgame": {
+          "play": 25
+        },
+        "late": {
+          "play": 13,
+          "discard": 3
+        },
+        "terminal_race": {
+          "play": 26,
+          "discard": 1
+        },
+        "early": {
+          "play": 27
+        },
+        "opening": {
+          "play": 19,
+          "discard": 1
+        }
+      },
+      "historical_average_oracle_regret": 0.06624704361462377,
+      "candidate_average_oracle_regret": 0.007360576311020162,
+      "direct_effect_comparisons": 397,
+      "direct_effect_exact": 397,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 81,
+      "name": "Огр",
+      "our_historical_play": 195,
+      "our_historical_discard": 6,
+      "opponent_play": 228,
+      "opponent_discard": 11,
+      "candidate_play": 152,
+      "candidate_discard": 7,
+      "candidate_by_phase": {
+        "opening": {
+          "play": 45,
+          "discard": 1
+        },
+        "late": {
+          "play": 11
+        },
+        "early": {
+          "discard": 2,
+          "play": 39
+        },
+        "terminal_race": {
+          "play": 30
+        },
+        "midgame": {
+          "play": 27,
+          "discard": 4
+        }
+      },
+      "historical_average_oracle_regret": 0.07169264204831255,
+      "candidate_average_oracle_regret": 0.010273922330728697,
+      "direct_effect_comparisons": 418,
+      "direct_effect_exact": 418,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 82,
+      "name": "Бешеная овца",
+      "our_historical_play": 230,
+      "our_historical_discard": 4,
+      "opponent_play": 217,
+      "opponent_discard": 18,
+      "candidate_play": 148,
+      "candidate_discard": 7,
+      "candidate_by_phase": {
+        "early": {
+          "play": 28,
+          "discard": 3
+        },
+        "opening": {
+          "play": 41
+        },
+        "terminal_race": {
+          "play": 34,
+          "discard": 1
+        },
+        "midgame": {
+          "play": 30,
+          "discard": 3
+        },
+        "late": {
+          "play": 15
+        }
+      },
+      "historical_average_oracle_regret": 0.04788370183469014,
+      "candidate_average_oracle_regret": 0.007340873556113424,
+      "direct_effect_comparisons": 442,
+      "direct_effect_exact": 442,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 83,
+      "name": "Черт",
+      "our_historical_play": 210,
+      "our_historical_discard": 0,
+      "opponent_play": 135,
+      "opponent_discard": 89,
+      "candidate_play": 140,
+      "candidate_discard": 3,
+      "candidate_by_phase": {
+        "early": {
+          "play": 24
+        },
+        "midgame": {
+          "play": 34,
+          "discard": 2
+        },
+        "terminal_race": {
+          "play": 23
+        },
+        "opening": {
+          "play": 42,
+          "discard": 1
+        },
+        "late": {
+          "play": 17
+        }
+      },
+      "historical_average_oracle_regret": 0.06317970060746754,
+      "candidate_average_oracle_regret": 0.012763860916624438,
+      "direct_effect_comparisons": 343,
+      "direct_effect_exact": 343,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 84,
+      "name": "Жучара",
+      "our_historical_play": 164,
+      "our_historical_discard": 15,
+      "opponent_play": 145,
+      "opponent_discard": 33,
+      "candidate_play": 205,
+      "candidate_discard": 17,
+      "candidate_by_phase": {
+        "early": {
+          "play": 46,
+          "discard": 2
+        },
+        "terminal_race": {
+          "play": 58,
+          "discard": 6
+        },
+        "late": {
+          "play": 32,
+          "discard": 3
+        },
+        "midgame": {
+          "play": 45,
+          "discard": 6
+        },
+        "opening": {
+          "play": 24
+        }
+      },
+      "historical_average_oracle_regret": 0.05780657036734439,
+      "candidate_average_oracle_regret": 0.015523699527917227,
+      "direct_effect_comparisons": 309,
+      "direct_effect_exact": 309,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 85,
+      "name": "Оборотень",
+      "our_historical_play": 199,
+      "our_historical_discard": 8,
+      "opponent_play": 200,
+      "opponent_discard": 10,
+      "candidate_play": 221,
+      "candidate_discard": 11,
+      "candidate_by_phase": {
+        "terminal_race": {
+          "play": 45,
+          "discard": 3
+        },
+        "late": {
+          "play": 41,
+          "discard": 1
+        },
+        "early": {
+          "discard": 5,
+          "play": 60
+        },
+        "midgame": {
+          "play": 43,
+          "discard": 1
+        },
+        "opening": {
+          "play": 32,
+          "discard": 1
+        }
+      },
+      "historical_average_oracle_regret": 0.05401266486298301,
+      "candidate_average_oracle_regret": 0.008035959887566863,
+      "direct_effect_comparisons": 399,
+      "direct_effect_exact": 399,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 86,
+      "name": "Едкое облако",
+      "our_historical_play": 130,
+      "our_historical_discard": 20,
+      "opponent_play": 145,
+      "opponent_discard": 45,
+      "candidate_play": 251,
+      "candidate_discard": 20,
+      "candidate_by_phase": {
+        "early": {
+          "play": 69,
+          "discard": 4
+        },
+        "late": {
+          "play": 49,
+          "discard": 1
+        },
+        "opening": {
+          "play": 13,
+          "discard": 2
+        },
+        "midgame": {
+          "play": 65,
+          "discard": 7
+        },
+        "terminal_race": {
+          "discard": 6,
+          "play": 55
+        }
+      },
+      "historical_average_oracle_regret": 0.06453086151315315,
+      "candidate_average_oracle_regret": 0.018186830840245933,
+      "direct_effect_comparisons": 275,
+      "direct_effect_exact": 275,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 87,
+      "name": "Единорог",
+      "our_historical_play": 164,
+      "our_historical_discard": 15,
+      "opponent_play": 191,
+      "opponent_discard": 21,
+      "candidate_play": 203,
+      "candidate_discard": 15,
+      "candidate_by_phase": {
+        "midgame": {
+          "play": 56,
+          "discard": 6
+        },
+        "late": {
+          "play": 27,
+          "discard": 2
+        },
+        "terminal_race": {
+          "play": 45,
+          "discard": 4
+        },
+        "early": {
+          "play": 44,
+          "discard": 2
+        },
+        "opening": {
+          "play": 31,
+          "discard": 1
+        }
+      },
+      "historical_average_oracle_regret": 0.04917367285404492,
+      "candidate_average_oracle_regret": 0.007737943355500614,
+      "direct_effect_comparisons": 355,
+      "direct_effect_exact": 355,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 88,
+      "name": "Эльфы-лучники",
+      "our_historical_play": 132,
+      "our_historical_discard": 24,
+      "opponent_play": 152,
+      "opponent_discard": 64,
+      "candidate_play": 227,
+      "candidate_discard": 20,
+      "candidate_by_phase": {
+        "terminal_race": {
+          "play": 40,
+          "discard": 4
+        },
+        "early": {
+          "play": 63,
+          "discard": 7
+        },
+        "midgame": {
+          "play": 57,
+          "discard": 1
+        },
+        "late": {
+          "discard": 7,
+          "play": 35
+        },
+        "opening": {
+          "play": 32,
+          "discard": 1
+        }
+      },
+      "historical_average_oracle_regret": 0.05339183400037808,
+      "candidate_average_oracle_regret": 0.013255097750912638,
+      "direct_effect_comparisons": 284,
+      "direct_effect_exact": 284,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 89,
+      "name": "Суккубы",
+      "our_historical_play": 145,
+      "our_historical_discard": 39,
+      "opponent_play": 128,
+      "opponent_discard": 35,
+      "candidate_play": 203,
+      "candidate_discard": 24,
+      "candidate_by_phase": {
+        "early": {
+          "play": 58,
+          "discard": 11
+        },
+        "midgame": {
+          "play": 71,
+          "discard": 8
+        },
+        "terminal_race": {
+          "play": 47,
+          "discard": 3
+        },
+        "late": {
+          "play": 21,
+          "discard": 1
+        },
+        "opening": {
+          "play": 6,
+          "discard": 1
+        }
+      },
+      "historical_average_oracle_regret": 0.058500875485474835,
+      "candidate_average_oracle_regret": 0.020236458417052523,
+      "direct_effect_comparisons": 273,
+      "direct_effect_exact": 273,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 90,
+      "name": "Камнееды",
+      "our_historical_play": 189,
+      "our_historical_discard": 6,
+      "opponent_play": 185,
+      "opponent_discard": 7,
+      "candidate_play": 165,
+      "candidate_discard": 2,
+      "candidate_by_phase": {
+        "late": {
+          "play": 18
+        },
+        "terminal_race": {
+          "play": 42,
+          "discard": 1
+        },
+        "early": {
+          "play": 61
+        },
+        "opening": {
+          "play": 27
+        },
+        "midgame": {
+          "play": 17,
+          "discard": 1
+        }
+      },
+      "historical_average_oracle_regret": 0.05241653549599551,
+      "candidate_average_oracle_regret": 0.00911583897176904,
+      "direct_effect_comparisons": 374,
+      "direct_effect_exact": 374,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 91,
+      "name": "Вор",
+      "our_historical_play": 140,
+      "our_historical_discard": 47,
+      "opponent_play": 157,
+      "opponent_discard": 34,
+      "candidate_play": 52,
+      "candidate_discard": 50,
+      "candidate_by_phase": {
+        "late": {
+          "discard": 7,
+          "play": 8
+        },
+        "early": {
+          "play": 11,
+          "discard": 7
+        },
+        "terminal_race": {
+          "play": 13,
+          "discard": 12
+        },
+        "opening": {
+          "play": 5,
+          "discard": 8
+        },
+        "midgame": {
+          "discard": 16,
+          "play": 15
+        }
+      },
+      "historical_average_oracle_regret": 0.08629199752146173,
+      "candidate_average_oracle_regret": 0.02419011235577906,
+      "direct_effect_comparisons": 297,
+      "direct_effect_exact": 297,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 92,
+      "name": "Каменный гигант",
+      "our_historical_play": 154,
+      "our_historical_discard": 29,
+      "opponent_play": 136,
+      "opponent_discard": 30,
+      "candidate_play": 163,
+      "candidate_discard": 16,
+      "candidate_by_phase": {
+        "late": {
+          "play": 34,
+          "discard": 1
+        },
+        "terminal_race": {
+          "play": 42,
+          "discard": 3
+        },
+        "midgame": {
+          "play": 42,
+          "discard": 2
+        },
+        "early": {
+          "play": 38,
+          "discard": 8
+        },
+        "opening": {
+          "play": 7,
+          "discard": 2
+        }
+      },
+      "historical_average_oracle_regret": 0.045260700270586644,
+      "candidate_average_oracle_regret": 0.0085632724176123,
+      "direct_effect_comparisons": 290,
+      "direct_effect_exact": 290,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 93,
+      "name": "Вампир",
+      "our_historical_play": 139,
+      "our_historical_discard": 21,
+      "opponent_play": 159,
+      "opponent_discard": 25,
+      "candidate_play": 122,
+      "candidate_discard": 4,
+      "candidate_by_phase": {
+        "terminal_race": {
+          "play": 38
+        },
+        "opening": {
+          "play": 1
+        },
+        "midgame": {
+          "play": 34,
+          "discard": 2
+        },
+        "early": {
+          "play": 32,
+          "discard": 2
+        },
+        "late": {
+          "play": 17
+        }
+      },
+      "historical_average_oracle_regret": 0.037720044563581204,
+      "candidate_average_oracle_regret": 0.009831969232198265,
+      "direct_effect_comparisons": 298,
+      "direct_effect_exact": 298,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 94,
+      "name": "Дракон",
+      "our_historical_play": 83,
+      "our_historical_discard": 51,
+      "opponent_play": 109,
+      "opponent_discard": 22,
+      "candidate_play": 84,
+      "candidate_discard": 2,
+      "candidate_by_phase": {
+        "midgame": {
+          "play": 24,
+          "discard": 2
+        },
+        "terminal_race": {
+          "play": 33
+        },
+        "early": {
+          "play": 8
+        },
+        "late": {
+          "play": 19
+        }
+      },
+      "historical_average_oracle_regret": 0.03104506330677582,
+      "candidate_average_oracle_regret": 0.025823998540433084,
+      "direct_effect_comparisons": 192,
+      "direct_effect_exact": 192,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 95,
+      "name": "Копьеносец",
+      "our_historical_play": 203,
+      "our_historical_discard": 1,
+      "opponent_play": 191,
+      "opponent_discard": 33,
+      "candidate_play": 168,
+      "candidate_discard": 0,
+      "candidate_by_phase": {
+        "terminal_race": {
+          "play": 48
+        },
+        "late": {
+          "play": 11
+        },
+        "midgame": {
+          "play": 36
+        },
+        "opening": {
+          "play": 26
+        },
+        "early": {
+          "play": 47
+        }
+      },
+      "historical_average_oracle_regret": 0.06169435595052598,
+      "candidate_average_oracle_regret": 0.018454270884643815,
+      "direct_effect_comparisons": 391,
+      "direct_effect_exact": 391,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 96,
+      "name": "Карлик",
+      "our_historical_play": 230,
+      "our_historical_discard": 2,
+      "opponent_play": 208,
+      "opponent_discard": 4,
+      "candidate_play": 146,
+      "candidate_discard": 2,
+      "candidate_by_phase": {
+        "midgame": {
+          "play": 28
+        },
+        "opening": {
+          "play": 33,
+          "discard": 1
+        },
+        "early": {
+          "discard": 1,
+          "play": 44
+        },
+        "terminal_race": {
+          "play": 28
+        },
+        "late": {
+          "play": 13
+        }
+      },
+      "historical_average_oracle_regret": 0.07099570639753768,
+      "candidate_average_oracle_regret": 0.010551314732851497,
+      "direct_effect_comparisons": 433,
+      "direct_effect_exact": 433,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 97,
+      "name": "Берсерк",
+      "our_historical_play": 183,
+      "our_historical_discard": 17,
+      "opponent_play": 145,
+      "opponent_discard": 62,
+      "candidate_play": 49,
+      "candidate_discard": 5,
+      "candidate_by_phase": {
+        "midgame": {
+          "play": 12,
+          "discard": 4
+        },
+        "late": {
+          "play": 8
+        },
+        "early": {
+          "play": 9
+        },
+        "opening": {
+          "play": 10
+        },
+        "terminal_race": {
+          "play": 10,
+          "discard": 1
+        }
+      },
+      "historical_average_oracle_regret": 0.0672966883942409,
+      "candidate_average_oracle_regret": 0.00989766855126664,
+      "direct_effect_comparisons": 326,
+      "direct_effect_exact": 326,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 98,
+      "name": "Воитель",
+      "our_historical_play": 153,
+      "our_historical_discard": 20,
+      "opponent_play": 156,
+      "opponent_discard": 29,
+      "candidate_play": 106,
+      "candidate_discard": 11,
+      "candidate_by_phase": {
+        "midgame": {
+          "play": 21,
+          "discard": 3
+        },
+        "early": {
+          "play": 34,
+          "discard": 1
+        },
+        "terminal_race": {
+          "play": 29,
+          "discard": 5
+        },
+        "opening": {
+          "play": 7
+        },
+        "late": {
+          "play": 15,
+          "discard": 2
+        }
+      },
+      "historical_average_oracle_regret": 0.05400725624264166,
+      "candidate_average_oracle_regret": 0.00297587999050649,
+      "direct_effect_comparisons": 309,
+      "direct_effect_exact": 309,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 99,
+      "name": "Всадник на пегасе",
+      "our_historical_play": 112,
+      "our_historical_discard": 19,
+      "opponent_play": 130,
+      "opponent_discard": 11,
+      "candidate_play": 171,
+      "candidate_discard": 1,
+      "candidate_by_phase": {
+        "terminal_race": {
+          "play": 50
+        },
+        "early": {
+          "play": 32
+        },
+        "late": {
+          "play": 35
+        },
+        "midgame": {
+          "play": 54
+        },
+        "opening": {
+          "discard": 1
+        }
+      },
+      "historical_average_oracle_regret": 0.03983256238515054,
+      "candidate_average_oracle_regret": 0.010675812283926351,
+      "direct_effect_comparisons": 242,
+      "direct_effect_exact": 242,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 100,
+      "name": "Призма",
+      "our_historical_play": 111,
+      "our_historical_discard": 66,
+      "opponent_play": 197,
+      "opponent_discard": 8,
+      "candidate_play": 1611,
+      "candidate_discard": 7,
+      "candidate_by_phase": {
+        "opening": {
+          "play": 211,
+          "discard": 1
+        },
+        "early": {
+          "play": 360,
+          "discard": 1
+        },
+        "terminal_race": {
+          "play": 369,
+          "discard": 3
+        },
+        "midgame": {
+          "play": 391
+        },
+        "late": {
+          "play": 280,
+          "discard": 2
+        }
+      },
+      "historical_average_oracle_regret": 0.062208553930422225,
+      "candidate_average_oracle_regret": 0.005239756787920426,
+      "direct_effect_comparisons": 306,
+      "direct_effect_exact": 306,
+      "direct_effect_accuracy": 1.0
+    },
+    {
+      "card_id": 101,
+      "name": "Эльфы-скауты",
+      "our_historical_play": 87,
+      "our_historical_discard": 73,
+      "opponent_play": 207,
+      "opponent_discard": 4,
+      "candidate_play": 1676,
+      "candidate_discard": 6,
+      "candidate_by_phase": {
+        "early": {
+          "play": 384
+        },
+        "midgame": {
+          "play": 439,
+          "discard": 5
+        },
+        "terminal_race": {
+          "play": 416
+        },
+        "late": {
+          "play": 238,
+          "discard": 1
+        },
+        "opening": {
+          "play": 199
+        }
+      },
+      "historical_average_oracle_regret": 0.07024338140362735,
+      "candidate_average_oracle_regret": 0.0029773454106737443,
+      "direct_effect_comparisons": 291,
+      "direct_effect_exact": 291,
+      "direct_effect_accuracy": 1.0
+    }
+  ]
+}

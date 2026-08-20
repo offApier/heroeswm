@@ -1,0 +1,1325 @@
+{
+  "version": "frozen-policy-evaluation-3.9-v1",
+  "states": 1266,
+  "split": [
+    "final_holdout"
+  ],
+  "candidate": {
+    "states": 1266,
+    "mean_regret": 0.010475237439006559,
+    "median_regret": 0.0,
+    "p90_regret": 0.0340323172680895,
+    "p95_regret": 0.062159824639760525,
+    "gt_2pp": 186,
+    "gt_5pp": 88,
+    "gt_10pp": 31
+  },
+  "historical": {
+    "states": 1266,
+    "mean_regret": 0.045901597051297593,
+    "median_regret": 0.0,
+    "p90_regret": 0.16327028001178626,
+    "p95_regret": 0.24666957444307083,
+    "gt_2pp": 451,
+    "gt_5pp": 330,
+    "gt_10pp": 218
+  },
+  "empirical_only": {
+    "states": 1266,
+    "mean_regret": 5.76468318808271e-05,
+    "median_regret": 0.0,
+    "p90_regret": 0.0,
+    "p95_regret": 0.0,
+    "gt_2pp": 0,
+    "gt_5pp": 0,
+    "gt_10pp": 0
+  },
+  "perfect_adversarial_only": {
+    "states": 1266,
+    "mean_regret": 0.0004217301145329357,
+    "median_regret": 0.0,
+    "p90_regret": 0.0,
+    "p95_regret": 0.0,
+    "gt_2pp": 7,
+    "gt_5pp": 2,
+    "gt_10pp": 0
+  },
+  "agreements": {
+    "candidate_oracle": 0.7022116903633492,
+    "historical_oracle": 0.5118483412322274
+  },
+  "calibration": {
+    "brier": 0.19795833875024238,
+    "ece": 0.08971708587437217,
+    "reliability": [
+      {
+        "left": 0.0,
+        "right": 0.1,
+        "count": 158,
+        "predicted": 0.046663694269010125,
+        "observed": 0.0189873417721519
+      },
+      {
+        "left": 0.1,
+        "right": 0.2,
+        "count": 134,
+        "predicted": 0.15513483134614056,
+        "observed": 0.14925373134328357
+      },
+      {
+        "left": 0.2,
+        "right": 0.30000000000000004,
+        "count": 134,
+        "predicted": 0.25667925630690347,
+        "observed": 0.31343283582089554
+      },
+      {
+        "left": 0.30000000000000004,
+        "right": 0.4,
+        "count": 152,
+        "predicted": 0.3505949938219975,
+        "observed": 0.4276315789473684
+      },
+      {
+        "left": 0.4,
+        "right": 0.5,
+        "count": 144,
+        "predicted": 0.4471170012198451,
+        "observed": 0.5763888888888888
+      },
+      {
+        "left": 0.5,
+        "right": 0.6,
+        "count": 124,
+        "predicted": 0.5481969346018059,
+        "observed": 0.6693548387096774
+      },
+      {
+        "left": 0.6000000000000001,
+        "right": 0.7000000000000001,
+        "count": 106,
+        "predicted": 0.6498054743662756,
+        "observed": 0.6037735849056604
+      },
+      {
+        "left": 0.7000000000000001,
+        "right": 0.8,
+        "count": 100,
+        "predicted": 0.7481464499423047,
+        "observed": 0.62
+      },
+      {
+        "left": 0.8,
+        "right": 0.9,
+        "count": 57,
+        "predicted": 0.8454312597751903,
+        "observed": 0.7192982456140351
+      },
+      {
+        "left": 0.9,
+        "right": 1.0,
+        "count": 157,
+        "predicted": 0.9718727389183283,
+        "observed": 0.7770700636942676
+      }
+    ]
+  },
+  "strata": {
+    "action:drop": {
+      "states": 55,
+      "mean_regret": 0.0217008438560596,
+      "median_regret": 0.012168497298146286,
+      "p90_regret": 0.05642585285788298,
+      "p95_regret": 0.06879301272205006,
+      "gt_2pp": 22,
+      "gt_5pp": 8,
+      "gt_10pp": 1
+    },
+    "action:turn": {
+      "states": 1211,
+      "mean_regret": 0.009965403951857162,
+      "median_regret": 0,
+      "p90_regret": 0.03254863901554428,
+      "p95_regret": 0.061825019658960534,
+      "gt_2pp": 164,
+      "gt_5pp": 80,
+      "gt_10pp": 30
+    },
+    "initiative:opponent": {
+      "states": 583,
+      "mean_regret": 0.011109317576962222,
+      "median_regret": 0,
+      "p90_regret": 0.03471892603766674,
+      "p95_regret": 0.07204199955744033,
+      "gt_2pp": 80,
+      "gt_5pp": 40,
+      "gt_10pp": 17
+    },
+    "initiative:us": {
+      "states": 683,
+      "mean_regret": 0.00993399480294777,
+      "median_regret": 0,
+      "p90_regret": 0.033525395436013454,
+      "p95_regret": 0.058277430015366,
+      "gt_2pp": 106,
+      "gt_5pp": 48,
+      "gt_10pp": 14
+    },
+    "outcome:loss": {
+      "states": 681,
+      "mean_regret": 0.011046603891430484,
+      "median_regret": 0,
+      "p90_regret": 0.03395925675131034,
+      "p95_regret": 0.06101027263211356,
+      "gt_2pp": 106,
+      "gt_5pp": 49,
+      "gt_10pp": 17
+    },
+    "outcome:win": {
+      "states": 585,
+      "mean_regret": 0.009810108286697681,
+      "median_regret": 0,
+      "p90_regret": 0.03401880970195264,
+      "p95_regret": 0.06378406085066933,
+      "gt_2pp": 80,
+      "gt_5pp": 39,
+      "gt_10pp": 14
+    },
+    "phase:early": {
+      "states": 337,
+      "mean_regret": 0.009929610594577459,
+      "median_regret": 0,
+      "p90_regret": 0.0344121519112677,
+      "p95_regret": 0.056411538474286455,
+      "gt_2pp": 48,
+      "gt_5pp": 24,
+      "gt_10pp": 8
+    },
+    "phase:late": {
+      "states": 135,
+      "mean_regret": 0.01043458838356092,
+      "median_regret": 0,
+      "p90_regret": 0.035251219405991234,
+      "p95_regret": 0.053789911087447385,
+      "gt_2pp": 25,
+      "gt_5pp": 8,
+      "gt_10pp": 2
+    },
+    "phase:midgame": {
+      "states": 276,
+      "mean_regret": 0.009384272175220192,
+      "median_regret": 0.0,
+      "p90_regret": 0.03495340765862262,
+      "p95_regret": 0.05294797912706266,
+      "gt_2pp": 43,
+      "gt_5pp": 16,
+      "gt_10pp": 6
+    },
+    "phase:opening": {
+      "states": 245,
+      "mean_regret": 0.011275040092892619,
+      "median_regret": 0,
+      "p90_regret": 0.039264578632592494,
+      "p95_regret": 0.08513084594274402,
+      "gt_2pp": 37,
+      "gt_5pp": 23,
+      "gt_10pp": 6
+    },
+    "phase:terminal_race": {
+      "states": 273,
+      "mean_regret": 0.0115540602656026,
+      "median_regret": 0,
+      "p90_regret": 0.028836966363341637,
+      "p95_regret": 0.060958304556495674,
+      "gt_2pp": 33,
+      "gt_5pp": 17,
+      "gt_10pp": 9
+    }
+  },
+  "per_card": {
+    "0": {
+      "selected": 11,
+      "mean_regret": 0.04763274486181279,
+      "p90_regret": 0.12690463288276305
+    },
+    "1": {
+      "selected": 13,
+      "mean_regret": 0.0,
+      "p90_regret": 0.0
+    },
+    "2": {
+      "selected": 31,
+      "mean_regret": 0.0,
+      "p90_regret": 0.0
+    },
+    "3": {
+      "selected": 5,
+      "mean_regret": 0.018086658829291873,
+      "p90_regret": 0.03476237385964705
+    },
+    "4": {
+      "selected": 10,
+      "mean_regret": 0.002954911823395212,
+      "p90_regret": 0.005130920538781527
+    },
+    "5": {
+      "selected": 1,
+      "mean_regret": 0.008611171335659584,
+      "p90_regret": 0.008611171335659584
+    },
+    "6": {
+      "selected": 4,
+      "mean_regret": 0.02092632430059102,
+      "p90_regret": 0.04301586461859522
+    },
+    "7": {
+      "selected": 9,
+      "mean_regret": 0.01391915281454064,
+      "p90_regret": 0.031612504000966386
+    },
+    "8": {
+      "selected": 5,
+      "mean_regret": 0.032485083194384985,
+      "p90_regret": 0.08287567148435471
+    },
+    "9": {
+      "selected": 5,
+      "mean_regret": 0.03344409360554927,
+      "p90_regret": 0.08490646109360092
+    },
+    "10": {
+      "selected": 15,
+      "mean_regret": 0.02254537546187829,
+      "p90_regret": 0.0396901533804197
+    },
+    "11": {
+      "selected": 4,
+      "mean_regret": 0.01750557680774902,
+      "p90_regret": 0.029470044945008936
+    },
+    "12": {
+      "selected": 34,
+      "mean_regret": 0.0054736295717812385,
+      "p90_regret": 0.02183824122520578
+    },
+    "13": {
+      "selected": 21,
+      "mean_regret": 0.0,
+      "p90_regret": 0.0
+    },
+    "14": {
+      "selected": 5,
+      "mean_regret": 0.08711484101080391,
+      "p90_regret": 0.18871620272288775
+    },
+    "15": {
+      "selected": 8,
+      "mean_regret": 0.014649774085058328,
+      "p90_regret": 0.03593011810903972
+    },
+    "16": {
+      "selected": 7,
+      "mean_regret": 0.0018318054936949809,
+      "p90_regret": 0.0051370541027427625
+    },
+    "17": {
+      "selected": 11,
+      "mean_regret": 0.011117188466054329,
+      "p90_regret": 0.010272112087404417
+    },
+    "18": {
+      "selected": 6,
+      "mean_regret": 0.055013013974203856,
+      "p90_regret": 0.1037182068399646
+    },
+    "19": {
+      "selected": 11,
+      "mean_regret": 0.011384023068599867,
+      "p90_regret": 0.02806592373793193
+    },
+    "20": {
+      "selected": 6,
+      "mean_regret": 0.014201736447360483,
+      "p90_regret": 0.04260520934208145
+    },
+    "21": {
+      "selected": 3,
+      "mean_regret": 0.041230675100329156,
+      "p90_regret": 0.07941067443033657
+    },
+    "22": {
+      "selected": 7,
+      "mean_regret": 0.006055772534596601,
+      "p90_regret": 0.018613169088332
+    },
+    "23": {
+      "selected": 8,
+      "mean_regret": 0.015517931621463928,
+      "p90_regret": 0.04949210465451461
+    },
+    "24": {
+      "selected": 9,
+      "mean_regret": 0.021909410596211362,
+      "p90_regret": 0.07691301085839672
+    },
+    "25": {
+      "selected": 6,
+      "mean_regret": 0.026255600918204957,
+      "p90_regret": 0.06590662707985348
+    },
+    "26": {
+      "selected": 4,
+      "mean_regret": 0.023937395394012212,
+      "p90_regret": 0.06702470710323422
+    },
+    "27": {
+      "selected": 5,
+      "mean_regret": 0.009153821338321622,
+      "p90_regret": 0.025475277916945774
+    },
+    "28": {
+      "selected": 6,
+      "mean_regret": 0.043297135896446175,
+      "p90_regret": 0.10911163798876802
+    },
+    "29": {
+      "selected": 10,
+      "mean_regret": 0.00581752582666459,
+      "p90_regret": 0.01071818295115154
+    },
+    "30": {
+      "selected": 9,
+      "mean_regret": 0.004643632444538954,
+      "p90_regret": 0.013252494661126712
+    },
+    "31": {
+      "selected": 2,
+      "mean_regret": 0.027556095770226705,
+      "p90_regret": 0.04960097238640807
+    },
+    "32": {
+      "selected": 10,
+      "mean_regret": 0.0014659769947236501,
+      "p90_regret": 0.001465976994723645
+    },
+    "33": {
+      "selected": 13,
+      "mean_regret": 0.02748096566785733,
+      "p90_regret": 0.06031610054865572
+    },
+    "34": {
+      "selected": 29,
+      "mean_regret": 0.0,
+      "p90_regret": 0.0
+    },
+    "35": {
+      "selected": 18,
+      "mean_regret": 0.0006330947622794933,
+      "p90_regret": 8.190557636929017e-05
+    },
+    "36": {
+      "selected": 7,
+      "mean_regret": 0.001243679725164717,
+      "p90_regret": 0.003738063811712247
+    },
+    "37": {
+      "selected": 6,
+      "mean_regret": 0.0020707587072014235,
+      "p90_regret": 0.006212276121604271
+    },
+    "38": {
+      "selected": 15,
+      "mean_regret": 0.0,
+      "p90_regret": 0.0
+    },
+    "39": {
+      "selected": 14,
+      "mean_regret": 0.006138633814439053,
+      "p90_regret": 0.0244209066207417
+    },
+    "40": {
+      "selected": 10,
+      "mean_regret": 0.009472079460924432,
+      "p90_regret": 0.012934315665841748
+    },
+    "41": {
+      "selected": 18,
+      "mean_regret": 0.0035599297191911006,
+      "p90_regret": 0.008619311015042147
+    },
+    "42": {
+      "selected": 12,
+      "mean_regret": 0.005207885801713376,
+      "p90_regret": 0.0
+    },
+    "43": {
+      "selected": 11,
+      "mean_regret": 0.0,
+      "p90_regret": 0.0
+    },
+    "44": {
+      "selected": 5,
+      "mean_regret": 0.04314732080105088,
+      "p90_regret": 0.06656684024589649
+    },
+    "45": {
+      "selected": 10,
+      "mean_regret": 0.0,
+      "p90_regret": 0.0
+    },
+    "46": {
+      "selected": 3,
+      "mean_regret": 0.11955790988496469,
+      "p90_regret": 0.2869389837239153
+    },
+    "47": {
+      "selected": 14,
+      "mean_regret": 0.0021625910433300693,
+      "p90_regret": 0.0
+    },
+    "48": {
+      "selected": 8,
+      "mean_regret": 0.0,
+      "p90_regret": 0.0
+    },
+    "49": {
+      "selected": 34,
+      "mean_regret": 0.01038341715279169,
+      "p90_regret": 0.01993416685820944
+    },
+    "50": {
+      "selected": 9,
+      "mean_regret": 0.0071875578849276735,
+      "p90_regret": 0.012937604192869823
+    },
+    "51": {
+      "selected": 11,
+      "mean_regret": 0.0,
+      "p90_regret": 0.0
+    },
+    "52": {
+      "selected": 8,
+      "mean_regret": 0.07961073043928915,
+      "p90_regret": 0.21833278618770452
+    },
+    "53": {
+      "selected": 13,
+      "mean_regret": 0.00043904226222959763,
+      "p90_regret": 0.0
+    },
+    "54": {
+      "selected": 15,
+      "mean_regret": 0.0005354586064254392,
+      "p90_regret": 0.0
+    },
+    "55": {
+      "selected": 11,
+      "mean_regret": 0.0,
+      "p90_regret": 0.0
+    },
+    "56": {
+      "selected": 4,
+      "mean_regret": 0.0,
+      "p90_regret": 0.0
+    },
+    "57": {
+      "selected": 18,
+      "mean_regret": 0.0002493755634594604,
+      "p90_regret": 0.0005539227136059157
+    },
+    "58": {
+      "selected": 7,
+      "mean_regret": 0.0,
+      "p90_regret": 0.0
+    },
+    "59": {
+      "selected": 6,
+      "mean_regret": 0.0,
+      "p90_regret": 0.0
+    },
+    "60": {
+      "selected": 7,
+      "mean_regret": 0.005135365509419272,
+      "p90_regret": 0.014379023426373974
+    },
+    "61": {
+      "selected": 20,
+      "mean_regret": 0.004322415515198202,
+      "p90_regret": 0.00016357553268955504
+    },
+    "62": {
+      "selected": 9,
+      "mean_regret": 0.014068144647770989,
+      "p90_regret": 0.05168482772500979
+    },
+    "63": {
+      "selected": 4,
+      "mean_regret": 0.020264960267081536,
+      "p90_regret": 0.028663676384055713
+    },
+    "64": {
+      "selected": 7,
+      "mean_regret": 0.0,
+      "p90_regret": 0.0
+    },
+    "65": {
+      "selected": 8,
+      "mean_regret": 0.03228561189120147,
+      "p90_regret": 0.07765411810954487
+    },
+    "66": {
+      "selected": 6,
+      "mean_regret": 0.0,
+      "p90_regret": 0.0
+    },
+    "67": {
+      "selected": 8,
+      "mean_regret": 0.06172731115321496,
+      "p90_regret": 0.13246931710791507
+    },
+    "68": {
+      "selected": 21,
+      "mean_regret": 0.00306492209597524,
+      "p90_regret": 0.0
+    },
+    "69": {
+      "selected": 5,
+      "mean_regret": 0.00417059663287421,
+      "p90_regret": 0.010528083095969459
+    },
+    "70": {
+      "selected": 3,
+      "mean_regret": 0.0,
+      "p90_regret": 0.0
+    },
+    "71": {
+      "selected": 17,
+      "mean_regret": 0.017384912532200848,
+      "p90_regret": 0.04535452203069274
+    },
+    "72": {
+      "selected": 13,
+      "mean_regret": 0.010712193395198502,
+      "p90_regret": 0.03565624035459543
+    },
+    "73": {
+      "selected": 43,
+      "mean_regret": 0.0017272257242851611,
+      "p90_regret": 0.0
+    },
+    "74": {
+      "selected": 8,
+      "mean_regret": 0.006441982036259761,
+      "p90_regret": 0.01751496107797776
+    },
+    "75": {
+      "selected": 6,
+      "mean_regret": 0.00253014693793095,
+      "p90_regret": 0.0075904408137928495
+    },
+    "76": {
+      "selected": 12,
+      "mean_regret": 0.011606953869454784,
+      "p90_regret": 0.036952744356678675
+    },
+    "77": {
+      "selected": 7,
+      "mean_regret": 0.0,
+      "p90_regret": 0.0
+    },
+    "78": {
+      "selected": 9,
+      "mean_regret": 0.004007399460252413,
+      "p90_regret": 0.012400834776333025
+    },
+    "79": {
+      "selected": 5,
+      "mean_regret": 0.051535798045350426,
+      "p90_regret": 0.08643904454010942
+    },
+    "80": {
+      "selected": 11,
+      "mean_regret": 0.012588077646308121,
+      "p90_regret": 0.04362331461483632
+    },
+    "81": {
+      "selected": 19,
+      "mean_regret": 0.02365621773720027,
+      "p90_regret": 0.08056447069614979
+    },
+    "82": {
+      "selected": 16,
+      "mean_regret": 0.003594652297915813,
+      "p90_regret": 0.007775116933867985
+    },
+    "83": {
+      "selected": 14,
+      "mean_regret": 0.013056864556177064,
+      "p90_regret": 0.037258594418560866
+    },
+    "84": {
+      "selected": 15,
+      "mean_regret": 0.024429655054251393,
+      "p90_regret": 0.04101452490393353
+    },
+    "85": {
+      "selected": 9,
+      "mean_regret": 0.0030781165893771006,
+      "p90_regret": 0.006980351903212316
+    },
+    "86": {
+      "selected": 23,
+      "mean_regret": 0.03245733641601622,
+      "p90_regret": 0.10294321407601792
+    },
+    "87": {
+      "selected": 16,
+      "mean_regret": 0.006655968221949221,
+      "p90_regret": 0.017423952191930492
+    },
+    "88": {
+      "selected": 24,
+      "mean_regret": 0.011825024828481497,
+      "p90_regret": 0.033838083799649116
+    },
+    "89": {
+      "selected": 22,
+      "mean_regret": 0.022802979994270948,
+      "p90_regret": 0.05826415143579887
+    },
+    "90": {
+      "selected": 12,
+      "mean_regret": 0.006596295732190522,
+      "p90_regret": 0.0295105172040665
+    },
+    "91": {
+      "selected": 5,
+      "mean_regret": 0.01640237351819418,
+      "p90_regret": 0.02655126310654521
+    },
+    "92": {
+      "selected": 9,
+      "mean_regret": 0.005351018937104151,
+      "p90_regret": 0.011584874850326228
+    },
+    "93": {
+      "selected": 6,
+      "mean_regret": 0.021093771951573803,
+      "p90_regret": 0.06328131585472141
+    },
+    "94": {
+      "selected": 6,
+      "mean_regret": 0.003857588126654441,
+      "p90_regret": 0.011572764379963324
+    },
+    "95": {
+      "selected": 14,
+      "mean_regret": 0.026424241948689163,
+      "p90_regret": 0.07138219728131241
+    },
+    "96": {
+      "selected": 6,
+      "mean_regret": 0.02723456307014403,
+      "p90_regret": 0.06993848982978564
+    },
+    "97": {
+      "selected": 4,
+      "mean_regret": 0.0,
+      "p90_regret": 0.0
+    },
+    "98": {
+      "selected": 5,
+      "mean_regret": 0.0,
+      "p90_regret": 0.0
+    },
+    "99": {
+      "selected": 15,
+      "mean_regret": 0.006731851913085646,
+      "p90_regret": 0.01031199020634702
+    },
+    "100": {
+      "selected": 90,
+      "mean_regret": 0.003914767710951914,
+      "p90_regret": 0.0
+    },
+    "101": {
+      "selected": 77,
+      "mean_regret": 0.0035646049479341664,
+      "p90_regret": 0.007425469422419876
+    }
+  },
+  "per_action_type": {
+    "direct_tower_damage": {
+      "states": 266,
+      "mean_regret": 0.009979648069494534,
+      "median_regret": 0.0,
+      "p90_regret": 0.03138044903949225,
+      "p95_regret": 0.0510342760716489,
+      "gt_2pp": 37,
+      "gt_5pp": 15,
+      "gt_10pp": 7
+    },
+    "discard": {
+      "states": 55,
+      "mean_regret": 0.0217008438560596,
+      "median_regret": 0.012168497298146286,
+      "p90_regret": 0.05642585285788298,
+      "p95_regret": 0.06879301272205006,
+      "gt_2pp": 22,
+      "gt_5pp": 8,
+      "gt_10pp": 1
+    },
+    "extra_turn": {
+      "states": 377,
+      "mean_regret": 0.0025542091678990397,
+      "median_regret": 0,
+      "p90_regret": 0.0,
+      "p95_regret": 0.01248088516447548,
+      "gt_2pp": 15,
+      "gt_5pp": 5,
+      "gt_10pp": 3
+    },
+    "normal_damage": {
+      "states": 271,
+      "mean_regret": 0.012840338841733002,
+      "median_regret": 0,
+      "p90_regret": 0.04490410249470611,
+      "p95_regret": 0.07231960198798848,
+      "gt_2pp": 51,
+      "gt_5pp": 23,
+      "gt_10pp": 6
+    },
+    "other": {
+      "states": 299,
+      "mean_regret": 0.013284327407752452,
+      "median_regret": 0,
+      "p90_regret": 0.04945432453467394,
+      "p95_regret": 0.0905507943734133,
+      "gt_2pp": 52,
+      "gt_5pp": 29,
+      "gt_10pp": 11
+    },
+    "production": {
+      "states": 132,
+      "mean_regret": 0.01264106492223343,
+      "median_regret": 0.0,
+      "p90_regret": 0.03889445600183335,
+      "p95_regret": 0.0851759466264785,
+      "gt_2pp": 23,
+      "gt_5pp": 12,
+      "gt_10pp": 3
+    }
+  },
+  "per_game": [
+    {
+      "game_id": 121032077,
+      "outcome": "loss",
+      "decisions": 21,
+      "candidate_largest_regret": 0.12690463288276305,
+      "candidate_cumulative_regret": 0.27161340230704956,
+      "historical_largest_regret": 0.06434435501798585,
+      "historical_cumulative_regret": 0.17498553389831864,
+      "classification": "A_likely_avoidable"
+    },
+    {
+      "game_id": 121032571,
+      "outcome": "win",
+      "decisions": 15,
+      "candidate_largest_regret": 0.03360694570850897,
+      "candidate_cumulative_regret": 0.05743779407624516,
+      "historical_largest_regret": 0.16055488980548427,
+      "historical_cumulative_regret": 0.38765372090478945,
+      "classification": "C_no_major_policy_regret_found"
+    },
+    {
+      "game_id": 121032718,
+      "outcome": "win",
+      "decisions": 41,
+      "candidate_largest_regret": 0.16029682905849957,
+      "candidate_cumulative_regret": 0.7385721106520767,
+      "historical_largest_regret": 0.16029682905849957,
+      "historical_cumulative_regret": 0.7375167156864321,
+      "classification": "A_likely_avoidable"
+    },
+    {
+      "game_id": 121033914,
+      "outcome": "loss",
+      "decisions": 33,
+      "candidate_largest_regret": 0.12054324055766458,
+      "candidate_cumulative_regret": 0.40895939505666157,
+      "historical_largest_regret": 0.06187899973054234,
+      "historical_cumulative_regret": 0.22204765917115682,
+      "classification": "A_likely_avoidable"
+    },
+    {
+      "game_id": 121035431,
+      "outcome": "win",
+      "decisions": 19,
+      "candidate_largest_regret": 0.09039299935309764,
+      "candidate_cumulative_regret": 0.14751524155246631,
+      "historical_largest_regret": 0.2933031708324848,
+      "historical_cumulative_regret": 1.3464176917863824,
+      "classification": "B_partially_avoidable"
+    },
+    {
+      "game_id": 121036170,
+      "outcome": "loss",
+      "decisions": 16,
+      "candidate_largest_regret": 0.10335952312213502,
+      "candidate_cumulative_regret": 0.16764488580024672,
+      "historical_largest_regret": 0.16083159951574486,
+      "historical_cumulative_regret": 0.9734281314589831,
+      "classification": "A_likely_avoidable"
+    },
+    {
+      "game_id": 121036234,
+      "outcome": "win",
+      "decisions": 25,
+      "candidate_largest_regret": 0.07273050366211964,
+      "candidate_cumulative_regret": 0.2172962550907132,
+      "historical_largest_regret": 0.04977114322107118,
+      "historical_cumulative_regret": 0.18428133144855707,
+      "classification": "B_partially_avoidable"
+    },
+    {
+      "game_id": 121037188,
+      "outcome": "win",
+      "decisions": 28,
+      "candidate_largest_regret": 0.11848849658454452,
+      "candidate_cumulative_regret": 0.1695596015878688,
+      "historical_largest_regret": 0.2746413970935057,
+      "historical_cumulative_regret": 2.030961282563333,
+      "classification": "A_likely_avoidable"
+    },
+    {
+      "game_id": 121037999,
+      "outcome": "loss",
+      "decisions": 12,
+      "candidate_largest_regret": 0.016584607462664755,
+      "candidate_cumulative_regret": 0.028245039516079637,
+      "historical_largest_regret": 0.0701413075712316,
+      "historical_cumulative_regret": 0.23527947030989765,
+      "classification": "C_no_major_policy_regret_found"
+    },
+    {
+      "game_id": 121038116,
+      "outcome": "loss",
+      "decisions": 19,
+      "candidate_largest_regret": 0.0342627460512831,
+      "candidate_cumulative_regret": 0.04654848753525094,
+      "historical_largest_regret": 0.0974955575887429,
+      "historical_cumulative_regret": 0.38178447148104117,
+      "classification": "C_no_major_policy_regret_found"
+    },
+    {
+      "game_id": 121038211,
+      "outcome": "win",
+      "decisions": 13,
+      "candidate_largest_regret": 0.3586737296548941,
+      "candidate_cumulative_regret": 0.38549771870287997,
+      "historical_largest_regret": 0.2003106270762509,
+      "historical_cumulative_regret": 0.257486829186267,
+      "classification": "A_likely_avoidable"
+    },
+    {
+      "game_id": 121038481,
+      "outcome": "loss",
+      "decisions": 20,
+      "candidate_largest_regret": 0.017799352392733253,
+      "candidate_cumulative_regret": 0.022441983863621288,
+      "historical_largest_regret": 0.19406905887116566,
+      "historical_cumulative_regret": 0.3418088039205279,
+      "classification": "C_no_major_policy_regret_found"
+    },
+    {
+      "game_id": 121038727,
+      "outcome": "loss",
+      "decisions": 26,
+      "candidate_largest_regret": 0.23212837843432915,
+      "candidate_cumulative_regret": 1.206049912345977,
+      "historical_largest_regret": 0.21242038951057968,
+      "historical_cumulative_regret": 0.7690412639229273,
+      "classification": "A_likely_avoidable"
+    },
+    {
+      "game_id": 121039165,
+      "outcome": "loss",
+      "decisions": 40,
+      "candidate_largest_regret": 0.19822577400622382,
+      "candidate_cumulative_regret": 0.37805555095973764,
+      "historical_largest_regret": 0.3900422172322278,
+      "historical_cumulative_regret": 7.73886484386423,
+      "classification": "A_likely_avoidable"
+    },
+    {
+      "game_id": 121040085,
+      "outcome": "win",
+      "decisions": 26,
+      "candidate_largest_regret": 0.044860514561138154,
+      "candidate_cumulative_regret": 0.1409047654322944,
+      "historical_largest_regret": 0.1249612916506948,
+      "historical_cumulative_regret": 0.42523897994361853,
+      "classification": "C_no_major_policy_regret_found"
+    },
+    {
+      "game_id": 121042613,
+      "outcome": "win",
+      "decisions": 21,
+      "candidate_largest_regret": 0.05114416150501555,
+      "candidate_cumulative_regret": 0.0857644228656933,
+      "historical_largest_regret": 0.06932488655694902,
+      "historical_cumulative_regret": 0.2828135165324992,
+      "classification": "B_partially_avoidable"
+    },
+    {
+      "game_id": 121043174,
+      "outcome": "win",
+      "decisions": 31,
+      "candidate_largest_regret": 0.12656263170944282,
+      "candidate_cumulative_regret": 0.32020021237880303,
+      "historical_largest_regret": 0.19040057498622914,
+      "historical_cumulative_regret": 1.1423465428850625,
+      "classification": "A_likely_avoidable"
+    },
+    {
+      "game_id": 121043250,
+      "outcome": "loss",
+      "decisions": 46,
+      "candidate_largest_regret": 0.055755080949135075,
+      "candidate_cumulative_regret": 0.4147496409322182,
+      "historical_largest_regret": 0.2888085454600323,
+      "historical_cumulative_regret": 2.441051091983188,
+      "classification": "B_partially_avoidable"
+    },
+    {
+      "game_id": 121045074,
+      "outcome": "win",
+      "decisions": 21,
+      "candidate_largest_regret": 0.0852104186841629,
+      "candidate_cumulative_regret": 0.18739228097369443,
+      "historical_largest_regret": 0.43846896273397545,
+      "historical_cumulative_regret": 1.8644700830620513,
+      "classification": "B_partially_avoidable"
+    },
+    {
+      "game_id": 121045727,
+      "outcome": "loss",
+      "decisions": 24,
+      "candidate_largest_regret": 0.032571576350755665,
+      "candidate_cumulative_regret": 0.04213327580020279,
+      "historical_largest_regret": 0.05069204270721678,
+      "historical_cumulative_regret": 0.13918530158274592,
+      "classification": "C_no_major_policy_regret_found"
+    },
+    {
+      "game_id": 121046556,
+      "outcome": "loss",
+      "decisions": 41,
+      "candidate_largest_regret": 0.18852317233555213,
+      "candidate_cumulative_regret": 0.6761024718672253,
+      "historical_largest_regret": 0.1321278231402671,
+      "historical_cumulative_regret": 0.8414404449577749,
+      "classification": "A_likely_avoidable"
+    },
+    {
+      "game_id": 121046668,
+      "outcome": "loss",
+      "decisions": 17,
+      "candidate_largest_regret": 0.021244685844567623,
+      "candidate_cumulative_regret": 0.05889008816344611,
+      "historical_largest_regret": 0.053241598572547455,
+      "historical_cumulative_regret": 0.1412386001153077,
+      "classification": "C_no_major_policy_regret_found"
+    },
+    {
+      "game_id": 121047824,
+      "outcome": "loss",
+      "decisions": 24,
+      "candidate_largest_regret": 0.16582299628646396,
+      "candidate_cumulative_regret": 0.37790960394566875,
+      "historical_largest_regret": 0.32533479826892614,
+      "historical_cumulative_regret": 0.8299856747105689,
+      "classification": "A_likely_avoidable"
+    },
+    {
+      "game_id": 121048008,
+      "outcome": "win",
+      "decisions": 20,
+      "candidate_largest_regret": 0.03779915699496755,
+      "candidate_cumulative_regret": 0.10492038711560209,
+      "historical_largest_regret": 0.18131055443707295,
+      "historical_cumulative_regret": 0.42647823528750434,
+      "classification": "C_no_major_policy_regret_found"
+    },
+    {
+      "game_id": 121048416,
+      "outcome": "loss",
+      "decisions": 12,
+      "candidate_largest_regret": 0.20962232506156864,
+      "candidate_cumulative_regret": 0.5395105922875414,
+      "historical_largest_regret": 0.0385682955425416,
+      "historical_cumulative_regret": 0.06813095585055945,
+      "classification": "A_likely_avoidable"
+    },
+    {
+      "game_id": 121049216,
+      "outcome": "win",
+      "decisions": 25,
+      "candidate_largest_regret": 0.12092023599819685,
+      "candidate_cumulative_regret": 0.39496355125471627,
+      "historical_largest_regret": 0.3111162677964615,
+      "historical_cumulative_regret": 0.9912605885327367,
+      "classification": "A_likely_avoidable"
+    },
+    {
+      "game_id": 121049936,
+      "outcome": "win",
+      "decisions": 18,
+      "candidate_largest_regret": 0.2578632712029583,
+      "candidate_cumulative_regret": 0.6786504622320796,
+      "historical_largest_regret": 0.2578632712029583,
+      "historical_cumulative_regret": 0.7438782802955124,
+      "classification": "A_likely_avoidable"
+    },
+    {
+      "game_id": 121050340,
+      "outcome": "win",
+      "decisions": 23,
+      "candidate_largest_regret": 0.06444122363899671,
+      "candidate_cumulative_regret": 0.15764337544477938,
+      "historical_largest_regret": 0.400839191466156,
+      "historical_cumulative_regret": 2.4612718946666416,
+      "classification": "B_partially_avoidable"
+    },
+    {
+      "game_id": 121052982,
+      "outcome": "win",
+      "decisions": 27,
+      "candidate_largest_regret": 0.07574091584017956,
+      "candidate_cumulative_regret": 0.17922930022205025,
+      "historical_largest_regret": 0.2779989084800379,
+      "historical_cumulative_regret": 1.2268638351843284,
+      "classification": "B_partially_avoidable"
+    },
+    {
+      "game_id": 121053133,
+      "outcome": "win",
+      "decisions": 21,
+      "candidate_largest_regret": 0.04490410249470611,
+      "candidate_cumulative_regret": 0.07189644543247542,
+      "historical_largest_regret": 0.3519788953783398,
+      "historical_cumulative_regret": 2.530261061307308,
+      "classification": "C_no_major_policy_regret_found"
+    },
+    {
+      "game_id": 121054885,
+      "outcome": "win",
+      "decisions": 17,
+      "candidate_largest_regret": 0.0911204489502318,
+      "candidate_cumulative_regret": 0.13613209366094364,
+      "historical_largest_regret": 0.16325335187809448,
+      "historical_cumulative_regret": 0.5588939269436222,
+      "classification": "B_partially_avoidable"
+    },
+    {
+      "game_id": 121056280,
+      "outcome": "loss",
+      "decisions": 55,
+      "candidate_largest_regret": 0.07501304099360129,
+      "candidate_cumulative_regret": 0.49710929123825937,
+      "historical_largest_regret": 0.5472672117015623,
+      "historical_cumulative_regret": 6.650140026069224,
+      "classification": "B_partially_avoidable"
+    },
+    {
+      "game_id": 121056915,
+      "outcome": "win",
+      "decisions": 36,
+      "candidate_largest_regret": 0.1920931716964589,
+      "candidate_cumulative_regret": 0.38387698332905323,
+      "historical_largest_regret": 0.23846558387722805,
+      "historical_cumulative_regret": 1.6797906457272371,
+      "classification": "A_likely_avoidable"
+    },
+    {
+      "game_id": 121058903,
+      "outcome": "win",
+      "decisions": 21,
+      "candidate_largest_regret": 0.1005212938927969,
+      "candidate_cumulative_regret": 0.11042411054546669,
+      "historical_largest_regret": 0.1059922305480745,
+      "historical_cumulative_regret": 0.21519926980769166,
+      "classification": "A_likely_avoidable"
+    },
+    {
+      "game_id": 121059406,
+      "outcome": "win",
+      "decisions": 13,
+      "candidate_largest_regret": 0.02806592373793193,
+      "candidate_cumulative_regret": 0.053342949829907726,
+      "historical_largest_regret": 0.042672090396977946,
+      "historical_cumulative_regret": 0.12334990521254774,
+      "classification": "C_no_major_policy_regret_found"
+    },
+    {
+      "game_id": 121059592,
+      "outcome": "loss",
+      "decisions": 22,
+      "candidate_largest_regret": 0.0851477422156458,
+      "candidate_cumulative_regret": 0.3411904415480245,
+      "historical_largest_regret": 0.23277346779754102,
+      "historical_cumulative_regret": 1.486966591853776,
+      "classification": "B_partially_avoidable"
+    },
+    {
+      "game_id": 121060745,
+      "outcome": "loss",
+      "decisions": 16,
+      "candidate_largest_regret": 0.03543465269445176,
+      "candidate_cumulative_regret": 0.06927595006495847,
+      "historical_largest_regret": 0.3530505590471317,
+      "historical_cumulative_regret": 1.2633554621198206,
+      "classification": "C_no_major_policy_regret_found"
+    },
+    {
+      "game_id": 121060816,
+      "outcome": "loss",
+      "decisions": 10,
+      "candidate_largest_regret": 0,
+      "candidate_cumulative_regret": 0,
+      "historical_largest_regret": 0,
+      "historical_cumulative_regret": 0,
+      "classification": "C_no_major_policy_regret_found"
+    },
+    {
+      "game_id": 121061366,
+      "outcome": "loss",
+      "decisions": 26,
+      "candidate_largest_regret": 0.07258540739577152,
+      "candidate_cumulative_regret": 0.3038157586754407,
+      "historical_largest_regret": 0.135470090104831,
+      "historical_cumulative_regret": 0.4678918520915088,
+      "classification": "B_partially_avoidable"
+    },
+    {
+      "game_id": 121062518,
+      "outcome": "loss",
+      "decisions": 32,
+      "candidate_largest_regret": 0.07573021638085001,
+      "candidate_cumulative_regret": 0.2766869347750499,
+      "historical_largest_regret": 0.24607913010793003,
+      "historical_cumulative_regret": 0.9412993324230227,
+      "classification": "B_partially_avoidable"
+    },
+    {
+      "game_id": 121063787,
+      "outcome": "loss",
+      "decisions": 35,
+      "candidate_largest_regret": 0.026829107339719216,
+      "candidate_cumulative_regret": 0.06318851896842444,
+      "historical_largest_regret": 0.19576043104942,
+      "historical_cumulative_regret": 0.6419174464362288,
+      "classification": "C_no_major_policy_regret_found"
+    },
+    {
+      "game_id": 121064263,
+      "outcome": "loss",
+      "decisions": 20,
+      "candidate_largest_regret": 0.05903736857489217,
+      "candidate_cumulative_regret": 0.2303531224289738,
+      "historical_largest_regret": 0.25861128758766266,
+      "historical_cumulative_regret": 0.4789050858115631,
+      "classification": "B_partially_avoidable"
+    },
+    {
+      "game_id": 121064728,
+      "outcome": "win",
+      "decisions": 16,
+      "candidate_largest_regret": 0.08191373596646423,
+      "candidate_cumulative_regret": 0.08191373596646423,
+      "historical_largest_regret": 0.174981332806472,
+      "historical_cumulative_regret": 0.5393795614083475,
+      "classification": "B_partially_avoidable"
+    },
+    {
+      "game_id": 121066111,
+      "outcome": "win",
+      "decisions": 16,
+      "candidate_largest_regret": 0.09102395756876819,
+      "candidate_cumulative_regret": 0.21932002292408803,
+      "historical_largest_regret": 0.13056758376884398,
+      "historical_cumulative_regret": 0.532638796234421,
+      "classification": "B_partially_avoidable"
+    },
+    {
+      "game_id": 121066276,
+      "outcome": "win",
+      "decisions": 33,
+      "candidate_largest_regret": 0.1568353201243604,
+      "candidate_cumulative_regret": 0.34421356956097876,
+      "historical_largest_regret": 0.37528246558040246,
+      "historical_cumulative_regret": 2.8870788986121623,
+      "classification": "A_likely_avoidable"
+    },
+    {
+      "game_id": 121066685,
+      "outcome": "loss",
+      "decisions": 22,
+      "candidate_largest_regret": 0.044932342294726854,
+      "candidate_cumulative_regret": 0.2587527518308485,
+      "historical_largest_regret": 0.0411155102167212,
+      "historical_cumulative_regret": 0.14624842378575031,
+      "classification": "C_no_major_policy_regret_found"
+    },
+    {
+      "game_id": 121067756,
+      "outcome": "win",
+      "decisions": 24,
+      "candidate_largest_regret": 0.05511219154045341,
+      "candidate_cumulative_regret": 0.19056207613625922,
+      "historical_largest_regret": 0.22454989480694287,
+      "historical_cumulative_regret": 1.50147591080962,
+      "classification": "B_partially_avoidable"
+    },
+    {
+      "game_id": 121069757,
+      "outcome": "win",
+      "decisions": 35,
+      "candidate_largest_regret": 0.08360495161302761,
+      "candidate_cumulative_regret": 0.18168388075054298,
+      "historical_largest_regret": 0.4414146076650005,
+      "historical_cumulative_regret": 2.968963493903786,
+      "classification": "B_partially_avoidable"
+    },
+    {
+      "game_id": 121070377,
+      "outcome": "loss",
+      "decisions": 46,
+      "candidate_largest_regret": 0.062494629620560516,
+      "candidate_cumulative_regret": 0.4476690341662804,
+      "historical_largest_regret": 0.2421507394398849,
+      "historical_cumulative_regret": 0.9927417147835944,
+      "classification": "B_partially_avoidable"
+    },
+    {
+      "game_id": 121071072,
+      "outcome": "loss",
+      "decisions": 25,
+      "candidate_largest_regret": 0.1251794007723757,
+      "candidate_cumulative_regret": 0.38502506849044604,
+      "historical_largest_regret": 0.3239108894731902,
+      "historical_cumulative_regret": 0.5334614887414728,
+      "classification": "A_likely_avoidable"
+    },
+    {
+      "game_id": 121071411,
+      "outcome": "loss",
+      "decisions": 21,
+      "candidate_largest_regret": 0.003111707890533902,
+      "candidate_cumulative_regret": 0.010816047496526598,
+      "historical_largest_regret": 0.23219147963293213,
+      "historical_cumulative_regret": 1.16425119766711,
+      "classification": "C_no_major_policy_regret_found"
+    }
+  ]
+}

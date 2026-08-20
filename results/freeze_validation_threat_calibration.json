@@ -1,0 +1,98 @@
+{
+  "version": "candidate-threat-calibration-3.9-v1",
+  "split": [
+    "freeze_validation"
+  ],
+  "candidate": {
+    "states": 1530,
+    "brier": 0.017553291145962897,
+    "ece": 0.018303019895012946,
+    "exact_100_claims": 0,
+    "exact_100_observed_loss_rate": null,
+    "buckets": [
+      {
+        "left": 0,
+        "right": 0.05,
+        "count": 1525,
+        "predicted": 0.0,
+        "observed": 0.017049180327868854
+      },
+      {
+        "left": 0.2,
+        "right": 0.4,
+        "count": 3,
+        "predicted": 0.3187814905388288,
+        "observed": 0.0
+      },
+      {
+        "left": 0.4,
+        "right": 0.6,
+        "count": 2,
+        "predicted": 0.47636201612333895,
+        "observed": 1.0
+      }
+    ]
+  },
+  "historical_model": {
+    "states": 1530,
+    "brier": 0.014796830065359477,
+    "ece": 0.006418300653594771,
+    "exact_100_claims": 1,
+    "exact_100_observed_loss_rate": 0.0,
+    "buckets": [
+      {
+        "left": 0,
+        "right": 0.05,
+        "count": 1386,
+        "predicted": 0.00013347763347763348,
+        "observed": 0.0
+      },
+      {
+        "left": 0.05,
+        "right": 0.1,
+        "count": 20,
+        "predicted": 0.08025,
+        "observed": 0.1
+      },
+      {
+        "left": 0.1,
+        "right": 0.2,
+        "count": 54,
+        "predicted": 0.1383333333333333,
+        "observed": 0.09259259259259259
+      },
+      {
+        "left": 0.2,
+        "right": 0.4,
+        "count": 41,
+        "predicted": 0.2634146341463415,
+        "observed": 0.24390243902439024
+      },
+      {
+        "left": 0.4,
+        "right": 0.6,
+        "count": 18,
+        "predicted": 0.49194444444444435,
+        "observed": 0.3888888888888889
+      },
+      {
+        "left": 0.6,
+        "right": 0.8,
+        "count": 10,
+        "predicted": 0.7115,
+        "observed": 0.4
+      },
+      {
+        "left": 0.95,
+        "right": 1,
+        "count": 1,
+        "predicted": 1.0,
+        "observed": 0.0
+      }
+    ]
+  },
+  "improvement": {
+    "brier": -0.0027564610806034198,
+    "ece": -0.011884719241418176
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "version": "runtime-feature-parity-3.9-v1",
+  "holdout_opened": false,
+  "states": 1000,
+  "actions": 9510,
+  "max_abs_score_difference": 3.14456172212374e-08,
+  "mean_abs_score_difference": 2.2748669806700442e-09,
+  "ranking_mismatches": 0,
+  "max_abs_feature_difference": 5.7220459037665705e-08,
+  "worst_feature": {
+    "index": 19,
+    "name": "cost_sq",
+    "difference": 5.7220459037665705e-08,
+    "expected": 1.440000057220459,
+    "actual": 1.44,
+    "expected_length": 44,
+    "actual_length": 44,
+    "state_id": "4ea1992be9e6879d63c30767",
+    "action": {
+      "action": "drop",
+      "slot": 0,
+      "card_id": 27
+    }
+  },
+  "worst_state_feature": {
+    "index": 54,
+    "name": "tower_gap_x_short",
+    "difference": 1.3322676295501878e-15,
+    "expected": -1.25617903106966,
+    "actual": -1.2561790310696612,
+    "state_id": "005536b5dec71a6cf6281a26",
+    "action": {
+      "action": "turn",
+      "slot": 3,
+      "card_id": 97
+    }
+  },
+  "pass": true
+}

@@ -1,0 +1,17 @@
+{
+  "version": "3.9.0-policy-improvement-production",
+  "benchmark": "FIXED_PERFORMANCE_SET_24",
+  "oracle_covered_states": 23,
+  "contaminated_or_uncovered_states": 1,
+  "frozen": {
+    "mean_regret": 0.0066067248,
+    "p95_regret": 0.0318247930,
+    "mistakes_gt_5pp": 1
+  },
+  "optimized": {
+    "mean_regret": 0.0051971264,
+    "p95_regret": 0.0262006229,
+    "mistakes_gt_5pp": 1
+  },
+  "conclusion": "Higher completed-particle budget improved best-so-far online decision quality on the fixed set."
+}

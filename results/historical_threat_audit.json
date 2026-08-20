@@ -1,0 +1,95 @@
+{
+  "version": "historical-threat-audit-3.9-v1",
+  "splits": [
+    "train",
+    "validation"
+  ],
+  "holdout_opened": false,
+  "totals": {
+    "terminal_artifacts_removed": 8,
+    "states_with_p_lose": 17203,
+    "threat_entries": 82837
+  },
+  "immediate_loss_calibration": {
+    "0.00_0.05": {
+      "states": 15264,
+      "mean_predicted": 0.00026631289308176104,
+      "observed_next_loss_rate": 0.0004585953878406709
+    },
+    "0.05_0.10": {
+      "states": 221,
+      "mean_predicted": 0.07947963800904978,
+      "observed_next_loss_rate": 0.09954751131221719
+    },
+    "0.10_0.20": {
+      "states": 521,
+      "mean_predicted": 0.14212092130518234,
+      "observed_next_loss_rate": 0.11900191938579655
+    },
+    "0.20_0.40": {
+      "states": 494,
+      "mean_predicted": 0.290587044534413,
+      "observed_next_loss_rate": 0.15789473684210525
+    },
+    "0.60_0.80": {
+      "states": 233,
+      "mean_predicted": 0.6827467811158798,
+      "observed_next_loss_rate": 0.30472103004291845
+    },
+    "0.40_0.60": {
+      "states": 351,
+      "mean_predicted": 0.49611111111111106,
+      "observed_next_loss_rate": 0.22507122507122507
+    },
+    "0.80_0.95": {
+      "states": 97,
+      "mean_predicted": 0.8639690721649486,
+      "observed_next_loss_rate": 0.26804123711340205
+    },
+    "0.95_1.00": {
+      "states": 13,
+      "mean_predicted": 0.9688461538461539,
+      "observed_next_loss_rate": 0.07692307692307693
+    },
+    "exactly_100": {
+      "states": 9,
+      "mean_predicted": 1.0,
+      "observed_next_loss_rate": 0.5555555555555556
+    }
+  },
+  "exact_100_claims": {
+    "count": 4,
+    "observable_immediate_confirmations": 1,
+    "rows": [
+      {
+        "game_id": 121042650,
+        "turn": 135,
+        "card_name": "Медитация",
+        "next_opponent_card_id": 93,
+        "observable_immediate_confirmation": false
+      },
+      {
+        "game_id": 121042650,
+        "turn": 135,
+        "card_name": "Огненный рубин",
+        "next_opponent_card_id": 93,
+        "observable_immediate_confirmation": false
+      },
+      {
+        "game_id": 121042650,
+        "turn": 135,
+        "card_name": "Вампир",
+        "next_opponent_card_id": 93,
+        "observable_immediate_confirmation": true
+      },
+      {
+        "game_id": 121042650,
+        "turn": 135,
+        "card_name": "Матрица",
+        "next_opponent_card_id": 93,
+        "observable_immediate_confirmation": false
+      }
+    ],
+    "interpretation": "Non-confirmation is diagnostic evidence, not proof the card was absent; finite-particle certainty is removed in candidate."
+  }
+}

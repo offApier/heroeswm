@@ -1,0 +1,61 @@
+{
+  "candidate_version": "3.9.0-policy-improvement-production",
+  "oos_series_id": "3.9.0-production-freeze-2026-08-20",
+  "policy_frozen": true,
+  "decision": "RELEASE",
+  "acceptance": {
+    "A_all_tests_pass": true,
+    "B_simulator_exact": true,
+    "C_holdout_mean_regret_better_than_baseline": true,
+    "D_holdout_p95_regret_better_than_baseline": true,
+    "E_gt5pp_mistakes_better_than_baseline": true,
+    "F_random_representative_oracle_not_worse": true,
+    "G_median_particles_at_least_200": true,
+    "H_no_material_deadline_regression": true,
+    "I_threat_brier_difference_not_significant": true
+  },
+  "tests": {"passed": 131, "failed": 0},
+  "monte_carlo_server_modes": {
+    "safety_reserve_seconds": 4,
+    "15": {"compute_cap_seconds": 11, "particle_cap": 1600},
+    "30": {"compute_cap_seconds": 26, "particle_cap": 4000},
+    "40": {"compute_cap_seconds": 36, "particle_cap": 6000},
+    "deadline_formula": "min(decision_start + mode_compute_cap, server_deadline - safety_reserve)"
+  },
+  "simulator": {"exact": 35973, "observations": 35973, "cards": 102},
+  "equivalence": {
+    "states": 24,
+    "particles_per_state": 40,
+    "ranking_mismatches": 0,
+    "selection_mismatches": 0,
+    "max_abs_policy_score_diff": 0.0,
+    "max_abs_pwin_diff": 0.0
+  },
+  "holdout": {
+    "baseline_mean_regret": 0.0459016,
+    "optimized_mean_regret": 0.010475237439,
+    "baseline_p95_regret": 0.2466696,
+    "optimized_p95_regret": 0.0621598,
+    "baseline_mistakes_gt_5pp": 330,
+    "optimized_mistakes_gt_5pp": 88
+  },
+  "fixed_online_particles": {
+    "before_median": 120,
+    "after_median": 360,
+    "before_fraction_ge_200": 0.25,
+    "after_fraction_ge_200": 1.0,
+    "before_fraction_ge_400": 0.0,
+    "after_fraction_ge_400": 0.4583333333,
+    "after_hard_timeouts": 0
+  },
+  "threat_brier_bootstrap": {
+    "resamples": 5000,
+    "paired_game_level": true,
+    "games": 51,
+    "delta_candidate_minus_historical": 0.000405655,
+    "ci95": [-0.0044445748, 0.0053862071],
+    "probability_candidate_worse": 0.566,
+    "statistically_significant": false,
+    "calibration_changed": false
+  }
+}

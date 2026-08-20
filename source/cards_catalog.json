@@ -1,0 +1,920 @@
+[
+  {
+    "id": 0,
+    "name": "Бракованная руда",
+    "ore": 0,
+    "mana": 0,
+    "army": 0,
+    "effect": "Все игроки теряют по 8 руды",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card001.png"
+  },
+  {
+    "id": 1,
+    "name": "Счастливая монетка",
+    "ore": 0,
+    "mana": 0,
+    "army": 0,
+    "effect": "+2 руды, +2 маны, играем снова",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card002.png"
+  },
+  {
+    "id": 2,
+    "name": "Благодатная почва",
+    "ore": 1,
+    "mana": 0,
+    "army": 0,
+    "effect": "+1 к стене, играем снова",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card003.png"
+  },
+  {
+    "id": 3,
+    "name": "Шахтеры",
+    "ore": 3,
+    "mana": 0,
+    "army": 0,
+    "effect": "+1 шахта",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card004.png"
+  },
+  {
+    "id": 4,
+    "name": "Большая жила",
+    "ore": 4,
+    "mana": 0,
+    "army": 0,
+    "effect": "Если шахта меньше чем у врага, то шахта +2, иначе шахта +1",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card005.png"
+  },
+  {
+    "id": 5,
+    "name": "Гномы-шахтеры",
+    "ore": 7,
+    "mana": 0,
+    "army": 0,
+    "effect": "+4 к стене, +1 шахта",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card006.png"
+  },
+  {
+    "id": 6,
+    "name": "Сверхурочные",
+    "ore": 2,
+    "mana": 0,
+    "army": 0,
+    "effect": "+5 к стене, вы теряете 6 маны",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card007.png"
+  },
+  {
+    "id": 7,
+    "name": "Кража технологий",
+    "ore": 5,
+    "mana": 0,
+    "army": 0,
+    "effect": "Если шахта меньше чем врага, то шахта становится равной вражеской",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card008.png"
+  },
+  {
+    "id": 8,
+    "name": "Обычная стена",
+    "ore": 2,
+    "mana": 0,
+    "army": 0,
+    "effect": "+3 к стене",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card009.png"
+  },
+  {
+    "id": 9,
+    "name": "Большая стена",
+    "ore": 3,
+    "mana": 0,
+    "army": 0,
+    "effect": "+4 к стене",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card010.png"
+  },
+  {
+    "id": 10,
+    "name": "Новшества",
+    "ore": 2,
+    "mana": 0,
+    "army": 0,
+    "effect": "+1 к шахте всех игроков, вы получаете 4 маны",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card011.png"
+  },
+  {
+    "id": 11,
+    "name": "Фундамент",
+    "ore": 3,
+    "mana": 0,
+    "army": 0,
+    "effect": "Если стена=0, то +6 к стене, иначе +3 к стене",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card012.png"
+  },
+  {
+    "id": 12,
+    "name": "Толчки",
+    "ore": 7,
+    "mana": 0,
+    "army": 0,
+    "effect": "Все стены получают по 5 повреждений, играем снова",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card013.png"
+  },
+  {
+    "id": 13,
+    "name": "Секретная пещера",
+    "ore": 8,
+    "mana": 0,
+    "army": 0,
+    "effect": "+1 монастырь, играем снова",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card014.png"
+  },
+  {
+    "id": 14,
+    "name": "Землетрясение",
+    "ore": 0,
+    "mana": 0,
+    "army": 0,
+    "effect": "-1 шахта всех игроков",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card015.png"
+  },
+  {
+    "id": 15,
+    "name": "Усиленная стена",
+    "ore": 5,
+    "mana": 0,
+    "army": 0,
+    "effect": "+6 к стене",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card016.png"
+  },
+  {
+    "id": 16,
+    "name": "Обвал",
+    "ore": 4,
+    "mana": 0,
+    "army": 0,
+    "effect": "-1 шахта врага",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card017.png"
+  },
+  {
+    "id": 17,
+    "name": "Новое оборудование",
+    "ore": 6,
+    "mana": 0,
+    "army": 0,
+    "effect": "+2 к шахте",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card018.png"
+  },
+  {
+    "id": 18,
+    "name": "Обвал рудника",
+    "ore": 0,
+    "mana": 0,
+    "army": 0,
+    "effect": "-1 шахта, +10 к стене, вы получаете 5 маны",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card019.png"
+  },
+  {
+    "id": 19,
+    "name": "Великая стена",
+    "ore": 8,
+    "mana": 0,
+    "army": 0,
+    "effect": "+8 к стене",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card020.png"
+  },
+  {
+    "id": 20,
+    "name": "Галереи",
+    "ore": 9,
+    "mana": 0,
+    "army": 0,
+    "effect": "+5 к стене, +1 казарма",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card021.png"
+  },
+  {
+    "id": 21,
+    "name": "Магическая гора",
+    "ore": 9,
+    "mana": 0,
+    "army": 0,
+    "effect": "+7 к стене, +7 маны",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card022.png"
+  },
+  {
+    "id": 22,
+    "name": "Поющий уголь",
+    "ore": 11,
+    "mana": 0,
+    "army": 0,
+    "effect": "+6 к стене, +3 к башне",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card023.png"
+  },
+  {
+    "id": 23,
+    "name": "Бастион",
+    "ore": 13,
+    "mana": 0,
+    "army": 0,
+    "effect": "+12 к стене",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card024.png"
+  },
+  {
+    "id": 24,
+    "name": "Новые успехи",
+    "ore": 15,
+    "mana": 0,
+    "army": 0,
+    "effect": "+8 к стене, +5 к башне",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card025.png"
+  },
+  {
+    "id": 25,
+    "name": "Величайшая стена",
+    "ore": 16,
+    "mana": 0,
+    "army": 0,
+    "effect": "+15 к стене",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card026.png"
+  },
+  {
+    "id": 26,
+    "name": "Скаломет",
+    "ore": 18,
+    "mana": 0,
+    "army": 0,
+    "effect": "+6 к стене, 10 единиц урона врагу",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card027.png"
+  },
+  {
+    "id": 27,
+    "name": "Сердце дракона",
+    "ore": 24,
+    "mana": 0,
+    "army": 0,
+    "effect": "+20 к стене, +8 к башне",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card028.png"
+  },
+  {
+    "id": 28,
+    "name": "Рабский труд",
+    "ore": 7,
+    "mana": 0,
+    "army": 0,
+    "effect": "+9 к стене, вы теряете 5 отрядов",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card029.png"
+  },
+  {
+    "id": 29,
+    "name": "Сад камней",
+    "ore": 1,
+    "mana": 0,
+    "army": 0,
+    "effect": "+1 к стене, +1 к башне, +2 отряда",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card030.png"
+  },
+  {
+    "id": 30,
+    "name": "Грунтовые воды",
+    "ore": 6,
+    "mana": 0,
+    "army": 0,
+    "effect": "Игрок с меньшей стеной теряет 1 казарму и получает 2 урона к башне",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card031.png"
+  },
+  {
+    "id": 31,
+    "name": "Казармы",
+    "ore": 10,
+    "mana": 0,
+    "army": 0,
+    "effect": "+6 отрядов  +6 к стене. Если казарма < вражеской, то +1 казарма",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card032.png"
+  },
+  {
+    "id": 32,
+    "name": "Укрепления",
+    "ore": 14,
+    "mana": 0,
+    "army": 0,
+    "effect": "+7 к стене, 6 урона врагу",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card033.png"
+  },
+  {
+    "id": 33,
+    "name": "Сдвиг",
+    "ore": 17,
+    "mana": 0,
+    "army": 0,
+    "effect": "Ваша и вражеская стена меняются местами",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card034.png"
+  },
+  {
+    "id": 34,
+    "name": "Кварц",
+    "ore": 0,
+    "mana": 1,
+    "army": 0,
+    "effect": "+1 к башне, играем снова",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card101.png"
+  },
+  {
+    "id": 35,
+    "name": "Дымчатый кварц",
+    "ore": 0,
+    "mana": 2,
+    "army": 0,
+    "effect": "1 урона Башне врага, Играем снова",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card102.png"
+  },
+  {
+    "id": 36,
+    "name": "Аметист",
+    "ore": 0,
+    "mana": 2,
+    "army": 0,
+    "effect": "+3 к башне",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card103.png"
+  },
+  {
+    "id": 37,
+    "name": "Ткачи заклинаний",
+    "ore": 0,
+    "mana": 3,
+    "army": 0,
+    "effect": "+1 монастырь",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card104.png"
+  },
+  {
+    "id": 38,
+    "name": "Рудная жила",
+    "ore": 0,
+    "mana": 5,
+    "army": 0,
+    "effect": "+8 к башне",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card105.png"
+  },
+  {
+    "id": 39,
+    "name": "Затмение",
+    "ore": 0,
+    "mana": 4,
+    "army": 0,
+    "effect": "+2 к башне, 2 ед. урона башне врага",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card106.png"
+  },
+  {
+    "id": 40,
+    "name": "Матрица",
+    "ore": 0,
+    "mana": 6,
+    "army": 0,
+    "effect": "+1 монастырь, +3 к башне, +1 к башне врага",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card107.png"
+  },
+  {
+    "id": 41,
+    "name": "Трещина",
+    "ore": 0,
+    "mana": 2,
+    "army": 0,
+    "effect": "3 урона башне врага",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card108.png"
+  },
+  {
+    "id": 42,
+    "name": "Рубин",
+    "ore": 0,
+    "mana": 3,
+    "army": 0,
+    "effect": "+5 к башне",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card109.png"
+  },
+  {
+    "id": 43,
+    "name": "Копье",
+    "ore": 0,
+    "mana": 4,
+    "army": 0,
+    "effect": "5 урона башне врага",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card110.png"
+  },
+  {
+    "id": 44,
+    "name": "Взрыв силы",
+    "ore": 0,
+    "mana": 3,
+    "army": 0,
+    "effect": "5 урона собственной башне, +2 монастырь",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card111.png"
+  },
+  {
+    "id": 45,
+    "name": "Гармония",
+    "ore": 0,
+    "mana": 7,
+    "army": 0,
+    "effect": "+1 монастырь, +3 к башне, +3 к стене",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card112.png"
+  },
+  {
+    "id": 46,
+    "name": "Паритет",
+    "ore": 0,
+    "mana": 7,
+    "army": 0,
+    "effect": "Монастырь всех становится равным монастырю сильнейшего",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card113.png"
+  },
+  {
+    "id": 47,
+    "name": "Эмеральд",
+    "ore": 0,
+    "mana": 6,
+    "army": 0,
+    "effect": "+8 к башне",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card114.png"
+  },
+  {
+    "id": 48,
+    "name": "Жемчуг мудрости",
+    "ore": 0,
+    "mana": 9,
+    "army": 0,
+    "effect": "+5 к башне, +1 монастырь",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card115.png"
+  },
+  {
+    "id": 49,
+    "name": "Дробление",
+    "ore": 0,
+    "mana": 8,
+    "army": 0,
+    "effect": "-1 монастырь, 9 урона башне врага",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card116.png"
+  },
+  {
+    "id": 50,
+    "name": "Мягкий камень",
+    "ore": 0,
+    "mana": 7,
+    "army": 0,
+    "effect": "+5 к башне, враг теряет 6 руды",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card117.png"
+  },
+  {
+    "id": 51,
+    "name": "Сапфир",
+    "ore": 0,
+    "mana": 10,
+    "army": 0,
+    "effect": "+11 к башне",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card118.png"
+  },
+  {
+    "id": 52,
+    "name": "Раздоры",
+    "ore": 0,
+    "mana": 5,
+    "army": 0,
+    "effect": "7 урона всем башням, -1 монастырь всех игроков",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card119.png"
+  },
+  {
+    "id": 53,
+    "name": "Огненный рубин",
+    "ore": 0,
+    "mana": 13,
+    "army": 0,
+    "effect": "+6 к башне, 4 урона башне врага",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card120.png"
+  },
+  {
+    "id": 54,
+    "name": "Помощь в работе",
+    "ore": 0,
+    "mana": 4,
+    "army": 0,
+    "effect": "+7 к башне, вы теряете 10 руды",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card121.png"
+  },
+  {
+    "id": 55,
+    "name": "Кристальный щит",
+    "ore": 0,
+    "mana": 12,
+    "army": 0,
+    "effect": "+8 к башне, +3 к стене",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card122.png"
+  },
+  {
+    "id": 56,
+    "name": "Эмпатия",
+    "ore": 0,
+    "mana": 14,
+    "army": 0,
+    "effect": "+8 к башне, +1 казарма",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card123.png"
+  },
+  {
+    "id": 57,
+    "name": "Алмаз",
+    "ore": 0,
+    "mana": 16,
+    "army": 0,
+    "effect": "+15 к башне",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card124.png"
+  },
+  {
+    "id": 58,
+    "name": "Монастырь",
+    "ore": 0,
+    "mana": 15,
+    "army": 0,
+    "effect": "+10 к башне, +5 к стене, вы получаете 5 отрядов",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card125.png"
+  },
+  {
+    "id": 59,
+    "name": "Сияющий камень",
+    "ore": 0,
+    "mana": 17,
+    "army": 0,
+    "effect": "+12 к башне, 6 урона врагу",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card126.png"
+  },
+  {
+    "id": 60,
+    "name": "Глаз дракона",
+    "ore": 0,
+    "mana": 21,
+    "army": 0,
+    "effect": "+20 к башне",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card127.png"
+  },
+  {
+    "id": 61,
+    "name": "Отвердение",
+    "ore": 0,
+    "mana": 8,
+    "army": 0,
+    "effect": "+11 к башне, -6 к стене",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card128.png"
+  },
+  {
+    "id": 62,
+    "name": "Бижутерия",
+    "ore": 0,
+    "mana": 0,
+    "army": 0,
+    "effect": "Если башня < вражеской, то +2 к башне, иначе +1",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card129.png"
+  },
+  {
+    "id": 63,
+    "name": "Радуга",
+    "ore": 0,
+    "mana": 0,
+    "army": 0,
+    "effect": "+1 к башням всех, вы получаете 3 маны",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card130.png"
+  },
+  {
+    "id": 64,
+    "name": "Вступление",
+    "ore": 0,
+    "mana": 5,
+    "army": 0,
+    "effect": "+4 к башне, вы теряете 3 отряда. 2 урона башне врага",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card131.png"
+  },
+  {
+    "id": 65,
+    "name": "Молния",
+    "ore": 0,
+    "mana": 11,
+    "army": 0,
+    "effect": "Если башня > стены врага, то 8 урона башне врага, иначе 8 урона всем",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card132.png"
+  },
+  {
+    "id": 66,
+    "name": "Медитация",
+    "ore": 0,
+    "mana": 18,
+    "army": 0,
+    "effect": "+13 к башне, +6 отрядов, +6 руды",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card133.png"
+  },
+  {
+    "id": 67,
+    "name": "Коровье бешенство",
+    "ore": 0,
+    "mana": 0,
+    "army": 0,
+    "effect": "Все игроки теряют по 6 отрядов",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card134.png"
+  },
+  {
+    "id": 68,
+    "name": "Фея",
+    "ore": 0,
+    "mana": 0,
+    "army": 1,
+    "effect": "2 единицы урона. Играем снова",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card201.png"
+  },
+  {
+    "id": 69,
+    "name": "Гоблины",
+    "ore": 0,
+    "mana": 0,
+    "army": 1,
+    "effect": "4 единицы урона. Вы теряете 3 маны",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card202.png"
+  },
+  {
+    "id": 70,
+    "name": "Минотавр",
+    "ore": 0,
+    "mana": 0,
+    "army": 3,
+    "effect": "+1 казарма",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card203.png"
+  },
+  {
+    "id": 71,
+    "name": "Армия гоблинов",
+    "ore": 0,
+    "mana": 0,
+    "army": 3,
+    "effect": "6 единиц урона. Вы получаете 3 единицы урона",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card204.png"
+  },
+  {
+    "id": 72,
+    "name": "Гоблины-лучники",
+    "ore": 0,
+    "mana": 0,
+    "army": 4,
+    "effect": "3 урона башне врага. Вы получаете 1 ед. урона",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card205.png"
+  },
+  {
+    "id": 73,
+    "name": "Призрачная фея",
+    "ore": 0,
+    "mana": 0,
+    "army": 6,
+    "effect": "2 урона башне врага, Играем снова.",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card206.png"
+  },
+  {
+    "id": 74,
+    "name": "Орк",
+    "ore": 0,
+    "mana": 0,
+    "army": 3,
+    "effect": "5 урона",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card207.png"
+  },
+  {
+    "id": 75,
+    "name": "Гномы",
+    "ore": 0,
+    "mana": 0,
+    "army": 5,
+    "effect": "4 урона, +3 к стене",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card208.png"
+  },
+  {
+    "id": 76,
+    "name": "Маленькие змейки",
+    "ore": 0,
+    "mana": 0,
+    "army": 6,
+    "effect": "4 урона башне врага",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card209.png"
+  },
+  {
+    "id": 77,
+    "name": "Тролль-наставник",
+    "ore": 0,
+    "mana": 0,
+    "army": 7,
+    "effect": "+2 к казарме",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card210.png"
+  },
+  {
+    "id": 78,
+    "name": "Гремлин в башне",
+    "ore": 0,
+    "mana": 0,
+    "army": 8,
+    "effect": "2 урона, +4 к стене, +2 к башне",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card211.png"
+  },
+  {
+    "id": 79,
+    "name": "Полнолуние",
+    "ore": 0,
+    "mana": 0,
+    "army": 0,
+    "effect": "+1 казарма всем игрокам, Вы получаете 3 отряда",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card212.png"
+  },
+  {
+    "id": 80,
+    "name": "Крушитель",
+    "ore": 0,
+    "mana": 0,
+    "army": 5,
+    "effect": "6 урона",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card213.png"
+  },
+  {
+    "id": 81,
+    "name": "Огр",
+    "ore": 0,
+    "mana": 0,
+    "army": 6,
+    "effect": "7 урона",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card214.png"
+  },
+  {
+    "id": 82,
+    "name": "Бешеная овца",
+    "ore": 0,
+    "mana": 0,
+    "army": 6,
+    "effect": "6 урона, враг теряет 3 отряда",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card215.png"
+  },
+  {
+    "id": 83,
+    "name": "Черт",
+    "ore": 0,
+    "mana": 0,
+    "army": 5,
+    "effect": "6 урона, Все игроки теряют по 5 руды, маны, отрядов",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card216.png"
+  },
+  {
+    "id": 84,
+    "name": "Жучара",
+    "ore": 0,
+    "mana": 0,
+    "army": 8,
+    "effect": "Если стена у врага =0, то 10 урона, иначе 6 урона",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card217.png"
+  },
+  {
+    "id": 85,
+    "name": "Оборотень",
+    "ore": 0,
+    "mana": 0,
+    "army": 9,
+    "effect": "9 урона",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card218.png"
+  },
+  {
+    "id": 86,
+    "name": "Едкое облако",
+    "ore": 0,
+    "mana": 0,
+    "army": 11,
+    "effect": "Если стена врага >10, то 10 урона, иначе 7 урона",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card219.png"
+  },
+  {
+    "id": 87,
+    "name": "Единорог",
+    "ore": 0,
+    "mana": 0,
+    "army": 9,
+    "effect": "Если монастырь больше чем у врага, то 12 урона, иначе 8 урона",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card220.png"
+  },
+  {
+    "id": 88,
+    "name": "Эльфы-лучники",
+    "ore": 0,
+    "mana": 0,
+    "army": 10,
+    "effect": "Если стена больше чем у врага, то 6 урона башне врага, иначе 6 урона",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card221.png"
+  },
+  {
+    "id": 89,
+    "name": "Суккубы",
+    "ore": 0,
+    "mana": 0,
+    "army": 14,
+    "effect": "5 урона башне врага, Враг теряет 8 отрядов",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card222.png"
+  },
+  {
+    "id": 90,
+    "name": "Камнееды",
+    "ore": 0,
+    "mana": 0,
+    "army": 11,
+    "effect": "8 урона, -1 шахта врага",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card223.png"
+  },
+  {
+    "id": 91,
+    "name": "Вор",
+    "ore": 0,
+    "mana": 0,
+    "army": 12,
+    "effect": "Враг теряет 10 маны, 5 руды. Вы получаете половину от этого",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card224.png"
+  },
+  {
+    "id": 92,
+    "name": "Каменный гигант",
+    "ore": 0,
+    "mana": 0,
+    "army": 15,
+    "effect": "10 урона, +4 к стене",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card225.png"
+  },
+  {
+    "id": 93,
+    "name": "Вампир",
+    "ore": 0,
+    "mana": 0,
+    "army": 17,
+    "effect": "10 урона, враг теряет 5 отрядов, -1 к его казарме",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card226.png"
+  },
+  {
+    "id": 94,
+    "name": "Дракон",
+    "ore": 0,
+    "mana": 0,
+    "army": 25,
+    "effect": "20 урона, враг теряет 10 маны, -1 к его казарме",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card227.png"
+  },
+  {
+    "id": 95,
+    "name": "Копьеносец",
+    "ore": 0,
+    "mana": 0,
+    "army": 2,
+    "effect": "Если стена больше чем у врага, то 3 урона, иначе 2 урона",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card228.png"
+  },
+  {
+    "id": 96,
+    "name": "Карлик",
+    "ore": 0,
+    "mana": 0,
+    "army": 2,
+    "effect": "3 урона, +1 мана",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card229.png"
+  },
+  {
+    "id": 97,
+    "name": "Берсерк",
+    "ore": 0,
+    "mana": 0,
+    "army": 4,
+    "effect": "8 урона, 3 урона Вашей башне",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card230.png"
+  },
+  {
+    "id": 98,
+    "name": "Воитель",
+    "ore": 0,
+    "mana": 0,
+    "army": 13,
+    "effect": "13 урона, вы теряете 3 маны",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card231.png"
+  },
+  {
+    "id": 99,
+    "name": "Всадник на&nbsp;пегасе",
+    "ore": 0,
+    "mana": 0,
+    "army": 18,
+    "effect": "12 урона башне врага",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card232.png"
+  },
+  {
+    "id": 100,
+    "name": "Призма",
+    "ore": 0,
+    "mana": 2,
+    "army": 0,
+    "effect": "Сдать 1 карту, сбросить карту, играем снова",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card233.png"
+  },
+  {
+    "id": 101,
+    "name": "Эльфы-скауты",
+    "ore": 0,
+    "mana": 0,
+    "army": 2,
+    "effect": "Сдать 1 карту, сбросить карту, играем снова",
+    "image": "https://dcdn.heroeswm.ru/i/cardGame/png_arcomage/card234.png"
+  }
+]

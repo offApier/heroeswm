@@ -1,0 +1,1564 @@
+{
+  "dataset": {
+    "json_segments": 850,
+    "unique_game_ids": 767,
+    "completed": 761,
+    "wins": 363,
+    "losses": 397,
+    "draws": 1,
+    "aborted": 6,
+    "multi_segment_games": 72,
+    "segment_count_distribution": {
+      "1": 695,
+      "2": 62,
+      "3": 9,
+      "4": 1
+    },
+    "merged_events": 40459,
+    "decisions": 20021,
+    "card_actions": 40459,
+    "terminal_polling_artifacts_removed": 9,
+    "overlap_events_deduplicated": 0,
+    "game_action_length": {
+      "count": 767,
+      "min": 8,
+      "p01": 15.66,
+      "p05": 23.0,
+      "p10": 27.0,
+      "mean": 52.7496740547588,
+      "median": 48.0,
+      "p90": 84.0,
+      "p95": 99.39999999999986,
+      "p99": 132.68000000000006,
+      "max": 162
+    },
+    "extra_turn_continuations_recorded": 1910,
+    "strategy_segments": {
+      "3.6.0-belief-tactical": 850
+    }
+  },
+  "deck": {
+    "public_recurrence": {
+      "count": 2346,
+      "min": 45,
+      "p01": 46.0,
+      "p05": 48.0,
+      "p10": 49.0,
+      "mean": 63.5,
+      "median": 59.0,
+      "p90": 85.0,
+      "p95": 93.0,
+      "p99": 112.0,
+      "max": 152
+    },
+    "public_recurrence_by_server_turn": {
+      "count": 2346,
+      "min": 46,
+      "p01": 47.0,
+      "p05": 48.0,
+      "p10": 49.0,
+      "mean": 63.849104859335036,
+      "median": 60.0,
+      "p90": 86.0,
+      "p95": 95.0,
+      "p99": 112.0,
+      "max": 153
+    },
+    "public_recurrence_groups": {
+      "drop->drop": {
+        "count": 35,
+        "min": 47,
+        "p01": 47.34,
+        "p05": 48.0,
+        "p10": 49.0,
+        "mean": 62.542857142857144,
+        "median": 55.0,
+        "p90": 80.6,
+        "p95": 89.3,
+        "p99": 108.4799999999999,
+        "max": 118
+      },
+      "drop->turn": {
+        "count": 167,
+        "min": 46,
+        "p01": 47.0,
+        "p05": 49.0,
+        "p10": 50.6,
+        "mean": 65.76047904191617,
+        "median": 63.0,
+        "p90": 87.4,
+        "p95": 97.79999999999995,
+        "p99": 108.02000000000001,
+        "max": 117
+      },
+      "opponent->opponent": {
+        "count": 601,
+        "min": 45,
+        "p01": 46.0,
+        "p05": 48.0,
+        "p10": 49.0,
+        "mean": 63.71048252911814,
+        "median": 59.0,
+        "p90": 87.0,
+        "p95": 95.0,
+        "p99": 112.0,
+        "max": 143
+      },
+      "opponent->us": {
+        "count": 613,
+        "min": 45,
+        "p01": 47.0,
+        "p05": 48.0,
+        "p10": 49.0,
+        "mean": 63.1647634584013,
+        "median": 59.0,
+        "p90": 84.0,
+        "p95": 93.39999999999998,
+        "p99": 109.88,
+        "max": 122
+      },
+      "turn->drop": {
+        "count": 106,
+        "min": 47,
+        "p01": 47.0,
+        "p05": 48.25,
+        "p10": 50.0,
+        "mean": 67.67924528301887,
+        "median": 62.0,
+        "p90": 95.5,
+        "p95": 102.0,
+        "p99": 116.70000000000002,
+        "max": 152
+      },
+      "turn->turn": {
+        "count": 2038,
+        "min": 45,
+        "p01": 46.0,
+        "p05": 48.0,
+        "p10": 49.0,
+        "mean": 63.113837095191364,
+        "median": 59.0,
+        "p90": 84.0,
+        "p95": 92.0,
+        "p99": 111.62999999999988,
+        "max": 143
+      },
+      "us->opponent": {
+        "count": 553,
+        "min": 45,
+        "p01": 46.0,
+        "p05": 48.0,
+        "p10": 49.0,
+        "mean": 63.55153707052441,
+        "median": 60.0,
+        "p90": 84.80000000000001,
+        "p95": 95.0,
+        "p99": 110.0,
+        "max": 137
+      },
+      "us->us": {
+        "count": 579,
+        "min": 45,
+        "p01": 47.0,
+        "p05": 48.0,
+        "p10": 49.0,
+        "mean": 63.58721934369603,
+        "median": 59.0,
+        "p90": 84.20000000000005,
+        "p95": 91.0,
+        "p99": 115.10000000000014,
+        "max": 152
+      }
+    },
+    "public_recurrence_groups_by_server_turn": {
+      "drop->drop": {
+        "count": 35,
+        "min": 47,
+        "p01": 47.34,
+        "p05": 48.0,
+        "p10": 49.0,
+        "mean": 63.02857142857143,
+        "median": 55.0,
+        "p90": 80.6,
+        "p95": 90.3,
+        "p99": 108.81999999999991,
+        "max": 118
+      },
+      "drop->turn": {
+        "count": 167,
+        "min": 46,
+        "p01": 47.0,
+        "p05": 49.0,
+        "p10": 51.0,
+        "mean": 66.19161676646706,
+        "median": 63.0,
+        "p90": 87.4,
+        "p95": 98.39999999999998,
+        "p99": 109.34,
+        "max": 117
+      },
+      "opponent->opponent": {
+        "count": 601,
+        "min": 46,
+        "p01": 47.0,
+        "p05": 48.0,
+        "p10": 49.0,
+        "mean": 64.04326123128119,
+        "median": 60.0,
+        "p90": 87.0,
+        "p95": 97.0,
+        "p99": 112.0,
+        "max": 147
+      },
+      "opponent->us": {
+        "count": 613,
+        "min": 46,
+        "p01": 47.0,
+        "p05": 48.0,
+        "p10": 49.0,
+        "mean": 63.48123980424143,
+        "median": 59.0,
+        "p90": 85.0,
+        "p95": 95.0,
+        "p99": 109.88,
+        "max": 122
+      },
+      "turn->drop": {
+        "count": 106,
+        "min": 47,
+        "p01": 47.0,
+        "p05": 48.25,
+        "p10": 50.0,
+        "mean": 68.0754716981132,
+        "median": 62.0,
+        "p90": 96.5,
+        "p95": 105.0,
+        "p99": 116.70000000000002,
+        "max": 153
+      },
+      "turn->turn": {
+        "count": 2038,
+        "min": 46,
+        "p01": 47.0,
+        "p05": 48.0,
+        "p10": 49.0,
+        "mean": 63.45142296368989,
+        "median": 59.0,
+        "p90": 84.0,
+        "p95": 93.0,
+        "p99": 112.0,
+        "max": 147
+      },
+      "us->opponent": {
+        "count": 553,
+        "min": 46,
+        "p01": 47.0,
+        "p05": 48.0,
+        "p10": 49.0,
+        "mean": 63.94755877034358,
+        "median": 60.0,
+        "p90": 85.0,
+        "p95": 95.79999999999995,
+        "p99": 110.0,
+        "max": 137
+      },
+      "us->us": {
+        "count": 579,
+        "min": 47,
+        "p01": 47.0,
+        "p05": 48.0,
+        "p10": 49.0,
+        "mean": 63.943005181347154,
+        "median": 60.0,
+        "p90": 85.0,
+        "p95": 91.0,
+        "p99": 115.10000000000014,
+        "max": 153
+      }
+    },
+    "exact_our_redraw": {
+      "count": 1673,
+      "min": 43,
+      "p01": 44.0,
+      "p05": 45.0,
+      "p10": 46.0,
+      "mean": 58.55469216975493,
+      "median": 54.0,
+      "p90": 77.0,
+      "p95": 87.0,
+      "p99": 106.27999999999997,
+      "max": 135
+    },
+    "exact_our_redraw_by_server_turn": {
+      "count": 1673,
+      "min": 45,
+      "p01": 45.0,
+      "p05": 45.0,
+      "p10": 46.0,
+      "mean": 58.848176927674835,
+      "median": 55.0,
+      "p90": 78.0,
+      "p95": 88.0,
+      "p99": 107.0,
+      "max": 139
+    },
+    "exact_our_redraw_groups": {
+      "drop->draw": {
+        "count": 147,
+        "min": 44,
+        "p01": 45.0,
+        "p05": 45.0,
+        "p10": 46.0,
+        "mean": 60.72108843537415,
+        "median": 56.0,
+        "p90": 82.4,
+        "p95": 94.09999999999997,
+        "p99": 110.07999999999998,
+        "max": 115
+      },
+      "opponent->us": {
+        "count": 849,
+        "min": 43,
+        "p01": 44.480000000000004,
+        "p05": 45.0,
+        "p10": 46.0,
+        "mean": 58.31919905771496,
+        "median": 54.0,
+        "p90": 77.20000000000005,
+        "p95": 88.0,
+        "p99": 103.51999999999998,
+        "max": 120
+      },
+      "turn->draw": {
+        "count": 1526,
+        "min": 43,
+        "p01": 44.0,
+        "p05": 45.0,
+        "p10": 46.0,
+        "mean": 58.34600262123198,
+        "median": 54.0,
+        "p90": 77.0,
+        "p95": 87.0,
+        "p99": 103.75,
+        "max": 135
+      },
+      "us->us": {
+        "count": 824,
+        "min": 43,
+        "p01": 44.230000000000004,
+        "p05": 45.0,
+        "p10": 46.0,
+        "mean": 58.797330097087375,
+        "median": 54.0,
+        "p90": 77.0,
+        "p95": 86.0,
+        "p99": 108.76999999999998,
+        "max": 135
+      }
+    },
+    "exact_our_redraw_groups_by_server_turn": {
+      "drop->draw": {
+        "count": 147,
+        "min": 45,
+        "p01": 45.0,
+        "p05": 45.3,
+        "p10": 46.6,
+        "mean": 61.16326530612245,
+        "median": 57.0,
+        "p90": 83.4,
+        "p95": 94.09999999999997,
+        "p99": 112.07999999999998,
+        "max": 119
+      },
+      "opponent->us": {
+        "count": 849,
+        "min": 45,
+        "p01": 45.0,
+        "p05": 45.0,
+        "p10": 46.0,
+        "mean": 58.60306242638398,
+        "median": 54.0,
+        "p90": 78.0,
+        "p95": 89.0,
+        "p99": 104.51999999999998,
+        "max": 120
+      },
+      "turn->draw": {
+        "count": 1526,
+        "min": 45,
+        "p01": 45.0,
+        "p05": 45.0,
+        "p10": 46.0,
+        "mean": 58.62516382699869,
+        "median": 54.0,
+        "p90": 77.0,
+        "p95": 87.0,
+        "p99": 104.0,
+        "max": 139
+      },
+      "us->us": {
+        "count": 824,
+        "min": 45,
+        "p01": 45.0,
+        "p05": 45.0,
+        "p10": 46.0,
+        "mean": 59.10072815533981,
+        "median": 55.0,
+        "p90": 77.70000000000005,
+        "p95": 86.0,
+        "p99": 110.30999999999995,
+        "max": 139
+      }
+    },
+    "exact_redraw_age_histogram_45_70": {
+      "45": 98,
+      "46": 103,
+      "47": 101,
+      "48": 92,
+      "49": 90,
+      "50": 80,
+      "51": 86,
+      "52": 64,
+      "53": 63,
+      "54": 58,
+      "55": 54,
+      "56": 59,
+      "57": 47,
+      "58": 49,
+      "59": 42,
+      "60": 34,
+      "61": 30,
+      "62": 32,
+      "63": 30,
+      "64": 34,
+      "65": 37,
+      "66": 31,
+      "67": 24,
+      "68": 19,
+      "69": 25,
+      "70": 17
+    },
+    "exact_our_redraw_examples": [
+      {
+        "game_id": 121036731,
+        "card_id": 51,
+        "card_name": "Сапфир",
+        "previous_index": 59,
+        "draw_after_index": 102,
+        "gap": 43,
+        "server_turn_gap": 45,
+        "previous_actor": "us",
+        "previous_action": "turn",
+        "turn": 105,
+        "before_last_move": "d101-2",
+        "server_move": "t93-4"
+      },
+      {
+        "game_id": 121037301,
+        "card_id": 76,
+        "card_name": "Маленькие змейки",
+        "previous_index": 13,
+        "draw_after_index": 56,
+        "gap": 43,
+        "server_turn_gap": 45,
+        "previous_actor": "opponent",
+        "previous_action": "turn",
+        "turn": 59,
+        "before_last_move": "t22-5",
+        "server_move": "d26-4"
+      },
+      {
+        "game_id": 121037301,
+        "card_id": 95,
+        "card_name": "Копьеносец",
+        "previous_index": 29,
+        "draw_after_index": 72,
+        "gap": 43,
+        "server_turn_gap": 45,
+        "previous_actor": "us",
+        "previous_action": "turn",
+        "turn": 75,
+        "before_last_move": "t45-0",
+        "server_move": "d4-4"
+      },
+      {
+        "game_id": 121037301,
+        "card_id": 71,
+        "card_name": "Армия гоблинов",
+        "previous_index": 33,
+        "draw_after_index": 76,
+        "gap": 43,
+        "server_turn_gap": 45,
+        "previous_actor": "us",
+        "previous_action": "turn",
+        "turn": 79,
+        "before_last_move": "t63-0",
+        "server_move": "t60-1"
+      },
+      {
+        "game_id": 121037349,
+        "card_id": 77,
+        "card_name": "Тролль-наставник",
+        "previous_index": 3,
+        "draw_after_index": 46,
+        "gap": 43,
+        "server_turn_gap": 47,
+        "previous_actor": "opponent",
+        "previous_action": "turn",
+        "turn": 51,
+        "before_last_move": "t41-2",
+        "server_move": "t51-0"
+      },
+      {
+        "game_id": 121037807,
+        "card_id": 76,
+        "card_name": "Маленькие змейки",
+        "previous_index": 8,
+        "draw_after_index": 51,
+        "gap": 43,
+        "server_turn_gap": 45,
+        "previous_actor": "us",
+        "previous_action": "turn",
+        "turn": 54,
+        "before_last_move": "t8-5",
+        "server_move": "t36-0"
+      },
+      {
+        "game_id": 121037807,
+        "card_id": 53,
+        "card_name": "Огненный рубин",
+        "previous_index": 10,
+        "draw_after_index": 53,
+        "gap": 43,
+        "server_turn_gap": 45,
+        "previous_actor": "us",
+        "previous_action": "turn",
+        "turn": 56,
+        "before_last_move": "d46-1",
+        "server_move": "t0-4"
+      },
+      {
+        "game_id": 121038225,
+        "card_id": 63,
+        "card_name": "Радуга",
+        "previous_index": 5,
+        "draw_after_index": 48,
+        "gap": 43,
+        "server_turn_gap": 45,
+        "previous_actor": "us",
+        "previous_action": "turn",
+        "turn": 51,
+        "before_last_move": "t82-5",
+        "server_move": "t76-5"
+      },
+      {
+        "game_id": 121038225,
+        "card_id": 82,
+        "card_name": "Бешеная овца",
+        "previous_index": 47,
+        "draw_after_index": 90,
+        "gap": 43,
+        "server_turn_gap": 47,
+        "previous_actor": "opponent",
+        "previous_action": "turn",
+        "turn": 97,
+        "before_last_move": "t31-2",
+        "server_move": "t1-1"
+      },
+      {
+        "game_id": 121041002,
+        "card_id": 57,
+        "card_name": "Алмаз",
+        "previous_index": 29,
+        "draw_after_index": 72,
+        "gap": 43,
+        "server_turn_gap": 45,
+        "previous_actor": "opponent",
+        "previous_action": "turn",
+        "turn": 75,
+        "before_last_move": "t83-4",
+        "server_move": "t50-4"
+      },
+      {
+        "game_id": 121058105,
+        "card_id": 33,
+        "card_name": "Сдвиг",
+        "previous_index": 8,
+        "draw_after_index": 51,
+        "gap": 43,
+        "server_turn_gap": 45,
+        "previous_actor": "opponent",
+        "previous_action": "turn",
+        "turn": 54,
+        "before_last_move": "t99-5",
+        "server_move": "t42-4"
+      },
+      {
+        "game_id": 121058105,
+        "card_id": 4,
+        "card_name": "Большая жила",
+        "previous_index": 37,
+        "draw_after_index": 80,
+        "gap": 43,
+        "server_turn_gap": 45,
+        "previous_actor": "us",
+        "previous_action": "turn",
+        "turn": 83,
+        "before_last_move": "t83-0",
+        "server_move": "d101-4"
+      },
+      {
+        "game_id": 121031489,
+        "card_id": 61,
+        "card_name": "Отвердение",
+        "previous_index": 33,
+        "draw_after_index": 77,
+        "gap": 44,
+        "server_turn_gap": 46,
+        "previous_actor": "opponent",
+        "previous_action": "turn",
+        "turn": 80,
+        "before_last_move": "d30-5",
+        "server_move": "t9-3"
+      },
+      {
+        "game_id": 121036927,
+        "card_id": 23,
+        "card_name": "Бастион",
+        "previous_index": 8,
+        "draw_after_index": 52,
+        "gap": 44,
+        "server_turn_gap": 46,
+        "previous_actor": "opponent",
+        "previous_action": "turn",
+        "turn": 55,
+        "before_last_move": "t81-1",
+        "server_move": "t15-3"
+      },
+      {
+        "game_id": 121037301,
+        "card_id": 38,
+        "card_name": "Рудная жила",
+        "previous_index": 34,
+        "draw_after_index": 78,
+        "gap": 44,
+        "server_turn_gap": 46,
+        "previous_actor": "opponent",
+        "previous_action": "turn",
+        "turn": 81,
+        "before_last_move": "t61-2",
+        "server_move": "t72-3"
+      },
+      {
+        "game_id": 121038180,
+        "card_id": 45,
+        "card_name": "Гармония",
+        "previous_index": 2,
+        "draw_after_index": 46,
+        "gap": 44,
+        "server_turn_gap": 46,
+        "previous_actor": "us",
+        "previous_action": "turn",
+        "turn": 50,
+        "before_last_move": "d23-4",
+        "server_move": "t81-3"
+      },
+      {
+        "game_id": 121039056,
+        "card_id": 49,
+        "card_name": "Дробление",
+        "previous_index": 31,
+        "draw_after_index": 75,
+        "gap": 44,
+        "server_turn_gap": 45,
+        "previous_actor": "us",
+        "previous_action": "turn",
+        "turn": 77,
+        "before_last_move": "t78-4",
+        "server_move": "t41-4"
+      },
+      {
+        "game_id": 121060840,
+        "card_id": 33,
+        "card_name": "Сдвиг",
+        "previous_index": 56,
+        "draw_after_index": 100,
+        "gap": 44,
+        "server_turn_gap": 48,
+        "previous_actor": "opponent",
+        "previous_action": "drop",
+        "turn": 105,
+        "before_last_move": "t44-4",
+        "server_move": "t60-2"
+      },
+      {
+        "game_id": 121031165,
+        "card_id": 68,
+        "card_name": "Фея",
+        "previous_index": 3,
+        "draw_after_index": 48,
+        "gap": 45,
+        "server_turn_gap": 46,
+        "previous_actor": "opponent",
+        "previous_action": "turn",
+        "turn": 50,
+        "before_last_move": "t77-6",
+        "server_move": "t74-5"
+      },
+      {
+        "game_id": 121031165,
+        "card_id": 67,
+        "card_name": "Коровье бешенство",
+        "previous_index": 37,
+        "draw_after_index": 82,
+        "gap": 45,
+        "server_turn_gap": 45,
+        "previous_actor": "opponent",
+        "previous_action": "drop",
+        "turn": 84,
+        "before_last_move": "t34-5",
+        "server_move": "t63-5"
+      }
+    ],
+    "public_recurrence_examples": [
+      {
+        "game_id": 121036042,
+        "card_id": 81,
+        "card_name": "Огр",
+        "previous_index": 22,
+        "index": 67,
+        "gap": 45,
+        "server_turn_gap": 47,
+        "transition": "opponent turn -> us turn"
+      },
+      {
+        "game_id": 121037301,
+        "card_id": 76,
+        "card_name": "Маленькие змейки",
+        "previous_index": 13,
+        "index": 58,
+        "gap": 45,
+        "server_turn_gap": 47,
+        "transition": "opponent turn -> us turn"
+      },
+      {
+        "game_id": 121037301,
+        "card_id": 95,
+        "card_name": "Копьеносец",
+        "previous_index": 29,
+        "index": 74,
+        "gap": 45,
+        "server_turn_gap": 47,
+        "transition": "us turn -> us turn"
+      },
+      {
+        "game_id": 121038504,
+        "card_id": 65,
+        "card_name": "Молния",
+        "previous_index": 11,
+        "index": 56,
+        "gap": 45,
+        "server_turn_gap": 49,
+        "transition": "us turn -> opponent turn"
+      },
+      {
+        "game_id": 121041002,
+        "card_id": 57,
+        "card_name": "Алмаз",
+        "previous_index": 29,
+        "index": 74,
+        "gap": 45,
+        "server_turn_gap": 47,
+        "transition": "opponent turn -> us turn"
+      },
+      {
+        "game_id": 121041002,
+        "card_id": 13,
+        "card_name": "Секретная пещера",
+        "previous_index": 57,
+        "index": 102,
+        "gap": 45,
+        "server_turn_gap": 47,
+        "transition": "us turn -> opponent turn"
+      },
+      {
+        "game_id": 121058105,
+        "card_id": 43,
+        "card_name": "Копье",
+        "previous_index": 18,
+        "index": 63,
+        "gap": 45,
+        "server_turn_gap": 47,
+        "transition": "us turn -> opponent turn"
+      },
+      {
+        "game_id": 121058105,
+        "card_id": 4,
+        "card_name": "Большая жила",
+        "previous_index": 37,
+        "index": 82,
+        "gap": 45,
+        "server_turn_gap": 47,
+        "transition": "us turn -> us turn"
+      },
+      {
+        "game_id": 121060840,
+        "card_id": 78,
+        "card_name": "Гремлин в башне",
+        "previous_index": 79,
+        "index": 124,
+        "gap": 45,
+        "server_turn_gap": 47,
+        "transition": "opponent turn -> opponent turn"
+      },
+      {
+        "game_id": 121061087,
+        "card_id": 49,
+        "card_name": "Дробление",
+        "previous_index": 30,
+        "index": 75,
+        "gap": 45,
+        "server_turn_gap": 47,
+        "transition": "us turn -> opponent turn"
+      },
+      {
+        "game_id": 121034598,
+        "card_id": 54,
+        "card_name": "Помощь в работе",
+        "previous_index": 16,
+        "index": 62,
+        "gap": 46,
+        "server_turn_gap": 46,
+        "transition": "opponent drop -> opponent turn"
+      },
+      {
+        "game_id": 121035077,
+        "card_id": 47,
+        "card_name": "Эмеральд",
+        "previous_index": 9,
+        "index": 55,
+        "gap": 46,
+        "server_turn_gap": 46,
+        "transition": "us turn -> opponent turn"
+      },
+      {
+        "game_id": 121037301,
+        "card_id": 38,
+        "card_name": "Рудная жила",
+        "previous_index": 34,
+        "index": 80,
+        "gap": 46,
+        "server_turn_gap": 48,
+        "transition": "opponent turn -> us turn"
+      },
+      {
+        "game_id": 121037349,
+        "card_id": 77,
+        "card_name": "Тролль-наставник",
+        "previous_index": 3,
+        "index": 49,
+        "gap": 46,
+        "server_turn_gap": 50,
+        "transition": "opponent turn -> us turn"
+      },
+      {
+        "game_id": 121039350,
+        "card_id": 73,
+        "card_name": "Призрачная фея",
+        "previous_index": 15,
+        "index": 61,
+        "gap": 46,
+        "server_turn_gap": 46,
+        "transition": "us turn -> opponent turn"
+      },
+      {
+        "game_id": 121039817,
+        "card_id": 60,
+        "card_name": "Глаз дракона",
+        "previous_index": 26,
+        "index": 72,
+        "gap": 46,
+        "server_turn_gap": 48,
+        "transition": "opponent turn -> opponent turn"
+      },
+      {
+        "game_id": 121041002,
+        "card_id": 31,
+        "card_name": "Казармы",
+        "previous_index": 32,
+        "index": 78,
+        "gap": 46,
+        "server_turn_gap": 48,
+        "transition": "opponent turn -> opponent turn"
+      },
+      {
+        "game_id": 121047917,
+        "card_id": 31,
+        "card_name": "Казармы",
+        "previous_index": 22,
+        "index": 68,
+        "gap": 46,
+        "server_turn_gap": 46,
+        "transition": "opponent turn -> opponent turn"
+      },
+      {
+        "game_id": 121053976,
+        "card_id": 1,
+        "card_name": "Счастливая монетка",
+        "previous_index": 2,
+        "index": 48,
+        "gap": 46,
+        "server_turn_gap": 46,
+        "transition": "opponent turn -> us turn"
+      },
+      {
+        "game_id": 121056560,
+        "card_id": 37,
+        "card_name": "Ткачи заклинаний",
+        "previous_index": 2,
+        "index": 48,
+        "gap": 46,
+        "server_turn_gap": 46,
+        "transition": "us turn -> opponent turn"
+      }
+    ]
+  },
+  "uncertainty": {
+    "decision_margins": {
+      "count": 20021,
+      "min": 0.0,
+      "p01": 0.0,
+      "p05": 0.00013155080989173291,
+      "p10": 0.0008401579604703224,
+      "mean": 0.03251091252634826,
+      "median": 0.011630679425977952,
+      "p90": 0.07644037816302868,
+      "p95": 0.1146292365054889,
+      "p99": 0.31051603033434017,
+      "max": 0.986045364215306
+    },
+    "cumulative_margin_distribution": {
+      "<=0.1pp": {
+        "count": 2224,
+        "fraction": 0.11108336246940713
+      },
+      "<=0.5pp": {
+        "count": 6587,
+        "fraction": 0.3290045452275111
+      },
+      "<=1.0pp": {
+        "count": 9301,
+        "fraction": 0.4645622096798362
+      },
+      "<=2.0pp": {
+        "count": 12271,
+        "fraction": 0.6129064482293591
+      },
+      "<=4.0pp": {
+        "count": 15451,
+        "fraction": 0.7717396733429899
+      }
+    }
+  },
+  "calibration": {
+    "state_rows": 19902,
+    "games": 760,
+    "brier": 0.20605422820629546,
+    "ece": 0.03742527194557553,
+    "buckets": [
+      {
+        "bucket": "0-10%",
+        "n": 2027,
+        "predicted": 0.04388650949390473,
+        "actual": 0.10360138135175136,
+        "error": 0.05971487185784663
+      },
+      {
+        "bucket": "10-20%",
+        "n": 1575,
+        "predicted": 0.15050779549417387,
+        "actual": 0.2361904761904762,
+        "error": 0.08568268069630233
+      },
+      {
+        "bucket": "20-30%",
+        "n": 2041,
+        "predicted": 0.2534790977854019,
+        "actual": 0.2983831455169035,
+        "error": 0.044904047731501584
+      },
+      {
+        "bucket": "30-40%",
+        "n": 2672,
+        "predicted": 0.35301638104232297,
+        "actual": 0.3619011976047904,
+        "error": 0.008884816562467424
+      },
+      {
+        "bucket": "40-50%",
+        "n": 3753,
+        "predicted": 0.4507408739820419,
+        "actual": 0.47108979483080204,
+        "error": 0.020348920848760166
+      },
+      {
+        "bucket": "50-60%",
+        "n": 3107,
+        "predicted": 0.5468247884725275,
+        "actual": 0.5741873189571934,
+        "error": 0.02736253048466597
+      },
+      {
+        "bucket": "60-70%",
+        "n": 1943,
+        "predicted": 0.6454636782573105,
+        "actual": 0.6680391147709728,
+        "error": 0.022575436513662228
+      },
+      {
+        "bucket": "70-80%",
+        "n": 1133,
+        "predicted": 0.7466268763687358,
+        "actual": 0.7007943512797882,
+        "error": -0.04583252508894764
+      },
+      {
+        "bucket": "80-90%",
+        "n": 763,
+        "predicted": 0.8455861163927493,
+        "actual": 0.7378768020969856,
+        "error": -0.10770931429576369
+      },
+      {
+        "bucket": "90-100%",
+        "n": 888,
+        "predicted": 0.9742079849016443,
+        "actual": 0.9358108108108109,
+        "error": -0.03839717409083343
+      }
+    ],
+    "game_level_split": {
+      "train": {
+        "state_rows": 13968,
+        "games": 533,
+        "brier": 0.19851894581807703,
+        "ece": 0.03182414912620225,
+        "buckets": [
+          {
+            "bucket": "0-10%",
+            "n": 1444,
+            "predicted": 0.0433064722401598,
+            "actual": 0.07340720221606649,
+            "error": 0.03010072997590669
+          },
+          {
+            "bucket": "10-20%",
+            "n": 1060,
+            "predicted": 0.15013253481868824,
+            "actual": 0.19339622641509435,
+            "error": 0.04326369159640611
+          },
+          {
+            "bucket": "20-30%",
+            "n": 1370,
+            "predicted": 0.2526214503588699,
+            "actual": 0.26204379562043795,
+            "error": 0.009422345261568044
+          },
+          {
+            "bucket": "30-40%",
+            "n": 1815,
+            "predicted": 0.3540058892052896,
+            "actual": 0.3537190082644628,
+            "error": -0.0002868809408267947
+          },
+          {
+            "bucket": "40-50%",
+            "n": 2694,
+            "predicted": 0.4501443651737197,
+            "actual": 0.4840386043058649,
+            "error": 0.033894239132145176
+          },
+          {
+            "bucket": "50-60%",
+            "n": 2204,
+            "predicted": 0.5474904768943321,
+            "actual": 0.5848457350272233,
+            "error": 0.0373552581328912
+          },
+          {
+            "bucket": "60-70%",
+            "n": 1409,
+            "predicted": 0.6454766499416407,
+            "actual": 0.6834634492547906,
+            "error": 0.037986799313149966
+          },
+          {
+            "bucket": "70-80%",
+            "n": 774,
+            "predicted": 0.7468440352451968,
+            "actual": 0.7260981912144703,
+            "error": -0.020745844030726546
+          },
+          {
+            "bucket": "80-90%",
+            "n": 564,
+            "predicted": 0.8453728490444803,
+            "actual": 0.7180851063829787,
+            "error": -0.12728774266150156
+          },
+          {
+            "bucket": "90-100%",
+            "n": 634,
+            "predicted": 0.9727955936616018,
+            "actual": 0.9305993690851735,
+            "error": -0.042196224576428354
+          }
+        ]
+      },
+      "validation": {
+        "state_rows": 2960,
+        "games": 115,
+        "brier": 0.22239815696802015,
+        "ece": 0.06424640760184867,
+        "buckets": [
+          {
+            "bucket": "0-10%",
+            "n": 317,
+            "predicted": 0.042409896593557844,
+            "actual": 0.1861198738170347,
+            "error": 0.14370997722347686
+          },
+          {
+            "bucket": "10-20%",
+            "n": 221,
+            "predicted": 0.15236181200539248,
+            "actual": 0.33031674208144796,
+            "error": 0.17795493007605548
+          },
+          {
+            "bucket": "20-30%",
+            "n": 314,
+            "predicted": 0.2557756027196554,
+            "actual": 0.39490445859872614,
+            "error": 0.13912885587907076
+          },
+          {
+            "bucket": "30-40%",
+            "n": 394,
+            "predicted": 0.3511411467172599,
+            "actual": 0.37817258883248733,
+            "error": 0.027031442115227455
+          },
+          {
+            "bucket": "40-50%",
+            "n": 506,
+            "predicted": 0.45204428672615854,
+            "actual": 0.42292490118577075,
+            "error": -0.029119385540387788
+          },
+          {
+            "bucket": "50-60%",
+            "n": 486,
+            "predicted": 0.5453455654281072,
+            "actual": 0.5596707818930041,
+            "error": 0.014325216464896928
+          },
+          {
+            "bucket": "60-70%",
+            "n": 288,
+            "predicted": 0.6477736790166585,
+            "actual": 0.5972222222222222,
+            "error": -0.05055145679443629
+          },
+          {
+            "bucket": "70-80%",
+            "n": 205,
+            "predicted": 0.745546916470713,
+            "actual": 0.6926829268292682,
+            "error": -0.052863989641444786
+          },
+          {
+            "bucket": "80-90%",
+            "n": 103,
+            "predicted": 0.845130263660781,
+            "actual": 0.8252427184466019,
+            "error": -0.019887545214179125
+          },
+          {
+            "bucket": "90-100%",
+            "n": 126,
+            "predicted": 0.9825999711084394,
+            "actual": 0.9682539682539683,
+            "error": -0.014346002854471185
+          }
+        ]
+      },
+      "holdout": {
+        "state_rows": 2974,
+        "games": 112,
+        "brier": 0.22517823468374318,
+        "ece": 0.060102952948396134,
+        "buckets": [
+          {
+            "bucket": "0-10%",
+            "n": 266,
+            "predicted": 0.04879500604961015,
+            "actual": 0.16917293233082706,
+            "error": 0.12037792628121691
+          },
+          {
+            "bucket": "10-20%",
+            "n": 294,
+            "predicted": 0.150467110688172,
+            "actual": 0.3197278911564626,
+            "error": 0.1692607804682906
+          },
+          {
+            "bucket": "20-30%",
+            "n": 357,
+            "predicted": 0.2547504547181563,
+            "actual": 0.35294117647058826,
+            "error": 0.09819072175243193
+          },
+          {
+            "bucket": "30-40%",
+            "n": 463,
+            "predicted": 0.3507331953150884,
+            "actual": 0.3801295896328294,
+            "error": 0.029396394317740993
+          },
+          {
+            "bucket": "40-50%",
+            "n": 553,
+            "predicted": 0.4524541974559963,
+            "actual": 0.45207956600361665,
+            "error": -0.0003746314523796479
+          },
+          {
+            "bucket": "50-60%",
+            "n": 417,
+            "predicted": 0.545030364294904,
+            "actual": 0.5347721822541966,
+            "error": -0.010258182040707386
+          },
+          {
+            "bucket": "60-70%",
+            "n": 246,
+            "predicted": 0.64268498995685,
+            "actual": 0.6626016260162602,
+            "error": 0.019916636059410187
+          },
+          {
+            "bucket": "70-80%",
+            "n": 154,
+            "predicted": 0.7469730504512931,
+            "actual": 0.5844155844155844,
+            "error": -0.16255746603570875
+          },
+          {
+            "bucket": "80-90%",
+            "n": 96,
+            "predicted": 0.8473281540575045,
+            "actual": 0.7604166666666666,
+            "error": -0.08691148739083787
+          },
+          {
+            "bucket": "90-100%",
+            "n": 128,
+            "predicted": 0.9729428738401662,
+            "actual": 0.9296875,
+            "error": -0.0432553738401662
+          }
+        ]
+      }
+    },
+    "block_bootstrap_95pct": {
+      "iterations": 300,
+      "brier": [
+        0.19279221395219465,
+        0.22000993391338733
+      ],
+      "ece": [
+        0.0213585510713478,
+        0.07043691768900621
+      ]
+    },
+    "warning": "State rows are correlated; final validation must split/bootstrap by game_id."
+  },
+  "performance": {
+    "analysis_seconds": {
+      "count": 0,
+      "min": null,
+      "p01": null,
+      "p05": null,
+      "p10": null,
+      "mean": null,
+      "median": null,
+      "p90": null,
+      "p95": null,
+      "p99": null,
+      "max": null
+    },
+    "source": "card_logs/Анализ ... сек."
+  },
+  "initiative": {
+    "opponent": {
+      "games": 357,
+      "win_rate": 0.4061624649859944
+    },
+    "us": {
+      "games": 403,
+      "win_rate": 0.5409429280397022
+    }
+  },
+  "reconnect": {
+    "top_threat_predictions_with_age_lt_45_at_segment_start": 1024,
+    "top_threat_predictions_with_age_lt_45_inside_continuous_history": 4
+  },
+  "belief_failures": {
+    "next_opponent_card_previously_observed_and_assigned_zero_by_old_model": 1100,
+    "top_examples": [
+      {
+        "game_id": 121052037,
+        "decision_turn": 101,
+        "next_opponent_turn": 102,
+        "card_id": 80,
+        "card_name": "Крушитель",
+        "age_at_decision": 50,
+        "crossed_reconnect": false,
+        "selected_card": "Суккубы",
+        "selected_pwin": 0.600040943356556,
+        "margin": 0.5141994577169058
+      },
+      {
+        "game_id": 121047917,
+        "decision_turn": 91,
+        "next_opponent_turn": 92,
+        "card_id": 24,
+        "card_name": "Новые успехи",
+        "age_at_decision": 56,
+        "crossed_reconnect": false,
+        "selected_card": "Глаз дракона",
+        "selected_pwin": 0.7562057081571355,
+        "margin": 0.39569745599082307
+      },
+      {
+        "game_id": 121044863,
+        "decision_turn": 69,
+        "next_opponent_turn": 70,
+        "card_id": 55,
+        "card_name": "Кристальный щит",
+        "age_at_decision": 49,
+        "crossed_reconnect": false,
+        "selected_card": "Скаломет",
+        "selected_pwin": 0.6393715745718291,
+        "margin": 0.44475892337256107
+      },
+      {
+        "game_id": 121057235,
+        "decision_turn": 64,
+        "next_opponent_turn": 65,
+        "card_id": 23,
+        "card_name": "Бастион",
+        "age_at_decision": 46,
+        "crossed_reconnect": false,
+        "selected_card": "Сияющий камень",
+        "selected_pwin": 0.9237545895343227,
+        "margin": 0.2830176117857597
+      },
+      {
+        "game_id": 121037769,
+        "decision_turn": 62,
+        "next_opponent_turn": 63,
+        "card_id": 50,
+        "card_name": "Мягкий камень",
+        "age_at_decision": 52,
+        "crossed_reconnect": false,
+        "selected_card": "Оборотень",
+        "selected_pwin": 0.7164875244480309,
+        "margin": 0.3118166442831093
+      },
+      {
+        "game_id": 121035275,
+        "decision_turn": 72,
+        "next_opponent_turn": 73,
+        "card_id": 76,
+        "card_name": "Маленькие змейки",
+        "age_at_decision": 62,
+        "crossed_reconnect": false,
+        "selected_card": "Глаз дракона",
+        "selected_pwin": 0.7200499434687649,
+        "margin": 0.22080075484040318
+      },
+      {
+        "game_id": 121036731,
+        "decision_turn": 110,
+        "next_opponent_turn": 111,
+        "card_id": 99,
+        "card_name": "Всадник на&nbsp;пегасе",
+        "age_at_decision": 68,
+        "crossed_reconnect": true,
+        "selected_card": "Оборотень",
+        "selected_pwin": 0.43328827816600546,
+        "margin": 0.3532977939920281
+      },
+      {
+        "game_id": 121063077,
+        "decision_turn": 69,
+        "next_opponent_turn": 70,
+        "card_id": 64,
+        "card_name": "Вступление",
+        "age_at_decision": 50,
+        "crossed_reconnect": false,
+        "selected_card": "Копье",
+        "selected_pwin": 0.4773791094808228,
+        "margin": 0.30668160817402834
+      },
+      {
+        "game_id": 121056624,
+        "decision_turn": 56,
+        "next_opponent_turn": 57,
+        "card_id": 77,
+        "card_name": "Тролль-наставник",
+        "age_at_decision": 50,
+        "crossed_reconnect": false,
+        "selected_card": "Всадник на пегасе",
+        "selected_pwin": 0.4690028289218578,
+        "margin": 0.28077090500587654
+      },
+      {
+        "game_id": 121057235,
+        "decision_turn": 62,
+        "next_opponent_turn": 63,
+        "card_id": 29,
+        "card_name": "Сад камней",
+        "age_at_decision": 49,
+        "crossed_reconnect": false,
+        "selected_card": "Дракон",
+        "selected_pwin": 0.5788493126285873,
+        "margin": 0.2208530082827821
+      },
+      {
+        "game_id": 121047097,
+        "decision_turn": 104,
+        "next_opponent_turn": 105,
+        "card_id": 56,
+        "card_name": "Эмпатия",
+        "age_at_decision": 73,
+        "crossed_reconnect": false,
+        "selected_card": "Вступление",
+        "selected_pwin": 0.4095269753600804,
+        "margin": 0.29085692168031935
+      },
+      {
+        "game_id": 121054918,
+        "decision_turn": 95,
+        "next_opponent_turn": 96,
+        "card_id": 15,
+        "card_name": "Усиленная стена",
+        "age_at_decision": 64,
+        "crossed_reconnect": false,
+        "selected_card": "Черт",
+        "selected_pwin": 0.45356931963221897,
+        "margin": 0.260024572013411
+      },
+      {
+        "game_id": 121052803,
+        "decision_turn": 91,
+        "next_opponent_turn": 92,
+        "card_id": 54,
+        "card_name": "Помощь в работе",
+        "age_at_decision": 72,
+        "crossed_reconnect": false,
+        "selected_card": "Монастырь",
+        "selected_pwin": 0.5898466770475845,
+        "margin": 0.18380530364956804
+      },
+      {
+        "game_id": 121072043,
+        "decision_turn": 79,
+        "next_opponent_turn": 80,
+        "card_id": 75,
+        "card_name": "Гномы",
+        "age_at_decision": 65,
+        "crossed_reconnect": false,
+        "selected_card": "Черт",
+        "selected_pwin": 0.5724011114996911,
+        "margin": 0.16759951901445846
+      },
+      {
+        "game_id": 121038357,
+        "decision_turn": 60,
+        "next_opponent_turn": 61,
+        "card_id": 68,
+        "card_name": "Фея",
+        "age_at_decision": 49,
+        "crossed_reconnect": false,
+        "selected_card": "Суккубы",
+        "selected_pwin": 0.9148930868148387,
+        "margin": 0.10377749017291782
+      },
+      {
+        "game_id": 121056162,
+        "decision_turn": 66,
+        "next_opponent_turn": 67,
+        "card_id": 77,
+        "card_name": "Тролль-наставник",
+        "age_at_decision": 57,
+        "crossed_reconnect": false,
+        "selected_card": "Монастырь",
+        "selected_pwin": 0.62301955890637,
+        "margin": 0.14763428892515262
+      },
+      {
+        "game_id": 121060021,
+        "decision_turn": 95,
+        "next_opponent_turn": 96,
+        "card_id": 10,
+        "card_name": "Новшества",
+        "age_at_decision": 54,
+        "crossed_reconnect": false,
+        "selected_card": "Эльфы-лучники",
+        "selected_pwin": 0.5100159795815784,
+        "margin": 0.17446415351028005
+      },
+      {
+        "game_id": 121034817,
+        "decision_turn": 73,
+        "next_opponent_turn": 74,
+        "card_id": 29,
+        "card_name": "Сад камней",
+        "age_at_decision": 46,
+        "crossed_reconnect": false,
+        "selected_card": "Всадник на пегасе",
+        "selected_pwin": 0.45306158071787817,
+        "margin": 0.19566960530220784
+      },
+      {
+        "game_id": 121066772,
+        "decision_turn": 61,
+        "next_opponent_turn": 62,
+        "card_id": 3,
+        "card_name": "Шахтеры",
+        "age_at_decision": 58,
+        "crossed_reconnect": false,
+        "selected_card": "Отвердение",
+        "selected_pwin": 0.789701269392718,
+        "margin": 0.1109883979729902
+      },
+      {
+        "game_id": 121036731,
+        "decision_turn": 87,
+        "next_opponent_turn": 88,
+        "card_id": 39,
+        "card_name": "Затмение",
+        "age_at_decision": 47,
+        "crossed_reconnect": false,
+        "selected_card": "Копье",
+        "selected_pwin": 0.7932809791689598,
+        "margin": 0.10854665669337016
+      }
+    ]
+  }
+}

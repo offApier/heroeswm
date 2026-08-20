@@ -1,0 +1,222 @@
+{
+  "version": "performance-set-3.9-v1",
+  "states": [
+    {
+      "category": "normal",
+      "state_id": "b065c206921ca21f5bf1e883",
+      "game_id": 121053200,
+      "turn": 26,
+      "phase": "midgame",
+      "legal_actions": 10,
+      "reconnect": false
+    },
+    {
+      "category": "normal",
+      "state_id": "2be4db69b58f71b19619a21f",
+      "game_id": 121062518,
+      "turn": 31,
+      "phase": "midgame",
+      "legal_actions": 10,
+      "reconnect": false
+    },
+    {
+      "category": "normal",
+      "state_id": "a3c5fbb666f19d6ef95c0979",
+      "game_id": 121063787,
+      "turn": 34,
+      "phase": "midgame",
+      "legal_actions": 10,
+      "reconnect": false
+    },
+    {
+      "category": "many_legal_actions",
+      "state_id": "1c0f8ecdd48c24adbf04322f",
+      "game_id": 121033475,
+      "turn": 23,
+      "phase": "early",
+      "legal_actions": 11,
+      "reconnect": true
+    },
+    {
+      "category": "many_legal_actions",
+      "state_id": "2da9d6d918e7009763662646",
+      "game_id": 121056280,
+      "turn": 104,
+      "phase": "terminal_race",
+      "legal_actions": 12,
+      "reconnect": false
+    },
+    {
+      "category": "many_legal_actions",
+      "state_id": "119408cd610affd7fffadd19",
+      "game_id": 121056915,
+      "turn": 71,
+      "phase": "terminal_race",
+      "legal_actions": 11,
+      "reconnect": false
+    },
+    {
+      "category": "forced_or_many_discards",
+      "state_id": "edc55adaaacb6e6f779306e8",
+      "game_id": 121049216,
+      "turn": 7,
+      "phase": "opening",
+      "legal_actions": 7,
+      "reconnect": false
+    },
+    {
+      "category": "forced_or_many_discards",
+      "state_id": "f40b806e9d33c80237d6dc04",
+      "game_id": 121049031,
+      "turn": 3,
+      "phase": "opening",
+      "legal_actions": 8,
+      "reconnect": false
+    },
+    {
+      "category": "forced_or_many_discards",
+      "state_id": "0f1130b917b59bac7b75aab0",
+      "game_id": 121043174,
+      "turn": 11,
+      "phase": "early",
+      "legal_actions": 8,
+      "reconnect": false
+    },
+    {
+      "category": "extra_turn",
+      "state_id": "8a764e0bb86372e1df2fcffb",
+      "game_id": 121054605,
+      "turn": 9,
+      "phase": "opening",
+      "legal_actions": 6,
+      "reconnect": false
+    },
+    {
+      "category": "extra_turn",
+      "state_id": "ec2ce334cbff3ff7f4ebab5a",
+      "game_id": 121044771,
+      "turn": 13,
+      "phase": "early",
+      "legal_actions": 10,
+      "reconnect": false
+    },
+    {
+      "category": "extra_turn",
+      "state_id": "39b7f341359e301078280292",
+      "game_id": 121032451,
+      "turn": 13,
+      "phase": "early",
+      "legal_actions": 8,
+      "reconnect": false
+    },
+    {
+      "category": "terminal_race",
+      "state_id": "557980e95cdd5dd4aeb82146",
+      "game_id": 121061366,
+      "turn": 38,
+      "phase": "terminal_race",
+      "legal_actions": 9,
+      "reconnect": false
+    },
+    {
+      "category": "terminal_race",
+      "state_id": "dc49ed0960827285341fd597",
+      "game_id": 121061366,
+      "turn": 42,
+      "phase": "terminal_race",
+      "legal_actions": 8,
+      "reconnect": false
+    },
+    {
+      "category": "terminal_race",
+      "state_id": "4136c38096086849692a8f43",
+      "game_id": 121040085,
+      "turn": 41,
+      "phase": "terminal_race",
+      "legal_actions": 9,
+      "reconnect": false
+    },
+    {
+      "category": "complex_belief",
+      "state_id": "20800dfaea9cfb66d1b369db",
+      "game_id": 121056280,
+      "turn": 87,
+      "phase": "late",
+      "legal_actions": 12,
+      "reconnect": false
+    },
+    {
+      "category": "complex_belief",
+      "state_id": "9b9cfbf91dcd619f51c46331",
+      "game_id": 121043250,
+      "turn": 78,
+      "phase": "late",
+      "legal_actions": 9,
+      "reconnect": false
+    },
+    {
+      "category": "complex_belief",
+      "state_id": "a535dbf4377ad502b60bbc18",
+      "game_id": 121044290,
+      "turn": 106,
+      "phase": "late",
+      "legal_actions": 11,
+      "reconnect": false
+    },
+    {
+      "category": "reconnect_latent",
+      "state_id": "5695f73600c3117b9bd4ae4e",
+      "game_id": 121037331,
+      "turn": 1,
+      "phase": "opening",
+      "legal_actions": 8,
+      "reconnect": true
+    },
+    {
+      "category": "reconnect_latent",
+      "state_id": "1054a921b9d1ceb3102430e8",
+      "game_id": 121036042,
+      "turn": 31,
+      "phase": "midgame",
+      "legal_actions": 8,
+      "reconnect": true
+    },
+    {
+      "category": "reconnect_latent",
+      "state_id": "f4e311da8eb0f0c77a9efbd6",
+      "game_id": 121044863,
+      "turn": 50,
+      "phase": "midgame",
+      "legal_actions": 8,
+      "reconnect": false
+    },
+    {
+      "category": "late_high_resources",
+      "state_id": "d041d6a33bfc25b55766edf1",
+      "game_id": 121056915,
+      "turn": 63,
+      "phase": "terminal_race",
+      "legal_actions": 9,
+      "reconnect": false
+    },
+    {
+      "category": "late_high_resources",
+      "state_id": "b13ab22f0d092e2df05941a0",
+      "game_id": 121046376,
+      "turn": 28,
+      "phase": "terminal_race",
+      "legal_actions": 12,
+      "reconnect": false
+    },
+    {
+      "category": "late_high_resources",
+      "state_id": "e3c2fe5cc5ebec25189dd56f",
+      "game_id": 121032718,
+      "turn": 72,
+      "phase": "late",
+      "legal_actions": 9,
+      "reconnect": false
+    }
+  ],
+  "count": 24
+}

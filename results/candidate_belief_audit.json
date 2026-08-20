@@ -1,0 +1,25 @@
+{
+  "version": "candidate-belief-audit-3.9-v1",
+  "holdout_opened": false,
+  "states": 1000,
+  "particles_per_state": 200,
+  "effective_sample_size": {
+    "p5": 35.90021935811255,
+    "median": 90.09009009009009,
+    "p95": 200.0,
+    "min": 31.007751937984494
+  },
+  "unique_opponent_hands": {
+    "p5": 45.0,
+    "median": 116.0,
+    "min": 41
+  },
+  "opponent_hand_entropy": {
+    "p5": 3.6756674129530618,
+    "median": 4.618633817922451
+  },
+  "false_100_percent_claims": 0,
+  "structurally_proven_100_percent_claims": 0,
+  "resample_count": 15535,
+  "rejuvenation_count": 399
+}

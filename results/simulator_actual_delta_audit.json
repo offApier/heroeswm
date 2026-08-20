@@ -1,0 +1,1453 @@
+{
+  "method": {
+    "future_information_used": false,
+    "next_turn_income_normalized": true,
+    "comparison": "simulator(before, card) vs observed after player states"
+  },
+  "summary": {
+    "catalog_cards": 102,
+    "cards_observed": 102,
+    "play_events": 35973,
+    "exact_events": 35973,
+    "exact_rate": 1.0,
+    "actor_exact_rate": 1.0,
+    "defender_exact_rate": 1.0,
+    "skipped": 0,
+    "initial_opponent_states_excluded": 339,
+    "discontinuous_transitions_excluded": 11,
+    "terminal_tower_overshoots_normalized": 118,
+    "cards_with_mismatches": 0
+  },
+  "field_mismatches": {},
+  "per_card": [
+    {
+      "card_id": 0,
+      "name": "Бракованная руда",
+      "cost": {
+        "ore": 0,
+        "mana": 0,
+        "army": 0
+      },
+      "effect": "Все игроки теряют по 8 руды",
+      "observations": 243,
+      "exact": 243,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 1,
+      "name": "Счастливая монетка",
+      "cost": {
+        "ore": 0,
+        "mana": 0,
+        "army": 0
+      },
+      "effect": "+2 руды, +2 маны, играем снова",
+      "observations": 452,
+      "exact": 452,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 2,
+      "name": "Благодатная почва",
+      "cost": {
+        "ore": 1,
+        "mana": 0,
+        "army": 0
+      },
+      "effect": "+1 к стене, играем снова",
+      "observations": 437,
+      "exact": 437,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 3,
+      "name": "Шахтеры",
+      "cost": {
+        "ore": 3,
+        "mana": 0,
+        "army": 0
+      },
+      "effect": "+1 шахта",
+      "observations": 405,
+      "exact": 405,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 4,
+      "name": "Большая жила",
+      "cost": {
+        "ore": 4,
+        "mana": 0,
+        "army": 0
+      },
+      "effect": "Если шахта меньше чем у врага, то шахта +2, иначе шахта +1",
+      "observations": 410,
+      "exact": 410,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 5,
+      "name": "Гномы-шахтеры",
+      "cost": {
+        "ore": 7,
+        "mana": 0,
+        "army": 0
+      },
+      "effect": "+4 к стене, +1 шахта",
+      "observations": 385,
+      "exact": 385,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 6,
+      "name": "Сверхурочные",
+      "cost": {
+        "ore": 2,
+        "mana": 0,
+        "army": 0
+      },
+      "effect": "+5 к стене, вы теряете 6 маны",
+      "observations": 261,
+      "exact": 261,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 7,
+      "name": "Кража технологий",
+      "cost": {
+        "ore": 5,
+        "mana": 0,
+        "army": 0
+      },
+      "effect": "Если шахта меньше чем врага, то шахта становится равной вражеской",
+      "observations": 208,
+      "exact": 208,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 8,
+      "name": "Обычная стена",
+      "cost": {
+        "ore": 2,
+        "mana": 0,
+        "army": 0
+      },
+      "effect": "+3 к стене",
+      "observations": 349,
+      "exact": 349,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 9,
+      "name": "Большая стена",
+      "cost": {
+        "ore": 3,
+        "mana": 0,
+        "army": 0
+      },
+      "effect": "+4 к стене",
+      "observations": 371,
+      "exact": 371,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 10,
+      "name": "Новшества",
+      "cost": {
+        "ore": 2,
+        "mana": 0,
+        "army": 0
+      },
+      "effect": "+1 к шахте всех игроков, вы получаете 4 маны",
+      "observations": 347,
+      "exact": 347,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 11,
+      "name": "Фундамент",
+      "cost": {
+        "ore": 3,
+        "mana": 0,
+        "army": 0
+      },
+      "effect": "Если стена=0, то +6 к стене, иначе +3 к стене",
+      "observations": 375,
+      "exact": 375,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 12,
+      "name": "Толчки",
+      "cost": {
+        "ore": 7,
+        "mana": 0,
+        "army": 0
+      },
+      "effect": "Все стены получают по 5 повреждений, играем снова",
+      "observations": 285,
+      "exact": 285,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 13,
+      "name": "Секретная пещера",
+      "cost": {
+        "ore": 8,
+        "mana": 0,
+        "army": 0
+      },
+      "effect": "+1 монастырь, играем снова",
+      "observations": 423,
+      "exact": 423,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 14,
+      "name": "Землетрясение",
+      "cost": {
+        "ore": 0,
+        "mana": 0,
+        "army": 0
+      },
+      "effect": "-1 шахта всех игроков",
+      "observations": 272,
+      "exact": 272,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 15,
+      "name": "Усиленная стена",
+      "cost": {
+        "ore": 5,
+        "mana": 0,
+        "army": 0
+      },
+      "effect": "+6 к стене",
+      "observations": 377,
+      "exact": 377,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 16,
+      "name": "Обвал",
+      "cost": {
+        "ore": 4,
+        "mana": 0,
+        "army": 0
+      },
+      "effect": "-1 шахта врага",
+      "observations": 414,
+      "exact": 414,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 17,
+      "name": "Новое оборудование",
+      "cost": {
+        "ore": 6,
+        "mana": 0,
+        "army": 0
+      },
+      "effect": "+2 к шахте",
+      "observations": 413,
+      "exact": 413,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 18,
+      "name": "Обвал рудника",
+      "cost": {
+        "ore": 0,
+        "mana": 0,
+        "army": 0
+      },
+      "effect": "-1 шахта, +10 к стене, вы получаете 5 маны",
+      "observations": 289,
+      "exact": 289,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 19,
+      "name": "Великая стена",
+      "cost": {
+        "ore": 8,
+        "mana": 0,
+        "army": 0
+      },
+      "effect": "+8 к стене",
+      "observations": 323,
+      "exact": 323,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 20,
+      "name": "Галереи",
+      "cost": {
+        "ore": 9,
+        "mana": 0,
+        "army": 0
+      },
+      "effect": "+5 к стене, +1 казарма",
+      "observations": 402,
+      "exact": 402,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 21,
+      "name": "Магическая гора",
+      "cost": {
+        "ore": 9,
+        "mana": 0,
+        "army": 0
+      },
+      "effect": "+7 к стене, +7 маны",
+      "observations": 368,
+      "exact": 368,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 22,
+      "name": "Поющий уголь",
+      "cost": {
+        "ore": 11,
+        "mana": 0,
+        "army": 0
+      },
+      "effect": "+6 к стене, +3 к башне",
+      "observations": 343,
+      "exact": 343,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 23,
+      "name": "Бастион",
+      "cost": {
+        "ore": 13,
+        "mana": 0,
+        "army": 0
+      },
+      "effect": "+12 к стене",
+      "observations": 223,
+      "exact": 223,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 24,
+      "name": "Новые успехи",
+      "cost": {
+        "ore": 15,
+        "mana": 0,
+        "army": 0
+      },
+      "effect": "+8 к стене, +5 к башне",
+      "observations": 307,
+      "exact": 307,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 25,
+      "name": "Величайшая стена",
+      "cost": {
+        "ore": 16,
+        "mana": 0,
+        "army": 0
+      },
+      "effect": "+15 к стене",
+      "observations": 161,
+      "exact": 161,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 26,
+      "name": "Скаломет",
+      "cost": {
+        "ore": 18,
+        "mana": 0,
+        "army": 0
+      },
+      "effect": "+6 к стене, 10 единиц урона врагу",
+      "observations": 239,
+      "exact": 239,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 27,
+      "name": "Сердце дракона",
+      "cost": {
+        "ore": 24,
+        "mana": 0,
+        "army": 0
+      },
+      "effect": "+20 к стене, +8 к башне",
+      "observations": 199,
+      "exact": 199,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 28,
+      "name": "Рабский труд",
+      "cost": {
+        "ore": 7,
+        "mana": 0,
+        "army": 0
+      },
+      "effect": "+9 к стене, вы теряете 5 отрядов",
+      "observations": 284,
+      "exact": 284,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 29,
+      "name": "Сад камней",
+      "cost": {
+        "ore": 1,
+        "mana": 0,
+        "army": 0
+      },
+      "effect": "+1 к стене, +1 к башне, +2 отряда",
+      "observations": 435,
+      "exact": 435,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 30,
+      "name": "Грунтовые воды",
+      "cost": {
+        "ore": 6,
+        "mana": 0,
+        "army": 0
+      },
+      "effect": "Игрок с меньшей стеной теряет 1 казарму и получает 2 урона к башне",
+      "observations": 294,
+      "exact": 294,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 31,
+      "name": "Казармы",
+      "cost": {
+        "ore": 10,
+        "mana": 0,
+        "army": 0
+      },
+      "effect": "+6 отрядов  +6 к стене. Если казарма < вражеской, то +1 казарма",
+      "observations": 328,
+      "exact": 328,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 32,
+      "name": "Укрепления",
+      "cost": {
+        "ore": 14,
+        "mana": 0,
+        "army": 0
+      },
+      "effect": "+7 к стене, 6 урона врагу",
+      "observations": 264,
+      "exact": 264,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 33,
+      "name": "Сдвиг",
+      "cost": {
+        "ore": 17,
+        "mana": 0,
+        "army": 0
+      },
+      "effect": "Ваша и вражеская стена меняются местами",
+      "observations": 117,
+      "exact": 117,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 34,
+      "name": "Кварц",
+      "cost": {
+        "ore": 0,
+        "mana": 1,
+        "army": 0
+      },
+      "effect": "+1 к башне, играем снова",
+      "observations": 464,
+      "exact": 464,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 35,
+      "name": "Дымчатый кварц",
+      "cost": {
+        "ore": 0,
+        "mana": 2,
+        "army": 0
+      },
+      "effect": "1 урона Башне врага, Играем снова",
+      "observations": 445,
+      "exact": 445,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 36,
+      "name": "Аметист",
+      "cost": {
+        "ore": 0,
+        "mana": 2,
+        "army": 0
+      },
+      "effect": "+3 к башне",
+      "observations": 422,
+      "exact": 422,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 37,
+      "name": "Ткачи заклинаний",
+      "cost": {
+        "ore": 0,
+        "mana": 3,
+        "army": 0
+      },
+      "effect": "+1 монастырь",
+      "observations": 425,
+      "exact": 425,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 38,
+      "name": "Рудная жила",
+      "cost": {
+        "ore": 0,
+        "mana": 5,
+        "army": 0
+      },
+      "effect": "+8 к башне",
+      "observations": 448,
+      "exact": 448,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 39,
+      "name": "Затмение",
+      "cost": {
+        "ore": 0,
+        "mana": 4,
+        "army": 0
+      },
+      "effect": "+2 к башне, 2 ед. урона башне врага",
+      "observations": 454,
+      "exact": 454,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 40,
+      "name": "Матрица",
+      "cost": {
+        "ore": 0,
+        "mana": 6,
+        "army": 0
+      },
+      "effect": "+1 монастырь, +3 к башне, +1 к башне врага",
+      "observations": 440,
+      "exact": 440,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 41,
+      "name": "Трещина",
+      "cost": {
+        "ore": 0,
+        "mana": 2,
+        "army": 0
+      },
+      "effect": "3 урона башне врага",
+      "observations": 445,
+      "exact": 445,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 42,
+      "name": "Рубин",
+      "cost": {
+        "ore": 0,
+        "mana": 3,
+        "army": 0
+      },
+      "effect": "+5 к башне",
+      "observations": 473,
+      "exact": 473,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 43,
+      "name": "Копье",
+      "cost": {
+        "ore": 0,
+        "mana": 4,
+        "army": 0
+      },
+      "effect": "5 урона башне врага",
+      "observations": 427,
+      "exact": 427,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 44,
+      "name": "Взрыв силы",
+      "cost": {
+        "ore": 0,
+        "mana": 3,
+        "army": 0
+      },
+      "effect": "5 урона собственной башне, +2 монастырь",
+      "observations": 365,
+      "exact": 365,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 45,
+      "name": "Гармония",
+      "cost": {
+        "ore": 0,
+        "mana": 7,
+        "army": 0
+      },
+      "effect": "+1 монастырь, +3 к башне, +3 к стене",
+      "observations": 434,
+      "exact": 434,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 46,
+      "name": "Паритет",
+      "cost": {
+        "ore": 0,
+        "mana": 7,
+        "army": 0
+      },
+      "effect": "Монастырь всех становится равным монастырю сильнейшего",
+      "observations": 209,
+      "exact": 209,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 47,
+      "name": "Эмеральд",
+      "cost": {
+        "ore": 0,
+        "mana": 6,
+        "army": 0
+      },
+      "effect": "+8 к башне",
+      "observations": 462,
+      "exact": 462,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 48,
+      "name": "Жемчуг мудрости",
+      "cost": {
+        "ore": 0,
+        "mana": 9,
+        "army": 0
+      },
+      "effect": "+5 к башне, +1 монастырь",
+      "observations": 453,
+      "exact": 453,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 49,
+      "name": "Дробление",
+      "cost": {
+        "ore": 0,
+        "mana": 8,
+        "army": 0
+      },
+      "effect": "-1 монастырь, 9 урона башне врага",
+      "observations": 268,
+      "exact": 268,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 50,
+      "name": "Мягкий камень",
+      "cost": {
+        "ore": 0,
+        "mana": 7,
+        "army": 0
+      },
+      "effect": "+5 к башне, враг теряет 6 руды",
+      "observations": 435,
+      "exact": 435,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 51,
+      "name": "Сапфир",
+      "cost": {
+        "ore": 0,
+        "mana": 10,
+        "army": 0
+      },
+      "effect": "+11 к башне",
+      "observations": 428,
+      "exact": 428,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 52,
+      "name": "Раздоры",
+      "cost": {
+        "ore": 0,
+        "mana": 5,
+        "army": 0
+      },
+      "effect": "7 урона всем башням, -1 монастырь всех игроков",
+      "observations": 224,
+      "exact": 224,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 53,
+      "name": "Огненный рубин",
+      "cost": {
+        "ore": 0,
+        "mana": 13,
+        "army": 0
+      },
+      "effect": "+6 к башне, 4 урона башне врага",
+      "observations": 357,
+      "exact": 357,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 54,
+      "name": "Помощь в работе",
+      "cost": {
+        "ore": 0,
+        "mana": 4,
+        "army": 0
+      },
+      "effect": "+7 к башне, вы теряете 10 руды",
+      "observations": 404,
+      "exact": 404,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 55,
+      "name": "Кристальный щит",
+      "cost": {
+        "ore": 0,
+        "mana": 12,
+        "army": 0
+      },
+      "effect": "+8 к башне, +3 к стене",
+      "observations": 372,
+      "exact": 372,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 56,
+      "name": "Эмпатия",
+      "cost": {
+        "ore": 0,
+        "mana": 14,
+        "army": 0
+      },
+      "effect": "+8 к башне, +1 казарма",
+      "observations": 370,
+      "exact": 370,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 57,
+      "name": "Алмаз",
+      "cost": {
+        "ore": 0,
+        "mana": 16,
+        "army": 0
+      },
+      "effect": "+15 к башне",
+      "observations": 344,
+      "exact": 344,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 58,
+      "name": "Монастырь",
+      "cost": {
+        "ore": 0,
+        "mana": 15,
+        "army": 0
+      },
+      "effect": "+10 к башне, +5 к стене, вы получаете 5 отрядов",
+      "observations": 349,
+      "exact": 349,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 59,
+      "name": "Сияющий камень",
+      "cost": {
+        "ore": 0,
+        "mana": 17,
+        "army": 0
+      },
+      "effect": "+12 к башне, 6 урона врагу",
+      "observations": 321,
+      "exact": 321,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 60,
+      "name": "Глаз дракона",
+      "cost": {
+        "ore": 0,
+        "mana": 21,
+        "army": 0
+      },
+      "effect": "+20 к башне",
+      "observations": 284,
+      "exact": 284,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 61,
+      "name": "Отвердение",
+      "cost": {
+        "ore": 0,
+        "mana": 8,
+        "army": 0
+      },
+      "effect": "+11 к башне, -6 к стене",
+      "observations": 451,
+      "exact": 451,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 62,
+      "name": "Бижутерия",
+      "cost": {
+        "ore": 0,
+        "mana": 0,
+        "army": 0
+      },
+      "effect": "Если башня < вражеской, то +2 к башне, иначе +1",
+      "observations": 405,
+      "exact": 405,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 63,
+      "name": "Радуга",
+      "cost": {
+        "ore": 0,
+        "mana": 0,
+        "army": 0
+      },
+      "effect": "+1 к башням всех, вы получаете 3 маны",
+      "observations": 351,
+      "exact": 351,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 64,
+      "name": "Вступление",
+      "cost": {
+        "ore": 0,
+        "mana": 5,
+        "army": 0
+      },
+      "effect": "+4 к башне, вы теряете 3 отряда. 2 урона башне врага",
+      "observations": 414,
+      "exact": 414,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 65,
+      "name": "Молния",
+      "cost": {
+        "ore": 0,
+        "mana": 11,
+        "army": 0
+      },
+      "effect": "Если башня > стены врага, то 8 урона башне врага, иначе 8 урона всем",
+      "observations": 355,
+      "exact": 355,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 66,
+      "name": "Медитация",
+      "cost": {
+        "ore": 0,
+        "mana": 18,
+        "army": 0
+      },
+      "effect": "+13 к башне, +6 отрядов, +6 руды",
+      "observations": 288,
+      "exact": 288,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 67,
+      "name": "Коровье бешенство",
+      "cost": {
+        "ore": 0,
+        "mana": 0,
+        "army": 0
+      },
+      "effect": "Все игроки теряют по 6 отрядов",
+      "observations": 221,
+      "exact": 221,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 68,
+      "name": "Фея",
+      "cost": {
+        "ore": 0,
+        "mana": 0,
+        "army": 1
+      },
+      "effect": "2 единицы урона. Играем снова",
+      "observations": 442,
+      "exact": 442,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 69,
+      "name": "Гоблины",
+      "cost": {
+        "ore": 0,
+        "mana": 0,
+        "army": 1
+      },
+      "effect": "4 единицы урона. Вы теряете 3 маны",
+      "observations": 313,
+      "exact": 313,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 70,
+      "name": "Минотавр",
+      "cost": {
+        "ore": 0,
+        "mana": 0,
+        "army": 3
+      },
+      "effect": "+1 казарма",
+      "observations": 447,
+      "exact": 447,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 71,
+      "name": "Армия гоблинов",
+      "cost": {
+        "ore": 0,
+        "mana": 0,
+        "army": 3
+      },
+      "effect": "6 единиц урона. Вы получаете 3 единицы урона",
+      "observations": 314,
+      "exact": 314,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 72,
+      "name": "Гоблины-лучники",
+      "cost": {
+        "ore": 0,
+        "mana": 0,
+        "army": 4
+      },
+      "effect": "3 урона башне врага. Вы получаете 1 ед. урона",
+      "observations": 378,
+      "exact": 378,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 73,
+      "name": "Призрачная фея",
+      "cost": {
+        "ore": 0,
+        "mana": 0,
+        "army": 6
+      },
+      "effect": "2 урона башне врага, Играем снова.",
+      "observations": 416,
+      "exact": 416,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 74,
+      "name": "Орк",
+      "cost": {
+        "ore": 0,
+        "mana": 0,
+        "army": 3
+      },
+      "effect": "5 урона",
+      "observations": 427,
+      "exact": 427,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 75,
+      "name": "Гномы",
+      "cost": {
+        "ore": 0,
+        "mana": 0,
+        "army": 5
+      },
+      "effect": "4 урона, +3 к стене",
+      "observations": 424,
+      "exact": 424,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 76,
+      "name": "Маленькие змейки",
+      "cost": {
+        "ore": 0,
+        "mana": 0,
+        "army": 6
+      },
+      "effect": "4 урона башне врага",
+      "observations": 382,
+      "exact": 382,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 77,
+      "name": "Тролль-наставник",
+      "cost": {
+        "ore": 0,
+        "mana": 0,
+        "army": 7
+      },
+      "effect": "+2 к казарме",
+      "observations": 434,
+      "exact": 434,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 78,
+      "name": "Гремлин в башне",
+      "cost": {
+        "ore": 0,
+        "mana": 0,
+        "army": 8
+      },
+      "effect": "2 урона, +4 к стене, +2 к башне",
+      "observations": 388,
+      "exact": 388,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 79,
+      "name": "Полнолуние",
+      "cost": {
+        "ore": 0,
+        "mana": 0,
+        "army": 0
+      },
+      "effect": "+1 казарма всем игрокам, Вы получаете 3 отряда",
+      "observations": 354,
+      "exact": 354,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 80,
+      "name": "Крушитель",
+      "cost": {
+        "ore": 0,
+        "mana": 0,
+        "army": 5
+      },
+      "effect": "6 урона",
+      "observations": 397,
+      "exact": 397,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 81,
+      "name": "Огр",
+      "cost": {
+        "ore": 0,
+        "mana": 0,
+        "army": 6
+      },
+      "effect": "7 урона",
+      "observations": 418,
+      "exact": 418,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 82,
+      "name": "Бешеная овца",
+      "cost": {
+        "ore": 0,
+        "mana": 0,
+        "army": 6
+      },
+      "effect": "6 урона, враг теряет 3 отряда",
+      "observations": 442,
+      "exact": 442,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 83,
+      "name": "Черт",
+      "cost": {
+        "ore": 0,
+        "mana": 0,
+        "army": 5
+      },
+      "effect": "6 урона, Все игроки теряют по 5 руды, маны, отрядов",
+      "observations": 343,
+      "exact": 343,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 84,
+      "name": "Жучара",
+      "cost": {
+        "ore": 0,
+        "mana": 0,
+        "army": 8
+      },
+      "effect": "Если стена у врага =0, то 10 урона, иначе 6 урона",
+      "observations": 309,
+      "exact": 309,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 85,
+      "name": "Оборотень",
+      "cost": {
+        "ore": 0,
+        "mana": 0,
+        "army": 9
+      },
+      "effect": "9 урона",
+      "observations": 399,
+      "exact": 399,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 86,
+      "name": "Едкое облако",
+      "cost": {
+        "ore": 0,
+        "mana": 0,
+        "army": 11
+      },
+      "effect": "Если стена врага >10, то 10 урона, иначе 7 урона",
+      "observations": 275,
+      "exact": 275,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 87,
+      "name": "Единорог",
+      "cost": {
+        "ore": 0,
+        "mana": 0,
+        "army": 9
+      },
+      "effect": "Если монастырь больше чем у врага, то 12 урона, иначе 8 урона",
+      "observations": 355,
+      "exact": 355,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 88,
+      "name": "Эльфы-лучники",
+      "cost": {
+        "ore": 0,
+        "mana": 0,
+        "army": 10
+      },
+      "effect": "Если стена больше чем у врага, то 6 урона башне врага, иначе 6 урона",
+      "observations": 284,
+      "exact": 284,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 89,
+      "name": "Суккубы",
+      "cost": {
+        "ore": 0,
+        "mana": 0,
+        "army": 14
+      },
+      "effect": "5 урона башне врага, Враг теряет 8 отрядов",
+      "observations": 273,
+      "exact": 273,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 90,
+      "name": "Камнееды",
+      "cost": {
+        "ore": 0,
+        "mana": 0,
+        "army": 11
+      },
+      "effect": "8 урона, -1 шахта врага",
+      "observations": 374,
+      "exact": 374,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 91,
+      "name": "Вор",
+      "cost": {
+        "ore": 0,
+        "mana": 0,
+        "army": 12
+      },
+      "effect": "Враг теряет 10 маны, 5 руды. Вы получаете половину от этого",
+      "observations": 297,
+      "exact": 297,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 92,
+      "name": "Каменный гигант",
+      "cost": {
+        "ore": 0,
+        "mana": 0,
+        "army": 15
+      },
+      "effect": "10 урона, +4 к стене",
+      "observations": 290,
+      "exact": 290,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 93,
+      "name": "Вампир",
+      "cost": {
+        "ore": 0,
+        "mana": 0,
+        "army": 17
+      },
+      "effect": "10 урона, враг теряет 5 отрядов, -1 к его казарме",
+      "observations": 298,
+      "exact": 298,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 94,
+      "name": "Дракон",
+      "cost": {
+        "ore": 0,
+        "mana": 0,
+        "army": 25
+      },
+      "effect": "20 урона, враг теряет 10 маны, -1 к его казарме",
+      "observations": 192,
+      "exact": 192,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 95,
+      "name": "Копьеносец",
+      "cost": {
+        "ore": 0,
+        "mana": 0,
+        "army": 2
+      },
+      "effect": "Если стена больше чем у врага, то 3 урона, иначе 2 урона",
+      "observations": 391,
+      "exact": 391,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 96,
+      "name": "Карлик",
+      "cost": {
+        "ore": 0,
+        "mana": 0,
+        "army": 2
+      },
+      "effect": "3 урона, +1 мана",
+      "observations": 433,
+      "exact": 433,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 97,
+      "name": "Берсерк",
+      "cost": {
+        "ore": 0,
+        "mana": 0,
+        "army": 4
+      },
+      "effect": "8 урона, 3 урона Вашей башне",
+      "observations": 326,
+      "exact": 326,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 98,
+      "name": "Воитель",
+      "cost": {
+        "ore": 0,
+        "mana": 0,
+        "army": 13
+      },
+      "effect": "13 урона, вы теряете 3 маны",
+      "observations": 309,
+      "exact": 309,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 99,
+      "name": "Всадник на пегасе",
+      "cost": {
+        "ore": 0,
+        "mana": 0,
+        "army": 18
+      },
+      "effect": "12 урона башне врага",
+      "observations": 242,
+      "exact": 242,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 100,
+      "name": "Призма",
+      "cost": {
+        "ore": 0,
+        "mana": 2,
+        "army": 0
+      },
+      "effect": "Сдать 1 карту, сбросить карту, играем снова",
+      "observations": 306,
+      "exact": 306,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    },
+    {
+      "card_id": 101,
+      "name": "Эльфы-скауты",
+      "cost": {
+        "ore": 0,
+        "mana": 0,
+        "army": 2
+      },
+      "effect": "Сдать 1 карту, сбросить карту, играем снова",
+      "observations": 291,
+      "exact": 291,
+      "mismatches": 0,
+      "exact_rate": 1.0
+    }
+  ],
+  "mismatch_examples": []
+}

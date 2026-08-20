@@ -1,0 +1,44 @@
+{"states": 500, "elapsed": 82.67099999997299, "last_runtime": 0.2809999999590218}
+{"states": 1000, "elapsed": 148.81199999997625, "last_runtime": 0.09399999998277053}
+{"states": 1500, "elapsed": 236.125, "last_runtime": 0.15700000000651926}
+{"states": 2000, "elapsed": 319.420999999973, "last_runtime": 0.13999999995576218}
+{"states": 2500, "elapsed": 379.43699999997625, "last_runtime": 0.2029999999795109}
+{"states": 3000, "elapsed": 464.0779999999795, "last_runtime": 0.09399999998277053}
+{"states": 3500, "elapsed": 543.7810000000172, "last_runtime": 0.15600000001722947}
+{"states": 4000, "elapsed": 617.2810000000172, "last_runtime": 0.14100000000325963}
+{
+  "version": "stage-a-oracle-3.9-v1",
+  "splits": [
+    "train",
+    "validation"
+  ],
+  "shard_count": 4,
+  "shard_index": 3,
+  "holdout_opened": false,
+  "particles": 500,
+  "totals": {
+    "states": 4300,
+    "states_train": 3605,
+    "legal_actions": 40054,
+    "disagreements": 2316,
+    "states_validation": 695
+  },
+  "runtime_seconds": 654.295999999973,
+  "runtime": {
+    "p50": 0.14100000000325963,
+    "p90": 0.2190000000409782,
+    "p95": 0.25,
+    "p99": 0.32914000002667615,
+    "max": 0.5939999999827705
+  },
+  "regret": {
+    "mean": 0.061162555699533355,
+    "median": 0.002622343597196153,
+    "p90": 0.2217173650919521,
+    "p95": 0.3031742171836524,
+    "gt_2pp": 1731,
+    "gt_5pp": 1291,
+    "gt_10pp": 903
+  },
+  "caveat": "Stage A is a 500-world learned-value screen; Stage B/C establish expensive labels for suspicious and random states."
+}

@@ -1,0 +1,98 @@
+{
+  "version": "candidate-threat-calibration-3.9-v1",
+  "split": [
+    "final_holdout"
+  ],
+  "candidate": {
+    "states": 1266,
+    "brier": 0.016336401678828757,
+    "ece": 0.015539234383442398,
+    "exact_100_claims": 0,
+    "exact_100_observed_loss_rate": null,
+    "buckets": [
+      {
+        "left": 0,
+        "right": 0.05,
+        "count": 1259,
+        "predicted": 0.0,
+        "observed": 0.015091342335186657
+      },
+      {
+        "left": 0.2,
+        "right": 0.4,
+        "count": 6,
+        "predicted": 0.29221969496054906,
+        "observed": 0.3333333333333333
+      },
+      {
+        "left": 0.4,
+        "right": 0.6,
+        "count": 1,
+        "predicted": 0.5740111007986315,
+        "observed": 1.0
+      }
+    ]
+  },
+  "historical_model": {
+    "states": 1266,
+    "brier": 0.01593074644549763,
+    "ece": 0.017065560821484988,
+    "exact_100_claims": 0,
+    "exact_100_observed_loss_rate": null,
+    "buckets": [
+      {
+        "left": 0,
+        "right": 0.05,
+        "count": 1151,
+        "predicted": 0.0001694178974804518,
+        "observed": 0.0017376194613379669
+      },
+      {
+        "left": 0.05,
+        "right": 0.1,
+        "count": 14,
+        "predicted": 0.08178571428571427,
+        "observed": 0.0
+      },
+      {
+        "left": 0.1,
+        "right": 0.2,
+        "count": 38,
+        "predicted": 0.12868421052631582,
+        "observed": 0.21052631578947367
+      },
+      {
+        "left": 0.2,
+        "right": 0.4,
+        "count": 30,
+        "predicted": 0.2995,
+        "observed": 0.0
+      },
+      {
+        "left": 0.4,
+        "right": 0.6,
+        "count": 20,
+        "predicted": 0.4737499999999999,
+        "observed": 0.3
+      },
+      {
+        "left": 0.6,
+        "right": 0.8,
+        "count": 12,
+        "predicted": 0.6891666666666668,
+        "observed": 0.5
+      },
+      {
+        "left": 0.8,
+        "right": 0.95,
+        "count": 1,
+        "predicted": 0.815,
+        "observed": 0.0
+      }
+    ]
+  },
+  "improvement": {
+    "brier": -0.00040565523333112655,
+    "ece": 0.0015263264380425898
+  }
+}

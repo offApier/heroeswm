@@ -1,0 +1,57 @@
+{
+  "version": "adaptive-mode-oracle-audit-3.9-v1",
+  "oracle": "independent multiseed 5000x3 q_mean where available",
+  "modes": {
+    "40": {
+      "states": 4,
+      "mean_regret": 0.005964131253171807,
+      "median_regret": 0.0,
+      "p90_regret": 0.016699567508881064,
+      "p95_regret": 0.02027804626078414,
+      "gt_2pp": 1,
+      "gt_5pp": 0,
+      "oracle_agreement": 0.75,
+      "runtime_median": 3.259818250022363,
+      "runtime_p95": 6.413852905013481,
+      "runtime_max": 6.836588800011668,
+      "particles_median": 204.0,
+      "particles_p95": 305.99999999999994,
+      "deadline_limited_best_so_far": 0,
+      "hard_timeouts": 0
+    },
+    "15": {
+      "states": 4,
+      "mean_regret": 0.005964131253171807,
+      "median_regret": 0.0,
+      "p90_regret": 0.016699567508881064,
+      "p95_regret": 0.02027804626078414,
+      "gt_2pp": 1,
+      "gt_5pp": 0,
+      "oracle_agreement": 0.75,
+      "runtime_median": 3.5826620000007097,
+      "runtime_p95": 8.348954334974403,
+      "runtime_max": 9.094371999963187,
+      "particles_median": 200.0,
+      "particles_p95": 298.59999999999997,
+      "deadline_limited_best_so_far": 0,
+      "hard_timeouts": 0
+    },
+    "30": {
+      "states": 4,
+      "mean_regret": 0.005964131253171807,
+      "median_regret": 0.0,
+      "p90_regret": 0.016699567508881064,
+      "p95_regret": 0.02027804626078414,
+      "gt_2pp": 1,
+      "gt_5pp": 0,
+      "oracle_agreement": 0.75,
+      "runtime_median": 4.2234519500343595,
+      "runtime_p95": 14.401820144997323,
+      "runtime_max": 15.91007849999005,
+      "particles_median": 200.0,
+      "particles_p95": 301.99999999999994,
+      "deadline_limited_best_so_far": 0,
+      "hard_timeouts": 0
+    }
+  }
+}

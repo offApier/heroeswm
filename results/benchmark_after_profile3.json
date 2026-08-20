@@ -1,0 +1,98 @@
+{
+  "cases": [
+    {
+      "band": "near_tie",
+      "game_id": 121031044,
+      "turn": 19,
+      "time_left": 11,
+      "old_margin": 0.002777599999999991,
+      "old_action": "drop",
+      "old_card_id": 33,
+      "new_action": "turn",
+      "new_card_id": 33,
+      "new_pwin": 0.45083395252493536,
+      "new_margin": 0.0,
+      "confidence_interval_pp": 0.05919527598008931,
+      "particle_count": 160,
+      "particles_requested": 160,
+      "particles_completed": 160,
+      "stopping_reason": "deadline_precheck",
+      "deadline_remaining": 1.3119999999762513,
+      "se_diff": 0.0003020167141841291,
+      "ci_diff": [
+        -0.0005919527598008931,
+        0.0005919527598008931
+      ],
+      "uncertain": true,
+      "deadline_hit": true,
+      "elapsed": 5.688000000023749,
+      "same_choice": false
+    },
+    {
+      "band": "medium",
+      "game_id": 121031112,
+      "turn": 1,
+      "time_left": 97,
+      "old_margin": 0.022823579059578825,
+      "old_action": "turn",
+      "old_card_id": 68,
+      "new_action": "turn",
+      "new_card_id": 68,
+      "new_pwin": 0.4916170598045528,
+      "new_margin": 0.06066416380649148,
+      "confidence_interval_pp": 1.0259123217448969,
+      "particle_count": 40,
+      "particles_requested": 40,
+      "particles_completed": 40,
+      "stopping_reason": "deadline_precheck",
+      "deadline_remaining": 3.530999999959022,
+      "se_diff": 0.00523424653951478,
+      "ci_diff": [
+        0.05040504058904251,
+        0.07092328702394045
+      ],
+      "uncertain": true,
+      "deadline_hit": true,
+      "elapsed": 4.469000000040978,
+      "same_choice": true
+    },
+    {
+      "band": "clear",
+      "game_id": 121031165,
+      "turn": 13,
+      "time_left": 6,
+      "old_margin": 0.13517178062989427,
+      "old_action": "turn",
+      "old_card_id": 56,
+      "new_action": "turn",
+      "new_card_id": 100,
+      "new_pwin": 0.5118521401870971,
+      "new_margin": 0.0,
+      "confidence_interval_pp": 100.0,
+      "particle_count": 1,
+      "particles_requested": 41,
+      "particles_completed": 1,
+      "stopping_reason": "emergency_fallback",
+      "deadline_remaining": 0.11000000004423782,
+      "se_diff": null,
+      "ci_diff": null,
+      "uncertain": true,
+      "deadline_hit": true,
+      "elapsed": 1.9059999999590218,
+      "same_choice": false
+    }
+  ],
+  "elapsed": {
+    "count": 3,
+    "median": 4.469000000040978,
+    "max": 5.688000000023749
+  },
+  "particle_counts": {
+    "1": 1,
+    "40": 1,
+    "160": 1
+  },
+  "deadline_hits": 3,
+  "uncertain": 3,
+  "same_choice": 1
+}

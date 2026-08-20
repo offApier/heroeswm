@@ -1,0 +1,16 @@
+{
+  "version": "multiseed-oracle-3.9-v1",
+  "holdout_opened": false,
+  "states": 800,
+  "random_representative": 400,
+  "suspicious": 400,
+  "uncertain_labels": 176,
+  "regret": {
+    "mean": 0.24601123363110627,
+    "median": 0.3045114620230004,
+    "p90": 0.5020606464566303,
+    "p95": 0.5609968616785618,
+    "gt_5pp": 508
+  },
+  "seed_ranking_disagreement": 63
+}
