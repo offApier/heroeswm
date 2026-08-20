@@ -5,6 +5,7 @@ source = r'C:/Users/mrstr/Documents/Codex/2026-08-09/apier-apier-python-apier-wi
 datas = [
     (source + '/cards_catalog.json', '.'),
     (source + '/policy_models.json', '.'),
+    (source + '/opponent_policy.json', '.'),
 ]
 binaries = []
 hiddenimports = ['onnxruntime.capi._pybind_state']
