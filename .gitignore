@@ -1,0 +1,10 @@
+
+# Local build/test artifacts
+build/
+dist/
+pytest_tmp/
+pytest_tmp_393*/
+__pycache__/
+*.pyc
+HeroesWM_Worker_3_9_3.spec
+heroeswm_3_9_3_survival_selector.patch
